@@ -1556,9 +1556,9 @@
     "description_short": "Ankstyva prancūziška trešnių veislė. Vaisiai stambūs, sultingi, aromatingi. Noksta birželio viduryje.",
     "handle": "tresne-burlat",
     "images": [
-      "/images/products/101.jpg"
+      "/images/products/101_unique.jpg"
     ],
-    "image": "/images/products/101.jpg",
+    "image": "/images/products/101_unique.jpg",
     "inStock": true
   },
   {
@@ -1571,9 +1571,9 @@
     "description_short": "Vėlyva čekiška trešnių veislė. Vaisiai labai stambūs, saldūs, aromatingi. Noksta liepos pabaigoje.",
     "handle": "tresne-tamara",
     "images": [
-      "/images/products/102.jpg"
+      "/images/products/102_unique.jpg"
     ],
-    "image": "/images/products/102.jpg",
+    "image": "/images/products/102_unique.jpg",
     "inStock": true
   },
   {
@@ -1601,9 +1601,9 @@
     "description_short": "Ankstyva lietuviška vyšnių veislė. Vaisiai stambūs, labai saldūs. Savadulė, žemo ūgio.",
     "handle": "vysnia-zagarvysne",
     "images": [
-      "/images/products/104.jpg"
+      "/images/products/104_unique.jpg"
     ],
-    "image": "/images/products/104.jpg",
+    "image": "/images/products/104_unique.jpg",
     "inStock": true
   },
   {
@@ -1616,9 +1616,9 @@
     "description_short": "Labai šalčiui atspari abrikosų veislė šiaurės klimatui. Vaisiai saldūs, aromatingi. Noksta liepą.",
     "handle": "abrikosas-siaures-triumfas",
     "images": [
-      "/images/products/105.jpg"
+      "/images/products/105_unique.jpg"
     ],
-    "image": "/images/products/105.jpg",
+    "image": "/images/products/105_unique.jpg",
     "inStock": true
   },
   {
@@ -1706,9 +1706,9 @@
     "description_short": "Žieminė čekiška obelis. Vaisiai aromatingi, saldiarūgščio skonio. Laikosi iki pavasario. Atspari rauplėms.",
     "handle": "obelis-topaz",
     "images": [
-      "/images/products/111.jpg"
+      "/images/products/111_unique.jpg"
     ],
-    "image": "/images/products/111.jpg",
+    "image": "/images/products/111_unique.jpg",
     "inStock": true
   },
   {
@@ -1766,9 +1766,9 @@
     "description_short": "Ankstyva vokiška kriaušė. Vaisiai sultingi, puikaus desertinio skonio. Noksta rugpjūtį.",
     "handle": "kriause-izolda",
     "images": [
-      "/images/products/115.jpg"
+      "/images/products/115_unique.jpg"
     ],
-    "image": "/images/products/115.jpg",
+    "image": "/images/products/115_unique.jpg",
     "inStock": true
   },
   {
@@ -1781,9 +1781,9 @@
     "description_short": "Kriaušė su ryškiai raudona odelka. Vaisiai stambūs, saldūs, sultingi. Noksta rugsėjį.",
     "handle": "kriause-kliapo-raudonoji",
     "images": [
-      "/images/products/116.jpg"
+      "/images/products/116_unique.jpg"
     ],
-    "image": "/images/products/116.jpg",
+    "image": "/images/products/116_unique.jpg",
     "inStock": true
   },
   {
@@ -1826,9 +1826,9 @@
     "description_short": "Derlinga baltarusiška slyvų veislė. Vaisiai saldūs, aromatingi. Noksta rugpjūčio pabaigoje.",
     "handle": "slyva-narac",
     "images": [
-      "/images/products/119.jpg"
+      "/images/products/119_unique.jpg"
     ],
-    "image": "/images/products/119.jpg",
+    "image": "/images/products/119_unique.jpg",
     "inStock": true
   },
   {
@@ -1841,9 +1841,9 @@
     "description_short": "Vėlyva kanadiška slyva. Vaisiai labai stambūs, desertinio skonio. Noksta rugsėjį.",
     "handle": "slyva-vallor",
     "images": [
-      "/images/products/120.jpg"
+      "/images/products/120_unique.jpg"
     ],
-    "image": "/images/products/120.jpg",
+    "image": "/images/products/120_unique.jpg",
     "inStock": true
   },
   {
@@ -1916,9 +1916,9 @@
     "description_short": "Bespyglė raudonuogė agrastų veislė. Uogos saldžiarūgštės, dera gausiai.",
     "handle": "agrastas-kaprivator-rot",
     "images": [
-      "/images/products/125.jpg"
+      "/images/products/125_unique.jpg"
     ],
-    "image": "/images/products/125.jpg",
+    "image": "/images/products/125_unique.jpg",
     "inStock": true
   },
   {
@@ -1931,9 +1931,9 @@
     "description_short": "Ankstyva remontantinė avietė. Uogos stambios, saldžiarūgštės, dera nuo rugpjūčio.",
     "handle": "aviete-mapema",
     "images": [
-      "/images/products/126.jpg"
+      "/images/products/126_unique.jpg"
     ],
-    "image": "/images/products/126.jpg",
+    "image": "/images/products/126_unique.jpg",
     "inStock": true
   },
   {
@@ -1946,9 +1946,9 @@
     "description_short": "Bespyglė, šalčiui atspari gervuogių veislė. Uogos labai stambios, saldžios.",
     "handle": "gervuoge-polar",
     "images": [
-      "/images/products/127.jpg"
+      "/images/products/127_unique.jpg"
     ],
-    "image": "/images/products/127.jpg",
+    "image": "/images/products/127_unique.jpg",
     "inStock": true
   },
   {
@@ -1961,9 +1961,9 @@
     "description_short": "Ankstyva lietuviška vynuogių veislė. Uogos tamsios, saldžiarūgštės, atspari šalčiui.",
     "handle": "vynuoge-juodupe",
     "images": [
-      "/images/products/128.jpg"
+      "/images/products/128_unique.jpg"
     ],
-    "image": "/images/products/128.jpg",
+    "image": "/images/products/128_unique.jpg",
     "inStock": true
   },
   {
@@ -1976,9 +1976,9 @@
     "description_short": "Besėklė raudonų uogų vynuogių veislė. Labai saldžios, anksti nokstančios uogos.",
     "handle": "vynuoge-canadice",
     "images": [
-      "/images/products/129.jpg"
+      "/images/products/129_unique.jpg"
     ],
-    "image": "/images/products/129.jpg",
+    "image": "/images/products/129_unique.jpg",
     "inStock": true
   },
   {
