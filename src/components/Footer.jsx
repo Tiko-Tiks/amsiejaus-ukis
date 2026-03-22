@@ -20,7 +20,7 @@ function Footer() {
                   </div>
                 </div>
                 <p className="text-white/80 leading-relaxed mb-4">
-                  Auginame kokybiškas vaismedžių ir vaiskrūmių sodinukes bei siūlome natūralų medų ir bitininkystės produktus.
+                  Dzūkijoje auginame kokybiškus vaismedžių ir vaiskrūmių sodinukus. Užsiimame ir bitininkystės amatu — siūlome natūralų medų bei kitus bičių produktus.
                 </p>
               </div>
 
