@@ -235,7 +235,7 @@ function HomePage() {
               <svg className="w-4 h-4 text-[#FFB800]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Darbo laikas: 9:00–20:00 val.
+              Darbo laikas: 9:00-20:00 val.
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ function HomePage() {
               </div>
               <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Paskambinkite mums</h3>
               <p className="text-gray-600 text-sm">Susisiekite telefonu ir pasirinkite norimus sodinukus iš mūsų asortimento</p>
-              <a href="tel:+37061500597" className="inline-block mt-3 text-[#2D5016] font-bold hover:text-[#FFB800] transition-colors">+370 615 00597</a>
+              <a href="tel:+37062441787" className="inline-block mt-3 text-[#2D5016] font-bold hover:text-[#FFB800] transition-colors">+370 624 41787</a>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#FFB800] text-[#2D5016] rounded-full flex items-center justify-center font-bold text-lg">2</div>
@@ -557,11 +557,11 @@ function HomePage() {
                 <p className="text-sm text-white/90">
                   <span className="font-bold text-[#FFB800]">Nerandate ko ieškote?</span> Kiti mūsų katalogo augalai gali būti užsakomi telefonu. Skambinkite ir pasiteiraukite!
                 </p>
-                <a href="tel:+37061500597" className="inline-flex items-center gap-2 mt-3 bg-[#FFB800] text-[#2D5016] font-bold px-5 py-2 rounded-full text-sm hover:bg-[#E6A600] transition-colors">
+                <a href="tel:+37062441787" className="inline-flex items-center gap-2 mt-3 bg-[#FFB800] text-[#2D5016] font-bold px-5 py-2 rounded-full text-sm hover:bg-[#E6A600] transition-colors">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  +370 615 00597
+                  +370 624 41787
                 </a>
               </div>
             </div>
@@ -642,7 +642,7 @@ function HomePage() {
                   Aukšta sodinukų kokybė
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  20 metų patirties auginant sveikus ir stiprius vaismedžių bei vaisių krūmų sodinukus.
+                  30 metų patirties auginant sveikus ir stiprius vaismedžių bei vaisių krūmų sodinukus.
                 </p>
               </div>
               <div className="bg-gray-50 p-6 border-l-4 border-[#FFB800] rounded-r-lg">

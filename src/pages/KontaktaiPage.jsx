@@ -38,7 +38,7 @@ function KontaktaiPage() {
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
               <strong>Vilniaus g. 1A</strong><br />
               Valkininkų miestelis<br />
-              Varėnos r. sav.
+              Varėnos r.
             </p>
             <div className="flex flex-wrap gap-2">
               <a
