@@ -664,7 +664,7 @@ function HomePage() {
               <div className="pt-4">
                 <p className="text-gray-700 leading-relaxed">
                   Mūsų asortimentą sudaro: obelys, kriaušės, vyšnios, trešnės, slyvos,
-                  avietės, mėlynės, serbentai, agrastai ir natūralūs medaus produktai.
+                  avietės, šilauogės, serbentai, agrastai ir natūralūs medaus produktai.
                 </p>
               </div>
             </div>

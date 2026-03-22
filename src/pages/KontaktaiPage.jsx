@@ -89,8 +89,8 @@ function KontaktaiPage() {
               </div>
               <h3 className="font-bold font-serif text-xl text-[#2D5016]">El. paštas</h3>
             </div>
-            <a href="mailto:info@amsiejausmedelynas.lt" className="text-lg text-[#8B6F47] hover:text-[#8B6F47]/80 transition-colors break-all">
-              info@amsiejausmedelynas.lt
+            <a href="mailto:rytis.amsiejus@gmail.com" className="text-lg text-[#8B6F47] hover:text-[#8B6F47]/80 transition-colors break-all">
+              rytis.amsiejus@gmail.com
             </a>
             <p className="text-gray-700 mt-3">
               Atsakome per 24 val.

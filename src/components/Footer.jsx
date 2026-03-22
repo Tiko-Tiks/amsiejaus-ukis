@@ -20,7 +20,7 @@ function Footer() {
                   </div>
                 </div>
                 <p className="text-white/80 leading-relaxed mb-4">
-                  Auginame kokybiškas vaismedžių ir vaiskrūmių sodinukes bei gaminame natūralų medų Dzūkijos regione.
+                  Auginame kokybiškas vaismedžių ir vaiskrūmių sodinukes bei siūlome natūralų medų ir bitininkystės produktus.
                 </p>
               </div>
 
@@ -62,8 +62,8 @@ function Footer() {
                     <svg className="w-4 h-4 flex-shrink-0 text-[#FFB800]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <a href="mailto:info@amsiejausmedelynas.lt" className="text-white/80 hover:text-white transition-colors text-xs">
-                      info@amsiejausmedelynas.lt
+                    <a href="mailto:rytis.amsiejus@gmail.com" className="text-white/80 hover:text-white transition-colors text-xs">
+                      rytis.amsiejus@gmail.com
                     </a>
                   </div>
                 </div>
