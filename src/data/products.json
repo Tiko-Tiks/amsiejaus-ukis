@@ -9,9 +9,9 @@
     "description_short": "Labai vertinga Kanadietiška ankstyva abrikosų veislė. Vaisiai prinoksta liepos pirmoje pusėje.",
     "handle": "abrikosas-mordeno-ankstyvasis",
     "images": [
-      "/img/p/2/2/4/224-large_default.jpg"
+      "/images/products/224.jpg"
     ],
-    "image": "/img/p/2/2/4/224-large_default.jpg"
+    "image": "/images/products/224.jpg"
   },
   {
     "id": 2,
@@ -23,10 +23,10 @@
     "description_short": "Dera gausiai ir kasmet. Vaisiai prinoksta liepos pabaigoje- rugpjūčio pradžioje.",
     "handle": "abrikosas-zabu",
     "images": [
-      "/img/p/1/9/1/191-large_default.jpg",
-      "/img/p/1/8/3/183-large_default.jpg"
+      "/images/products/191.jpg",
+      "/images/products/183.jpg"
     ],
-    "image": "/img/p/1/9/1/191-large_default.jpg"
+    "image": "/images/products/191.jpg"
   },
   {
     "id": 3,
@@ -38,10 +38,10 @@
     "description_short": "Vėlyva veislė, vaisius sunoksta rugpjūčio pabaigoje.",
     "handle": "persikas-velvet",
     "images": [
-      "/img/p/1/1/9/119-large_default.jpg",
-      "/img/p/1/2/0/120-large_default.jpg"
+      "/images/products/119.jpg",
+      "/images/products/120.jpg"
     ],
-    "image": "/img/p/1/1/9/119-large_default.jpg"
+    "image": "/images/products/119.jpg"
   },
   {
     "id": 4,
@@ -53,9 +53,9 @@
     "description_short": "Vidutinio ankstyvumo slyva. Dera pastoviai ir labai gausiai. Sunoksta liepos pabaigoj.",
     "handle": "slyva-early-gold",
     "images": [
-      "/img/p/2/0/6/206-large_default.jpg"
+      "/images/products/206.jpg"
     ],
-    "image": "/img/p/2/0/6/206-large_default.jpg"
+    "image": "/images/products/206.jpg"
   },
   {
     "id": 5,
@@ -67,10 +67,10 @@
     "description_short": "Ankstyva. Dera 3-4 metais, dera vidutiniškai ir gausiai.",
     "handle": "slyva-herman",
     "images": [
-      "/img/p/6/4/64-large_default.jpg",
-      "/img/p/6/5/65-large_default.jpg"
+      "/images/products/64.jpg",
+      "/images/products/65.jpg"
     ],
-    "image": "/img/p/6/4/64-large_default.jpg"
+    "image": "/images/products/64.jpg"
   },
   {
     "id": 6,
@@ -82,9 +82,9 @@
     "description_short": "Visiems žinomas geltonus slyvukus vedantis sėjinukas.",
     "handle": "slyva-kaukazinė",
     "images": [
-      "/img/p/2/0/8/208-large_default.jpg"
+      "/images/products/208.jpg"
     ],
-    "image": "/img/p/2/0/8/208-large_default.jpg"
+    "image": "/images/products/208.jpg"
   },
   {
     "id": 7,
@@ -96,9 +96,9 @@
     "description_short": "Viena iš labiausiai paplitusių Lietuvoje ir vertingiausių ankstyvųjų slyvų veislių. Vaisiai sunoksta rugpjūčio pradžioje.",
     "handle": "slyva-kometa",
     "images": [
-      "/img/p/2/0/7/207-large_default.jpg"
+      "/images/products/207.jpg"
     ],
-    "image": "/img/p/2/0/7/207-large_default.jpg"
+    "image": "/images/products/207.jpg"
   },
   {
     "id": 8,
@@ -110,9 +110,9 @@
     "description_short": "Vidutinio ankstyvumo slyvų veislė. Vaisiai prinoksta rugpjūčio pabaigoje – rugsėjo pradžioje.",
     "handle": "slyva-vengerka-dabrovicka",
     "images": [
-      "/img/p/2/0/4/204-large_default.jpg"
+      "/images/products/204.jpg"
     ],
-    "image": "/img/p/2/0/4/204-large_default.jpg"
+    "image": "/images/products/204.jpg"
   },
   {
     "id": 9,
@@ -124,9 +124,9 @@
     "description_short": "Vaisiai skinami rugpjūčio pabaigoje- rugsėjo pradžioje.",
     "handle": "slyva-viktorija",
     "images": [
-      "/img/p/1/7/7/177-large_default.jpg"
+      "/images/products/177.jpg"
     ],
-    "image": "/img/p/1/7/7/177-large_default.jpg"
+    "image": "/images/products/177.jpg"
   },
   {
     "id": 10,
@@ -138,9 +138,9 @@
     "description_short": "Vaismedžiai vidutinio augumo, derėti pradeda (4-5) metais, labai derlinga, beveik nepramečiuoja.",
     "handle": "trešnė-droganogeltonoji",
     "images": [
-      "/img/p/1/9/2/192-large_default.jpg"
+      "/images/products/192.jpg"
     ],
-    "image": "/img/p/1/9/2/192-large_default.jpg"
+    "image": "/images/products/192.jpg"
   },
   {
     "id": 11,
@@ -152,11 +152,11 @@
     "description_short": "Deri gausiai ir kasmet, pradeda derėti liepos antroje pusėje.",
     "handle": "trešnė-lapins",
     "images": [
-      "/img/p/1/7/3/173-large_default.jpg",
-      "/img/p/1/7/4/174-large_default.jpg",
-      "/img/p/1/0/2/102-large_default.jpg"
+      "/images/products/173.jpg",
+      "/images/products/174.jpg",
+      "/images/products/102.jpg"
     ],
-    "image": "/img/p/1/7/3/173-large_default.jpg"
+    "image": "/images/products/173.jpg"
   },
   {
     "id": 12,
@@ -168,10 +168,10 @@
     "description_short": "Vėlyva stambiauogė trešnių veislė. Uogos prinoksta liepos antroje pusėje.",
     "handle": "trešnė-regina",
     "images": [
-      "/img/p/1/2/5/125-large_default.jpg",
-      "/img/p/1/2/6/126-large_default.jpg"
+      "/images/products/125.jpg",
+      "/images/products/126.jpg"
     ],
-    "image": "/img/p/1/2/5/125-large_default.jpg"
+    "image": "/images/products/125.jpg"
   },
   {
     "id": 13,
@@ -183,10 +183,10 @@
     "description_short": "Ankstyva trešnių veislė, sunoksta birželio pabaigoje.",
     "handle": "trešnė-rimgaudė",
     "images": [
-      "/img/p/1/2/7/127-large_default.jpg",
-      "/img/p/1/2/8/128-large_default.jpg"
+      "/images/products/127.jpg",
+      "/images/products/128.jpg"
     ],
-    "image": "/img/p/1/2/7/127-large_default.jpg"
+    "image": "/images/products/127.jpg"
   },
   {
     "id": 14,
@@ -198,10 +198,10 @@
     "description_short": "Vidutiniškai ankstyva veislė. Noksta liepos pirmoje pusėje. Vaismedis vidutiniškai ištvermingas šalčiams.",
     "handle": "trešnė-stella",
     "images": [
-      "/img/p/1/5/0/150-large_default.jpg",
-      "/img/p/1/5/1/151-large_default.jpg"
+      "/images/products/150.jpg",
+      "/images/products/151.jpg"
     ],
-    "image": "/img/p/1/5/0/150-large_default.jpg"
+    "image": "/images/products/150.jpg"
   },
   {
     "id": 15,
@@ -213,10 +213,10 @@
     "description_short": "Gausiai deranti veislė. Sunoksta rugpjūčio mėnesį. Atspari šalčiams.",
     "handle": "trešnė-summit",
     "images": [
-      "/img/p/1/5/2/152-large_default.jpg",
-      "/img/p/1/5/3/153-large_default.jpg"
+      "/images/products/152.jpg",
+      "/images/products/153.jpg"
     ],
-    "image": "/img/p/1/5/2/152-large_default.jpg"
+    "image": "/images/products/152.jpg"
   },
   {
     "id": 16,
@@ -228,10 +228,10 @@
     "description_short": "Vėlyva veislė. Uogos skinamos rugpjūčio viduryje.",
     "handle": "trešnė-šnaiderio-vėlyvoji",
     "images": [
-      "/img/p/1/4/4/144-large_default.jpg",
-      "/img/p/1/4/5/145-large_default.jpg"
+      "/images/products/144.jpg",
+      "/images/products/145.jpg"
     ],
-    "image": "/img/p/1/4/4/144-large_default.jpg"
+    "image": "/images/products/144.jpg"
   },
   {
     "id": 17,
@@ -243,9 +243,9 @@
     "description_short": "Vidutinio vėlyvumo trešnių veislė. Prinoksta liepos pradžioj -vidury.",
     "handle": "trešnė-van",
     "images": [
-      "/img/p/1/8/0/180-large_default.jpg"
+      "/images/products/180.jpg"
     ],
-    "image": "/img/p/1/8/0/180-large_default.jpg"
+    "image": "/images/products/180.jpg"
   },
   {
     "id": 18,
@@ -257,9 +257,9 @@
     "description_short": "Ankstyva veislė. Sunoksta liepos viduryje.",
     "handle": "trešnė-vega",
     "images": [
-      "/img/p/1/7/9/179-large_default.jpg"
+      "/images/products/179.jpg"
     ],
-    "image": "/img/p/1/7/9/179-large_default.jpg"
+    "image": "/images/products/179.jpg"
   },
   {
     "id": 19,
@@ -271,10 +271,10 @@
     "description_short": "Vidutinio ankstyvumo vyšnia. Atspari šalčiams. Vaismedis žemaūgis, augantis 2,5- 3 m. Uogos tamsiai raudonos, mėsingos, kauliukas mažas, lengvai atsiskiriantis. Uoga sveria 4-5 g.",
     "handle": "vyšnia-ara",
     "images": [
-      "/img/p/2/6/4/264-large_default.jpg",
-      "/img/p/2/6/5/265-large_default.jpg"
+      "/images/products/264.jpg",
+      "/images/products/265.jpg"
     ],
-    "image": "/img/p/2/6/4/264-large_default.jpg"
+    "image": "/images/products/264.jpg"
   },
   {
     "id": 20,
@@ -286,10 +286,10 @@
     "description_short": "Vidutinio ankstyvumo, derėti pradeda anksti, dera kasmet, derlinga.",
     "handle": "vyšnia-groniasta",
     "images": [
-      "/img/p/1/8/8/188-large_default.jpg",
-      "/img/p/1/8/9/189-large_default.jpg"
+      "/images/products/188.jpg",
+      "/images/products/189.jpg"
     ],
-    "image": "/img/p/1/8/8/188-large_default.jpg"
+    "image": "/images/products/188.jpg"
   },
   {
     "id": 21,
@@ -301,10 +301,10 @@
     "description_short": "Ankstyva veislė. Derėti pradeda liepos viduryje, dera kasmet, derlinga.",
     "handle": "vyšnia-igrūška",
     "images": [
-      "/img/p/6/9/69-large_default.jpg",
-      "/img/p/7/0/70-large_default.jpg"
+      "/images/products/69.jpg",
+      "/images/products/70.jpg"
     ],
-    "image": "/img/p/6/9/69-large_default.jpg"
+    "image": "/images/products/69.jpg"
   },
   {
     "id": 22,
@@ -316,9 +316,9 @@
     "description_short": "Veislė vėlyva, vaisiai skinami liepos mėnesio pabaigoje.",
     "handle": "vyšnia-lutovka",
     "images": [
-      "/img/p/2/4/1/241-large_default.jpg"
+      "/images/products/241.jpg"
     ],
-    "image": "/img/p/2/4/1/241-large_default.jpg"
+    "image": "/images/products/241.jpg"
   },
   {
     "id": 23,
@@ -330,10 +330,10 @@
     "description_short": "Vėlyva, vaisiai sunoksta liepos pabaigoje.",
     "handle": "vyšnia-pandy",
     "images": [
-      "/img/p/1/1/5/115-large_default.jpg",
-      "/img/p/1/1/6/116-large_default.jpg"
+      "/images/products/115.jpg",
+      "/images/products/116.jpg"
     ],
-    "image": "/img/p/1/1/5/115-large_default.jpg"
+    "image": "/images/products/115.jpg"
   },
   {
     "id": 24,
@@ -345,12 +345,40 @@
     "description_short": "Biohumusas – tai organinė medžiaga, kuri susidaro sąveikaujant sliekams ir mikroorganizmams. Tai natūraliai švari ekologiška mikrobiologinė trąša – perdirbta Kalifornijos sliekų Eisenia Fetida, kuri, perėjusi sliekų virškinimo traktą, suteikia biomasei naujų komponentų.",
     "handle": "100-biohumusas",
     "images": [
-      "/img/p/2/2/3/223-large_default.jpg"
+      "/images/products/223.jpg"
     ],
-    "image": "/img/p/2/2/3/223-large_default.jpg"
+    "image": "/images/products/223.jpg"
   },
   {
     "id": 25,
+    "name": "Aviečių - šaltekšnio medus",
+    "category": "Medus",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "medus",
+    "description": "Aviečių medus ypatingai sveikas peršalus arba susirgus gripu. Jis efektyviai gydo stomatitus ir gleivinių uždegimus. Kristalizuojasi. Dažnai būna baltos spalvos ir pasižymi maloniu skoniu.",
+    "description_short": "Aviečių medus ypatingai sveikas peršalus arba susirgus gripu.",
+    "handle": "aviečių-šaltekšnio-medus",
+    "images": [
+      "/images/products/250.jpg"
+    ],
+    "image": "/images/products/250.jpg"
+  },
+  {
+    "id": 26,
+    "name": "BAKFASTO BIČIŲ MOTINĖLĖS",
+    "category": "Bičių motinėlė",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "biciu-motineles",
+    "description": "Pastaraisiais metais Lietuvoje greitai plinta šios rasės bitės, kadangi yra ramios, darbščios, nespitlios. Pilvelio pirmieji 3 tergitai auksinės spalvos. Straubliuko ilgis – nuo 6.3 iki 6.5 mm. Atsparesnės nozematozei ir erkėms. Silpnai gamina bičių pikį,augina daugiau perų. Žiemą suvartoja daugiau maisto. Galima užsakyti apvaisintas ir neapvaisintas motinėles, visos žymėtos šių metų (2015 m.) mėlyna spalva.",
+    "description_short": "Bitės labai ramios, darbščios, nespietlios, atsparesnės nozematozei ir erkėms.",
+    "handle": "bakfasto-bičių-motinėlės",
+    "images": [
+      "/images/products/220.jpg"
+    ],
+    "image": "/images/products/220.jpg"
+  },
+  {
+    "id": 27,
     "name": "Biohumus start 5L (padeda sodinukams adaptuotis)",
     "category": "Trąša",
     "categoryGroup": "kiti-augalai",
@@ -359,26 +387,26 @@
     "description_short": "Biohumusas – tai organinė medžiaga, kuri susidaro sąveikaujant sliekams ir mikroorganizmams. Tai natūraliai švari ekologiška mikrobiologinė trąša – perdirbta Kalifornijos sliekų Eisenia Fetida, kuri, perėjusi sliekų virškinimo traktą, suteikia biomasei naujų komponentų.",
     "handle": "biohumus-start-5l-padeda-sodinukams-adaptuotis",
     "images": [
-      "/img/p/2/2/5/225-large_default.jpg"
+      "/images/products/225.jpg"
     ],
-    "image": "/img/p/2/2/5/225-large_default.jpg"
+    "image": "/images/products/225.jpg"
   },
   {
-    "id": 26,
-    "name": "Graikiškas riešutmedis\t\t\tIdeal",
-    "category": "Riešutmedis",
+    "id": 28,
+    "name": "Grikių medus",
+    "category": "Medus",
     "categoryGroup": "kiti-augalai",
-    "categorySub": "riestumedziai",
-    "description": "Vaisiai vidutinio dydžio, branduolys labai gero, malonaus skonio, aliejingas, be kartumo.Derlius skinamas rugsėjo pabaigoje. Augalas atsparus ligoms ir kenkėjams, Lietuvos žiemas ištveria pakankamai gerai.",
-    "description_short": "Derėti pradeda labai greitai - 3-4 metais po pasodinimo, deri didelėmis kekėmis, gausiai, kasmet. Derlius skinamas rugsėjo pabaigoje - spalio pradžioje.",
-    "handle": "graikiškas-riešutmedis-ideal",
+    "categorySub": "medus",
+    "description": "Grikių meduje yra daugiau (nei šviesiame meduje) baltymų ir mineralinių medžiagų, ypač geležies, todėl jis dažnai naudojamas gydant mažakraujystę ir anemiją. Grikių medus yra būtinas kenčiant nuo nervų sistemos sutrikimų, nes jis yra puiki stiprinamoji priemonė. Jis pasižymi maloniu specifinių skoniu ir aromatu.",
+    "description_short": "Grikių meduje yra daugiau (nei šviesiame meduje) baltymų ir mineralinių medžiagų, ypač geležies. Jis pasižymi maloniu specifiniu skoniu ir aromatu.",
+    "handle": "grikių-medus",
     "images": [
-      "/img/p/2/2/9/229-large_default.jpg"
+      "/images/products/246.jpg"
     ],
-    "image": "/img/p/2/2/9/229-large_default.jpg"
+    "image": "/images/products/246.jpg"
   },
   {
-    "id": 27,
+    "id": 29,
     "name": "Ilgaamžė bambukinė lazdelė augalams remti",
     "category": "Priemonė",
     "categoryGroup": "kiti-augalai",
@@ -387,69 +415,54 @@
     "description_short": "Medelių parišimas",
     "handle": "ilgaamžė-bambukinė-lazdelė-augalams-remti",
     "images": [
-      "/img/p/7/1/71-large_default.jpg"
+      "/images/products/71.jpg"
     ],
-    "image": "/img/p/7/1/71-large_default.jpg"
-  },
-  {
-    "id": 28,
-    "name": "Lazdynas\t\t\tCosford",
-    "category": "Riešutmedis",
-    "categoryGroup": "kiti-augalai",
-    "categorySub": "riestumedziai",
-    "description": "Riešutai skanūs, saldūs, stambūs, pavieniai arba kekėje po 2-4 riešutus. Kevalas cilindro formos, labai plonas, branduolys didelis. Pradeda derėti anksti, dera gausiai ir reguliariai. Vieta tinka saulėta arba pusiau pavėsis. Dirva lengvas priemolis, vidutiniškai derlinga ir drėgna. Krūmas augus, šiek tiek glaustas. Veislė vidutiniškai ištverminga žiemą, atspari ligoms ir kenkėjams.",
-    "description_short": "Vidutinio ankstyvumo veislė, vaisiai prinoksta pirmoje rugsėjo pusėje.",
-    "handle": "lazdynas-cosford",
-    "images": [
-      "/img/p/2/3/4/234-large_default.jpg"
-    ],
-    "image": "/img/p/2/3/4/234-large_default.jpg"
-  },
-  {
-    "id": 29,
-    "name": "Lazdynas\t\t\tHalės milžinai",
-    "category": "Riešutmedis",
-    "categoryGroup": "kiti-augalai",
-    "categorySub": "riestumedziai",
-    "description": "Auga pavieniui, retkarčiais po 2-3. Riešutai įspudingo stambumo (4,3gr), skanūs. Krūmas augus, šakotas, platus, gana ištvermingas žiemą, atsparus ligoms ir kenkėjams, derlingas. Dirvai nereiklus.",
-    "description_short": "Viena populiariausių pasaulyje kultūrinių lazdynų veislių.",
-    "handle": "lazdynas-halės-milžinai",
-    "images": [
-      "/img/p/2/3/3/233-large_default.jpg"
-    ],
-    "image": "/img/p/2/3/3/233-large_default.jpg"
+    "image": "/images/products/71.jpg"
   },
   {
     "id": 30,
-    "name": "Lazdynas Barcelona",
-    "category": "Riešutmedis",
+    "name": "KARNIKOS BIČIŲ MOTINĖLĖS",
+    "category": "Bičių motinėlė",
     "categoryGroup": "kiti-augalai",
-    "categorySub": "riestumedziai",
-    "description": "Riešutai auga kekėmis po 2-7, stambūs, vienas riešutas vidutiniškai sveria 2 –3 gr., skanūs. Krūmas stambus, šakotas, išsikerojęs, atsparūs kenkėjams ir ligoms, atsparus šalčiui.",
-    "description_short": "Veislė kilusi iš Ispanijos. Riešutai prinoksta rugsėjo pradžioje.",
-    "handle": "lazdynas-barcelona",
+    "categorySub": "biciu-motineles",
+    "description": "Karnikos bičių motinėlė tamsi. Jos puikiai išsivysčiusi krūtinės lasta ir ilgas smailėjantis pilvelis. Karnikos bitės grakščios, kūno paviršius tamsus, veltininės tergitų juostelės, trumpais, tankiais plaukeliais. Plaukeliai pilki, o jaunų bičių pilvelio plaukeliai sidabrinio atspalvio. Straubliukas nuo 6.4 iki 6.8 mm ilgio. Medų dengia baltai. Bitės vidutinio ramumo. Anksčiau už kitas pradeda auginti perus, todėl iš pavasario šeimos greičiau sustiprėja, tačiau žiemoja silpnos šeimos.Gerai išnaudoja pavasarinį medunešį. Jei medunešis silpnas, augina mažiau perų. Neblogai lanko raudonuosius dobilus, bet nektaro iš jų prirenka mažiau nei Kaukazo pilkosios. Bitės nevagiliauja iš svetimų avilių, gerai orientuojasi ieškodamos medingųjų augalų, puikiai siuva dirbtinius korius, mažai serga perų ligomis, atsparesnės lipčiaus toksikozei. Medų pila į magazinų korius ir į lizdą. Lizdą ir lakas pikiuoja silpnai.(Karosas, 2005 ; Straigis, 2002 ).",
+    "description_short": "Spartus pavasarinis vystymasis.",
+    "handle": "karnikos-bičių-motinėlės",
     "images": [
-      "/img/p/1/9/6/196-large_default.jpg",
-      "/img/p/1/9/7/197-large_default.jpg"
+      "/images/products/219.jpg"
     ],
-    "image": "/img/p/1/9/7/197-large_default.jpg"
+    "image": "/images/products/219.jpg"
   },
   {
     "id": 31,
-    "name": "Lazdynas Sirena (Raudonlapis)",
-    "category": "Riešutmedis",
+    "name": "Liepų medus",
+    "category": "Medus",
     "categoryGroup": "kiti-augalai",
-    "categorySub": "riestumedziai",
-    "description": "SIRENA riešutai išsiskiria raudonais lapeliais. Vasaros pradžioje laja būna tamsiai raudona, vasaros pabaigoje lapai pradeda įgauti žalsvesnį atspalvį. SIRENA puikiai tinka ne tik dekoratyviniams tikslams, bet duoda ir stambiavaisius riešutus. Branduolys gero skonio. Krūmas vidutinio augumo. Veislė pakankamai atspari šalčiams.",
-    "description_short": "Vidutinio ankstyvumo veislė. Prinoksta rugsėjo antroje pusėje.",
-    "handle": "lazdynas-sirena-raudonlapis",
+    "categorySub": "medus",
+    "description": "Liepų medus dažniausiai naudojamas gydant: slogą, anginą, laringitą, bronchitą, tracheitą (trachėjos uždegimą) ir bronchinę astmą. Liepų (liepžiedžių) medus – tai puiki stiprinanti ir raminanti žmogaus organizmą priemonė. Jis dažniausiai būna šviesus (baltas) ir vertinamas dėl savo malonaus skonio.",
+    "description_short": "Liepų medus - šviesiai geltonas, malonaus liepų žiedų kvapo. Vartojamas gydyti peršalimo ligoms.",
+    "handle": "liepų-medus",
     "images": [
-      "/img/p/2/3/2/232-large_default.jpg"
+      "/images/products/252.jpg"
     ],
-    "image": "/img/p/2/3/2/232-large_default.jpg"
+    "image": "/images/products/252.jpg"
   },
   {
     "id": 32,
+    "name": "Miško medus",
+    "category": "Medus",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "medus",
+    "description": "Miško pievų medus yra poliflorinis, t.y. surinktas iš daugelio augalų žiedų, malonaus skonio, geltonas arba gelsvai rusvos spalvos. Jame yra daug aromatinių medžiagų, nemažai B grupės ir C vitaminų. Jis vertingas nusilpusiems ir peršalimo ligoms gydyti.",
+    "description_short": "Daugiarūšis (poliflorinis) – miško, pievų, lipčiaus, aviečių medus.",
+    "handle": "miško-medus",
+    "images": [
+      "/images/products/212.jpg"
+    ],
+    "image": "/images/products/212.jpg"
+  },
+  {
+    "id": 33,
     "name": "Persikas Navigator (raudonlapis)",
     "category": "Dekoratyvus augalas",
     "categoryGroup": "kiti-augalai",
@@ -458,98 +471,14 @@
     "description_short": "Dekoratyvi persikų veislė. Vaisiai prinoksta rugsėjo mėnesį.",
     "handle": "persikas-navigator-raudonlapis",
     "images": [
-      "/img/p/1/8/7/187-large_default.jpg",
-      "/img/p/1/1/1/111-large_default.jpg"
+      "/images/products/187.jpg",
+      "/images/products/111.jpg"
     ],
-    "image": "/img/p/1/8/7/187-large_default.jpg"
-  },
-  {
-    "id": 33,
-    "name": "Aviečių - šaltekšnio medus",
-    "category": "Medus",
-    "categoryGroup": "medus",
-    "categorySub": "medus",
-    "description": "Aviečių medus ypatingai sveikas peršalus arba susirgus gripu. Jis efektyviai gydo stomatitus ir gleivinių uždegimus. Kristalizuojasi. Dažnai būna baltos spalvos ir pasižymi maloniu skoniu.",
-    "description_short": "Aviečių medus ypatingai sveikas peršalus arba susirgus gripu.",
-    "handle": "aviečių-šaltekšnio-medus",
-    "images": [
-      "/img/p/2/5/0/250-large_default.jpg"
-    ],
-    "image": "/img/p/2/5/0/250-large_default.jpg"
+    "image": "/images/products/187.jpg"
   },
   {
     "id": 34,
-    "name": "BAKFASTO BIČIŲ MOTINĖLĖS",
-    "category": "Bičių motinėlė",
-    "categoryGroup": "medus",
-    "categorySub": "biciu-motineles",
-    "description": "Pastaraisiais metais Lietuvoje greitai plinta šios rasės bitės, kadangi yra ramios, darbščios, nespitlios. Pilvelio pirmieji 3 tergitai auksinės spalvos. Straubliuko ilgis – nuo 6.3 iki 6.5 mm. Atsparesnės nozematozei ir erkėms. Silpnai gamina bičių pikį,augina daugiau perų. Žiemą suvartoja daugiau maisto. Galima užsakyti apvaisintas ir neapvaisintas motinėles, visos žymėtos šių metų (2015 m.) mėlyna spalva.",
-    "description_short": "Bitės labai ramios, darbščios, nespietlios, atsparesnės nozematozei ir erkėms.",
-    "handle": "bakfasto-bičių-motinėlės",
-    "images": [
-      "/img/p/2/2/0/220-large_default.jpg"
-    ],
-    "image": "/img/p/2/2/0/220-large_default.jpg"
-  },
-  {
-    "id": 35,
-    "name": "Grikių medus",
-    "category": "Medus",
-    "categoryGroup": "medus",
-    "categorySub": "medus",
-    "description": "Grikių meduje yra daugiau (nei šviesiame meduje) baltymų ir mineralinių medžiagų, ypač geležies, todėl jis dažnai naudojamas gydant mažakraujystę ir anemiją. Grikių medus yra būtinas kenčiant nuo nervų sistemos sutrikimų, nes jis yra puiki stiprinamoji priemonė. Jis pasižymi maloniu specifinių skoniu ir aromatu.",
-    "description_short": "Grikių meduje yra daugiau (nei šviesiame meduje) baltymų ir mineralinių medžiagų, ypač geležies. Jis pasižymi maloniu specifiniu skoniu ir aromatu.",
-    "handle": "grikių-medus",
-    "images": [
-      "/img/p/2/4/6/246-large_default.jpg"
-    ],
-    "image": "/img/p/2/4/6/246-large_default.jpg"
-  },
-  {
-    "id": 36,
-    "name": "KARNIKOS BIČIŲ MOTINĖLĖS",
-    "category": "Bičių motinėlė",
-    "categoryGroup": "medus",
-    "categorySub": "biciu-motineles",
-    "description": "Karnikos bičių motinėlė tamsi. Jos puikiai išsivysčiusi krūtinės lasta ir ilgas smailėjantis pilvelis. Karnikos bitės grakščios, kūno paviršius tamsus, veltininės tergitų juostelės, trumpais, tankiais plaukeliais. Plaukeliai pilki, o jaunų bičių pilvelio plaukeliai sidabrinio atspalvio. Straubliukas nuo 6.4 iki 6.8 mm ilgio. Medų dengia baltai. Bitės vidutinio ramumo. Anksčiau už kitas pradeda auginti perus, todėl iš pavasario šeimos greičiau sustiprėja, tačiau žiemoja silpnos šeimos.Gerai išnaudoja pavasarinį medunešį. Jei medunešis silpnas, augina mažiau perų. Neblogai lanko raudonuosius dobilus, bet nektaro iš jų prirenka mažiau nei Kaukazo pilkosios. Bitės nevagiliauja iš svetimų avilių, gerai orientuojasi ieškodamos medingųjų augalų, puikiai siuva dirbtinius korius, mažai serga perų ligomis, atsparesnės lipčiaus toksikozei. Medų pila į magazinų korius ir į lizdą. Lizdą ir lakas pikiuoja silpnai.(Karosas, 2005 ; Straigis, 2002 ).",
-    "description_short": "Spartus pavasarinis vystymasis.",
-    "handle": "karnikos-bičių-motinėlės",
-    "images": [
-      "/img/p/2/1/9/219-large_default.jpg"
-    ],
-    "image": "/img/p/2/1/9/219-large_default.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Liepų medus",
-    "category": "Medus",
-    "categoryGroup": "medus",
-    "categorySub": "medus",
-    "description": "Liepų medus dažniausiai naudojamas gydant: slogą, anginą, laringitą, bronchitą, tracheitą (trachėjos uždegimą) ir bronchinę astmą. Liepų (liepžiedžių) medus – tai puiki stiprinanti ir raminanti žmogaus organizmą priemonė. Jis dažniausiai būna šviesus (baltas) ir vertinamas dėl savo malonaus skonio.",
-    "description_short": "Liepų medus - šviesiai geltonas, malonaus liepų žiedų kvapo. Vartojamas gydyti peršalimo ligoms.",
-    "handle": "liepų-medus",
-    "images": [
-      "/img/p/2/5/2/252-large_default.jpg"
-    ],
-    "image": "/img/p/2/5/2/252-large_default.jpg"
-  },
-  {
-    "id": 38,
-    "name": "Miško medus",
-    "category": "Medus",
-    "categoryGroup": "medus",
-    "categorySub": "medus",
-    "description": "Miško pievų medus yra poliflorinis, t.y. surinktas iš daugelio augalų žiedų, malonaus skonio, geltonas arba gelsvai rusvos spalvos. Jame yra daug aromatinių medžiagų, nemažai B grupės ir C vitaminų. Jis vertingas nusilpusiems ir peršalimo ligoms gydyti.",
-    "description_short": "Daugiarūšis (poliflorinis) – miško, pievų, lipčiaus, aviečių medus.",
-    "handle": "miško-medus",
-    "images": [
-      "/img/p/2/1/2/212-large_default.jpg"
-    ],
-    "image": "/img/p/2/1/2/212-large_default.jpg"
-  },
-  {
-    "id": 39,
-    "name": "Agrastas Captivator (bespyglis) ",
+    "name": "Agrastas Captivator (bespyglis)",
     "category": "Agrastas",
     "categoryGroup": "vaiskrumiai",
     "categorySub": "agrastai",
@@ -557,12 +486,12 @@
     "description_short": "Derlinga, raudonų uogų agrasto veislė.",
     "handle": "agrastas-captivator-bespyglis",
     "images": [
-      "/img/p/2/2/7/227-large_default.jpg"
+      "/images/products/227.jpg"
     ],
-    "image": "/img/p/2/2/7/227-large_default.jpg"
+    "image": "/images/products/227.jpg"
   },
   {
-    "id": 40,
+    "id": 35,
     "name": "Agrastas Hinnonmaki raudona",
     "category": "Agrastas",
     "categoryGroup": "vaiskrumiai",
@@ -571,12 +500,12 @@
     "description_short": "Labai skanios uogos. Rekomenduojamas ekologiniam ūkiui.",
     "handle": "agrastas-hinnonmaki-raudona",
     "images": [
-      "/img/p/2/2-large_default.jpg"
+      "/images/products/2.jpg"
     ],
-    "image": "/img/p/2/2-large_default.jpg"
+    "image": "/images/products/2.jpg"
   },
   {
-    "id": 41,
+    "id": 36,
     "name": "Agrastas Invicta",
     "category": "Agrastas",
     "categoryGroup": "vaiskrumiai",
@@ -585,13 +514,13 @@
     "description_short": "Angliška vidutinio ankstyvumo agrastų veislė. Noksta liepos viduryje.",
     "handle": "agrastas-invicta",
     "images": [
-      "/img/p/1/8/4/184-large_default.jpg"
+      "/images/products/184.jpg"
     ],
-    "image": "/img/p/1/8/4/184-large_default.jpg"
+    "image": "/images/products/184.jpg"
   },
   {
-    "id": 42,
-    "name": "Agrastas Triumf ",
+    "id": 37,
+    "name": "Agrastas Triumf",
     "category": "Agrastas",
     "categoryGroup": "vaiskrumiai",
     "categorySub": "agrastai",
@@ -599,12 +528,12 @@
     "description_short": "Labai derlinga veislė. Prinoksta liepos mėnesio viduryje.",
     "handle": "agrastas-triumf",
     "images": [
-      "/img/p/1/8/5/185-large_default.jpg"
+      "/images/products/185.jpg"
     ],
-    "image": "/img/p/1/8/5/185-large_default.jpg"
+    "image": "/images/products/185.jpg"
   },
   {
-    "id": 43,
+    "id": 38,
     "name": "Avietė Polka",
     "category": "Avietė",
     "categoryGroup": "vaiskrumiai",
@@ -613,13 +542,13 @@
     "description_short": "Remontantinė avietė. Labai derlinga.",
     "handle": "avietė-polka",
     "images": [
-      "/img/p/2/1/8/218-large_default.jpg",
-      "/img/p/2/1/7/217-large_default.jpg"
+      "/images/products/218.jpg",
+      "/images/products/217.jpg"
     ],
-    "image": "/img/p/2/1/8/218-large_default.jpg"
+    "image": "/images/products/218.jpg"
   },
   {
-    "id": 44,
+    "id": 39,
     "name": "Avietė Poranna rosa",
     "category": "Avietė",
     "categoryGroup": "vaiskrumiai",
@@ -628,13 +557,13 @@
     "description_short": "Remontantinė geltonuogė derlinga veislė.",
     "handle": "avietė-poranna-rosa",
     "images": [
-      "/img/p/2/0/0/200-large_default.jpg",
-      "/img/p/2/0/1/201-large_default.jpg"
+      "/images/products/200.jpg",
+      "/images/products/201.jpg"
     ],
-    "image": "/img/p/2/0/0/200-large_default.jpg"
+    "image": "/images/products/200.jpg"
   },
   {
-    "id": 45,
+    "id": 40,
     "name": "Bespyglė gervuogė - Orkan",
     "category": "Vaiskrūmis",
     "categoryGroup": "vaiskrumiai",
@@ -643,12 +572,12 @@
     "description_short": "Gervuogėse gausu vitaminų A, C, E, PP, B grupės, mi­neralinių medžiagų, ypač kalio, flavanoidų, rūgščių, pektinų, rauginių ir dažinių jungi­nių.",
     "handle": "bespyglė-gervuogė-orkan",
     "images": [
-      "/img/p/2/5/1/251-large_default.jpg"
+      "/images/products/251.jpg"
     ],
-    "image": "/img/p/2/5/1/251-large_default.jpg"
+    "image": "/images/products/251.jpg"
   },
   {
-    "id": 46,
+    "id": 41,
     "name": "Hinnonmaki geltonas",
     "category": "Agrastas",
     "categoryGroup": "vaiskrumiai",
@@ -657,12 +586,12 @@
     "description_short": "Derlinga geltonųjų agrastų veislė.",
     "handle": "hinnonmaki-geltonas",
     "images": [
-      "/img/p/6/6/66-large_default.jpg"
+      "/images/products/66.jpg"
     ],
-    "image": "/img/p/6/6/66-large_default.jpg"
+    "image": "/images/products/66.jpg"
   },
   {
-    "id": 47,
+    "id": 42,
     "name": "Jonkheer van Tets",
     "category": "Raudonasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -671,13 +600,13 @@
     "description_short": "Pati ankstyviausia raudonųjų serbentų veislė. Prinoksta birželio pabaigoje.",
     "handle": "jonkheer-van-tets",
     "images": [
-      "/img/p/7/4/74-large_default.jpg",
-      "/img/p/7/5/75-large_default.jpg"
+      "/images/products/74.jpg",
+      "/images/products/75.jpg"
     ],
-    "image": "/img/p/7/4/74-large_default.jpg"
+    "image": "/images/products/74.jpg"
   },
   {
-    "id": 48,
+    "id": 43,
     "name": "Juodasis serbentas\t\t\tBen Lemond",
     "category": "Juodasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -686,13 +615,13 @@
     "description_short": "Vėlyva veislė. Krūmai neaukšti. Iš krūmo vidutiniškai priskinama iki 5 kg uogų.",
     "handle": "juodasis-serbentas-ben-lemond",
     "images": [
-      "/img/p/3/5/35-large_default.jpg",
-      "/img/p/3/6/36-large_default.jpg"
+      "/images/products/35.jpg",
+      "/images/products/36.jpg"
     ],
-    "image": "/img/p/3/5/35-large_default.jpg"
+    "image": "/images/products/35.jpg"
   },
   {
-    "id": 49,
+    "id": 44,
     "name": "Juodasis serbentas\t\t\tBen Nevis",
     "category": "Juodasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -701,13 +630,13 @@
     "description_short": "Vidutinio ankstyvumo veislė.",
     "handle": "juodasis-serbentas-ben-nevis",
     "images": [
-      "/img/p/3/7/37-large_default.jpg",
-      "/img/p/3/8/38-large_default.jpg"
+      "/images/products/37.jpg",
+      "/images/products/38.jpg"
     ],
-    "image": "/img/p/3/7/37-large_default.jpg"
+    "image": "/images/products/37.jpg"
   },
   {
-    "id": 50,
+    "id": 45,
     "name": "Juodasis serbentas\t\t\tBen Tirran",
     "category": "Juodasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -716,13 +645,13 @@
     "description_short": "Vėlyva juodųjų serbentų veislė. Krūmai vidutinio augumo.",
     "handle": "juodasis-serbentas-ben-tirran",
     "images": [
-      "/img/p/3/9/39-large_default.jpg",
-      "/img/p/4/0/40-large_default.jpg"
+      "/images/products/39.jpg",
+      "/images/products/40.jpg"
     ],
-    "image": "/img/p/3/9/39-large_default.jpg"
+    "image": "/images/products/39.jpg"
   },
   {
-    "id": 51,
+    "id": 46,
     "name": "Juodasis serbentas\t\t\tTiben",
     "category": "Juodasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -731,13 +660,13 @@
     "description_short": "Vėlyvoji juodojo serbento veislė.",
     "handle": "juodasis-serbentas-tiben",
     "images": [
-      "/img/p/1/5/6/156-large_default.jpg",
-      "/img/p/1/5/7/157-large_default.jpg"
+      "/images/products/156.jpg",
+      "/images/products/157.jpg"
     ],
-    "image": "/img/p/1/5/6/156-large_default.jpg"
+    "image": "/images/products/156.jpg"
   },
   {
-    "id": 52,
+    "id": 47,
     "name": "Juodasis serbentas\t\t\tZagadka",
     "category": "Juodasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -746,13 +675,13 @@
     "description_short": "Vidutinio ankstyvumo juodųjų serbentų veislė.",
     "handle": "juodasis-serbentas-zagadka",
     "images": [
-      "/img/p/1/6/8/168-large_default.jpg",
-      "/img/p/1/6/9/169-large_default.jpg"
+      "/images/products/168.jpg",
+      "/images/products/169.jpg"
     ],
-    "image": "/img/p/1/6/8/168-large_default.jpg"
+    "image": "/images/products/168.jpg"
   },
   {
-    "id": 53,
+    "id": 48,
     "name": "Kvanza",
     "category": "Avietė",
     "categoryGroup": "vaiskrumiai",
@@ -761,12 +690,12 @@
     "description_short": "Remontantinė avietė \"Kvanza\"",
     "handle": "kvanza",
     "images": [
-      "/img/p/2/6/9/269-large_default.jpg"
+      "/images/products/269.jpg"
     ],
-    "image": "/img/p/2/6/9/269-large_default.jpg"
+    "image": "/images/products/269.jpg"
   },
   {
-    "id": 54,
+    "id": 49,
     "name": "Sausmedis Karina",
     "category": "Sausmedis",
     "categoryGroup": "vaiskrumiai",
@@ -775,13 +704,13 @@
     "description_short": "Valgomieji sausmedžiai labiausiai džiugina ypač anksti prinokusiomis uogomis. Sausmedžio uogų derlius skinamas ankščiau už braškes (pirmosiomis birželio dienomis).",
     "handle": "sausmedis-karina",
     "images": [
-      "/img/p/8/0/80-large_default.jpg",
-      "/img/p/8/1/81-large_default.jpg"
+      "/images/products/80.jpg",
+      "/images/products/81.jpg"
     ],
-    "image": "/img/p/8/0/80-large_default.jpg"
+    "image": "/images/products/80.jpg"
   },
   {
-    "id": 55,
+    "id": 50,
     "name": "Serbentas Rozeta",
     "category": "Raudonasis serbentas",
     "categoryGroup": "vaiskrumiai",
@@ -790,14 +719,14 @@
     "description_short": "Labai derlinga saldžiarūgštė veislė. Vidutinio vėlyvumo veislė sunokstanti liepos viduryje.",
     "handle": "serbentas-rozeta",
     "images": [
-      "/img/p/1/3/7/137-large_default.jpg",
-      "/img/p/1/3/8/138-large_default.jpg"
+      "/images/products/137.jpg",
+      "/images/products/138.jpg"
     ],
-    "image": "/img/p/1/3/7/137-large_default.jpg"
+    "image": "/images/products/137.jpg"
   },
   {
-    "id": 56,
-    "name": "Spanguolė Early Black ",
+    "id": 51,
+    "name": "Spanguolė Early Black",
     "category": "Spanguolė",
     "categoryGroup": "vaiskrumiai",
     "categorySub": "spanguoles",
@@ -805,13 +734,13 @@
     "description_short": "Vidutiniškai ankstyva. Uogos juosvai raudonos, be apnašo, vidutinio stambumo, prinoksta pirmoje rugsėjo pusėje, tinka laikyti sandėliuose.",
     "handle": "spanguolė-early-black",
     "images": [
-      "/img/p/1/4/6/146-large_default.jpg"
+      "/images/products/146.jpg"
     ],
-    "image": "/img/p/1/4/6/146-large_default.jpg"
+    "image": "/images/products/146.jpg"
   },
   {
-    "id": 57,
-    "name": "Spanguolė Pilgrim ",
+    "id": 52,
+    "name": "Spanguolė Pilgrim",
     "category": "Spanguolė",
     "categoryGroup": "vaiskrumiai",
     "categorySub": "spanguoles",
@@ -819,12 +748,12 @@
     "description_short": "Hibridinė veislė. Prinoksta rugsėjo pabaigoje – spalio pradžioje.",
     "handle": "spanguolė-pilgrim",
     "images": [
-      "/img/p/1/4/7/147-large_default.jpg"
+      "/images/products/147.jpg"
     ],
-    "image": "/img/p/1/4/7/147-large_default.jpg"
+    "image": "/images/products/147.jpg"
   },
   {
-    "id": 58,
+    "id": 53,
     "name": "Šaltalankis Trofimovskaja",
     "category": "Šaltalankis",
     "categoryGroup": "vaiskrumiai",
@@ -833,12 +762,12 @@
     "description_short": "Vaisiai stambūs, ovalūs, oranžiniai, su raudonomis dėmelėmis ties pagrindu ir viršūnėle",
     "handle": "šaltalankis-trofimovskaja",
     "images": [
-      "/img/p/2/1/3/213-large_default.jpg"
+      "/images/products/213.jpg"
     ],
-    "image": "/img/p/2/1/3/213-large_default.jpg"
+    "image": "/images/products/213.jpg"
   },
   {
-    "id": 59,
+    "id": 54,
     "name": "Šilauoge Bluecrop",
     "category": "Šilauogė",
     "categoryGroup": "vaiskrumiai",
@@ -847,13 +776,13 @@
     "description_short": "Vidutinio ankstyvumo veislė. Didelis, platus krūmas užauga iki 1,5 m aukščio. Žydi gegužės-birželio mėn. Uogos šviesiai mėlynos. Prinoksta: liepos mėn. pabaigoje. Tinka derlinga dirva ir saulėta ar pusiau pavėsinga vieta.",
     "handle": "šilauoge-bluecrop",
     "images": [
-      "/img/p/1/3/9/139-large_default.jpg"
+      "/images/products/139.jpg"
     ],
-    "image": "/img/p/1/3/9/139-large_default.jpg"
+    "image": "/images/products/139.jpg"
   },
   {
-    "id": 60,
-    "name": "Šilauogė Patriot ",
+    "id": 55,
+    "name": "Šilauogė Patriot",
     "category": "Šilauogė",
     "categoryGroup": "vaiskrumiai",
     "categorySub": "silauoges",
@@ -861,13 +790,13 @@
     "description_short": "Stambios, kvapnios, 130cm, nereikli dirvai, pakenčia šlapias dirvas, tinka auginti dideliuose konteineriuose.",
     "handle": "šilauogė-patriot",
     "images": [
-      "/img/p/1/4/0/140-large_default.jpg"
+      "/images/products/140.jpg"
     ],
-    "image": "/img/p/1/4/0/140-large_default.jpg"
+    "image": "/images/products/140.jpg"
   },
   {
-    "id": 61,
-    "name": "Šilauoge Reka ",
+    "id": 56,
+    "name": "Šilauoge Reka",
     "category": "Šilauogė",
     "categoryGroup": "vaiskrumiai",
     "categorySub": "silauoges",
@@ -875,12 +804,26 @@
     "description_short": "Ankstyvoji šilauogių veislė. Uogos pradeda nokti liepos mėnesio viduryje.",
     "handle": "šilauoge-reka",
     "images": [
-      "/img/p/1/4/1/141-large_default.jpg"
+      "/images/products/141.jpg"
     ],
-    "image": "/img/p/1/4/1/141-large_default.jpg"
+    "image": "/images/products/141.jpg"
   },
   {
-    "id": 62,
+    "id": 57,
+    "name": "Graikiškas riešutmedis\t\t\tIdeal",
+    "category": "Riešutmedis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "riestumedziai",
+    "description": "Vaisiai vidutinio dydžio, branduolys labai gero, malonaus skonio, aliejingas, be kartumo.Derlius skinamas rugsėjo pabaigoje. Augalas atsparus ligoms ir kenkėjams, Lietuvos žiemas ištveria pakankamai gerai.",
+    "description_short": "Derėti pradeda labai greitai - 3-4 metais po pasodinimo, deri didelėmis kekėmis, gausiai, kasmet. Derlius skinamas rugsėjo pabaigoje - spalio pradžioje.",
+    "handle": "graikiškas-riešutmedis-ideal",
+    "images": [
+      "/images/products/229.jpg"
+    ],
+    "image": "/images/products/229.jpg"
+  },
+  {
+    "id": 58,
     "name": "Kriaušė Alicija",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -889,12 +832,12 @@
     "description_short": "Ankstyvoji kriaušių veislė. Derlius būna liepos pabaigoje.",
     "handle": "kriaušė-alicija",
     "images": [
-      "/img/p/1/7/0/170-large_default.jpg"
+      "/images/products/170.jpg"
     ],
-    "image": "/img/p/1/7/0/170-large_default.jpg"
+    "image": "/images/products/170.jpg"
   },
   {
-    "id": 63,
+    "id": 59,
     "name": "Kriaušė General leclerc",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -903,12 +846,12 @@
     "description_short": "Vėlyva rudeninė – žieminė veislė. Dera reguliariai ir labai gausiai.",
     "handle": "kriaušė-general-leclerc",
     "images": [
-      "/img/p/2/0/3/203-large_default.jpg"
+      "/images/products/203.jpg"
     ],
-    "image": "/img/p/2/0/3/203-large_default.jpg"
+    "image": "/images/products/203.jpg"
   },
   {
-    "id": 64,
+    "id": 60,
     "name": "Kriaušė Jules guyot",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -917,12 +860,12 @@
     "description_short": "Derlinga veislė, skinami rugpjūčio pabaigoje.",
     "handle": "kriaušė-jules-guyot",
     "images": [
-      "/img/p/2/2/8/228-large_default.jpg"
+      "/images/products/228.jpg"
     ],
-    "image": "/img/p/2/2/8/228-large_default.jpg"
+    "image": "/images/products/228.jpg"
   },
   {
-    "id": 65,
+    "id": 61,
     "name": "Kriaušė Jūratė",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -931,13 +874,13 @@
     "description_short": "Rudeninė veislė. Skinami rugsėjo mėnesį.",
     "handle": "kriaušė-jūratė",
     "images": [
-      "/img/p/7/8/78-large_default.jpg",
-      "/img/p/7/9/79-large_default.jpg"
+      "/images/products/78.jpg",
+      "/images/products/79.jpg"
     ],
-    "image": "/img/p/7/8/78-large_default.jpg"
+    "image": "/images/products/78.jpg"
   },
   {
-    "id": 66,
+    "id": 62,
     "name": "Kriaušė Kliapo mėgstamoji",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -946,12 +889,12 @@
     "description_short": "Vasarinė kriaušių veislė. Vaisiai noksta rugpjūčio pabaigoje, rugsėjo pradžioje.",
     "handle": "kriaušė-kliapo-mėgstamoji",
     "images": [
-      "/img/p/2/3/0/230-large_default.jpg"
+      "/images/products/230.jpg"
     ],
-    "image": "/img/p/2/3/0/230-large_default.jpg"
+    "image": "/images/products/230.jpg"
   },
   {
-    "id": 67,
+    "id": 63,
     "name": "Kriaušė Komisinė",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -960,12 +903,12 @@
     "description_short": "Vėlyva rudeninė. Prinoksta rugsėjo pabaigoje – spalio pradžioje, vartojami spalio – lapkričio mėnesiais, saugyklose laikosi iki sausio mėnesio.",
     "handle": "kriaušė-komisinė",
     "images": [
-      "/img/p/2/2/2/222-large_default.jpg"
+      "/images/products/222.jpg"
     ],
-    "image": "/img/p/2/2/2/222-large_default.jpg"
+    "image": "/images/products/222.jpg"
   },
   {
-    "id": 68,
+    "id": 64,
     "name": "Kriaušė Konferencinė",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -974,13 +917,13 @@
     "description_short": "Vaisiai skinami rugsėjo pabaigoje, tinkamai laikomi išsilaiko 3 - 4 mėnesius.",
     "handle": "kriaušė-konferencinė",
     "images": [
-      "/img/p/9/2/92-large_default.jpg",
-      "/img/p/9/3/93-large_default.jpg"
+      "/images/products/92.jpg",
+      "/images/products/93.jpg"
     ],
-    "image": "/img/p/9/2/92-large_default.jpg"
+    "image": "/images/products/92.jpg"
   },
   {
-    "id": 69,
+    "id": 65,
     "name": "Kriaušė Patten",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -989,12 +932,12 @@
     "description_short": "Rudeninė, derlinga veislė.",
     "handle": "kriaušė-patten",
     "images": [
-      "/img/p/2/3/1/231-large_default.jpg"
+      "/images/products/231.jpg"
     ],
-    "image": "/img/p/2/3/1/231-large_default.jpg"
+    "image": "/images/products/231.jpg"
   },
   {
-    "id": 70,
+    "id": 66,
     "name": "Kriaušė Sviestinė",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -1003,12 +946,12 @@
     "description_short": "Vaisiai skinami rugpjūčio pabaigoje.",
     "handle": "kriaušė-sviestinė",
     "images": [
-      "/img/p/1/8/1/181-large_default.jpg"
+      "/images/products/181.jpg"
     ],
-    "image": "/img/p/1/8/1/181-large_default.jpg"
+    "image": "/images/products/181.jpg"
   },
   {
-    "id": 71,
+    "id": 67,
     "name": "Kriaušė Štaro ankstyvoji",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -1017,12 +960,12 @@
     "description_short": "Tai pati ankstyviausia kriaušių veislė. Dera liepos mėnesyje.",
     "handle": "kriaušė-štaro-ankstyvoji",
     "images": [
-      "/img/p/2/6/0/260-large_default.jpg"
+      "/images/products/260.jpg"
     ],
-    "image": "/img/p/2/6/0/260-large_default.jpg"
+    "image": "/images/products/260.jpg"
   },
   {
-    "id": 72,
+    "id": 68,
     "name": "Kriaušė Xena",
     "category": "Kriaušė",
     "categoryGroup": "vaismedziai",
@@ -1031,9 +974,66 @@
     "description_short": "Rudeninė kriaušių veislė. Vaisiai skinami rugsėjo viduryje.",
     "handle": "kriaušė-xena",
     "images": [
-      "/img/p/1/7/6/176-large_default.jpg"
+      "/images/products/176.jpg"
     ],
-    "image": "/img/p/1/7/6/176-large_default.jpg"
+    "image": "/images/products/176.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Lazdynas\t\t\tCosford",
+    "category": "Riešutmedis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "riestumedziai",
+    "description": "Riešutai skanūs, saldūs, stambūs, pavieniai arba kekėje po 2-4 riešutus. Kevalas cilindro formos, labai plonas, branduolys didelis. Pradeda derėti anksti, dera gausiai ir reguliariai. Vieta tinka saulėta arba pusiau pavėsis. Dirva lengvas priemolis, vidutiniškai derlinga ir drėgna. Krūmas augus, šiek tiek glaustas. Veislė vidutiniškai ištverminga žiemą, atspari ligoms ir kenkėjams.",
+    "description_short": "Vidutinio ankstyvumo veislė, vaisiai prinoksta pirmoje rugsėjo pusėje.",
+    "handle": "lazdynas-cosford",
+    "images": [
+      "/images/products/234.jpg"
+    ],
+    "image": "/images/products/234.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Lazdynas\t\t\tHalės milžinai",
+    "category": "Riešutmedis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "riestumedziai",
+    "description": "Auga pavieniui, retkarčiais po 2-3. Riešutai įspudingo stambumo (4,3gr), skanūs. Krūmas augus, šakotas, platus, gana ištvermingas žiemą, atsparus ligoms ir kenkėjams, derlingas. Dirvai nereiklus.",
+    "description_short": "Viena populiariausių pasaulyje kultūrinių lazdynų veislių.",
+    "handle": "lazdynas-halės-milžinai",
+    "images": [
+      "/images/products/233.jpg"
+    ],
+    "image": "/images/products/233.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Lazdynas Barcelona",
+    "category": "Riešutmedis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "riestumedziai",
+    "description": "Riešutai auga kekėmis po 2-7, stambūs, vienas riešutas vidutiniškai sveria 2 –3 gr., skanūs. Krūmas stambus, šakotas, išsikerojęs, atsparūs kenkėjams ir ligoms, atsparus šalčiui.",
+    "description_short": "Veislė kilusi iš Ispanijos. Riešutai prinoksta rugsėjo pradžioje.",
+    "handle": "lazdynas-barcelona",
+    "images": [
+      "/images/products/196.jpg",
+      "/images/products/197.jpg"
+    ],
+    "image": "/images/products/197.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Lazdynas Sirena (Raudonlapis)",
+    "category": "Riešutmedis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "riestumedziai",
+    "description": "SIRENA riešutai išsiskiria raudonais lapeliais. Vasaros pradžioje laja būna tamsiai raudona, vasaros pabaigoje lapai pradeda įgauti žalsvesnį atspalvį. SIRENA puikiai tinka ne tik dekoratyviniams tikslams, bet duoda ir stambiavaisius riešutus. Branduolys gero skonio. Krūmas vidutinio augumo. Veislė pakankamai atspari šalčiams.",
+    "description_short": "Vidutinio ankstyvumo veislė. Prinoksta rugsėjo antroje pusėje.",
+    "handle": "lazdynas-sirena-raudonlapis",
+    "images": [
+      "/images/products/232.jpg"
+    ],
+    "image": "/images/products/232.jpg"
   },
   {
     "id": 73,
@@ -1045,9 +1045,9 @@
     "description_short": "Vasarinė veislė. Vaisius pradeda vesti rugpjūčio viduryje.",
     "handle": "obelis-alyvinis",
     "images": [
-      "/img/p/1/9/5/195-large_default.jpg"
+      "/images/products/195.jpg"
     ],
-    "image": "/img/p/1/9/5/195-large_default.jpg"
+    "image": "/images/products/195.jpg"
   },
   {
     "id": 74,
@@ -1059,9 +1059,9 @@
     "description_short": "Derlinga veislė. Vaisius gaiviai saldžiarūgštis, labai sultingas, bei skanus.",
     "handle": "obelis-alva",
     "images": [
-      "/img/p/1/9/3/193-large_default.jpg"
+      "/images/products/193.jpg"
     ],
-    "image": "/img/p/1/9/3/193-large_default.jpg"
+    "image": "/images/products/193.jpg"
   },
   {
     "id": 75,
@@ -1073,10 +1073,10 @@
     "description_short": "Rudeninė veislė, vaisiai malonaus rūgščiasaldžio vyno skonio, sunoksta rugpjūčio pabaigoje - rugsėjo pradžioje.",
     "handle": "obelis-ananasinis",
     "images": [
-      "/img/p/1/1/11-large_default.jpg",
-      "/img/p/2/5/3/253-large_default.jpg"
+      "/images/products/11.jpg",
+      "/images/products/253.jpg"
     ],
-    "image": "/img/p/1/1/11-large_default.jpg"
+    "image": "/images/products/11.jpg"
   },
   {
     "id": 76,
@@ -1088,9 +1088,9 @@
     "description_short": "Derlinga veislė. Vaisiai skinami rugsėjo viduryje,vartojami iki gruodžio vidurio ir ilgiau.",
     "handle": "obelis-antaninis",
     "images": [
-      "/img/p/1/8/6/186-large_default.jpg"
+      "/images/products/186.jpg"
     ],
-    "image": "/img/p/1/8/6/186-large_default.jpg"
+    "image": "/images/products/186.jpg"
   },
   {
     "id": 77,
@@ -1102,9 +1102,9 @@
     "description_short": "Žieminė veislė, vaisiai stambūs, rūgščiasaldžiai, skinami rugsėjo antrame dešimtadienyje, išsilaiko iki vasario – kovo mėnesio.",
     "handle": "obelis-antėj",
     "images": [
-      "/img/p/2/5/4/254-large_default.jpg"
+      "/images/products/254.jpg"
     ],
-    "image": "/img/p/2/5/4/254-large_default.jpg"
+    "image": "/images/products/254.jpg"
   },
   {
     "id": 78,
@@ -1116,9 +1116,9 @@
     "description_short": "Koloninė rudeninė obelų veislė, sukurta Rusijoje, Biruliove. Vaisiai skinami rugsėjo viduryje, vartojami 30-40 dienų.",
     "handle": "obelis-arbat-koloninė",
     "images": [
-      "/img/p/2/0/2/202-large_default.jpg"
+      "/images/products/202.jpg"
     ],
-    "image": "/img/p/2/0/2/202-large_default.jpg"
+    "image": "/images/products/202.jpg"
   },
   {
     "id": 79,
@@ -1130,9 +1130,9 @@
     "description_short": "Lietuviška, rudeninė, vidutinio augumo veislė. Derėti pradeda rugsėjo viduryje, derlinga.",
     "handle": "obelis-auksis",
     "images": [
-      "/img/p/2/1/4/214-large_default.jpg"
+      "/images/products/214.jpg"
     ],
-    "image": "/img/p/2/1/4/214-large_default.jpg"
+    "image": "/images/products/214.jpg"
   },
   {
     "id": 80,
@@ -1144,9 +1144,9 @@
     "description_short": "Vasarinė veislė. Vaisiai skinami rugpjūčio viduryje. Išsilaiko iki lapkričio mėnesio ir ilgiau. Vidutiniškai tinkami gabenimui.",
     "handle": "obelis-avietinis",
     "images": [
-      "/img/p/2/3/9/239-large_default.jpg"
+      "/images/products/239.jpg"
     ],
-    "image": "/img/p/2/3/9/239-large_default.jpg"
+    "image": "/images/products/239.jpg"
   },
   {
     "id": 81,
@@ -1158,9 +1158,9 @@
     "description_short": "Rudeninė koloninių obelų veislė, sukurta Anglijoje. Prinoksta rugsėjo viduryje.",
     "handle": "obelis-balero-koloninė",
     "images": [
-      "/img/p/2/4/0/240-large_default.jpg"
+      "/images/products/240.jpg"
     ],
-    "image": "/img/p/2/4/0/240-large_default.jpg"
+    "image": "/images/products/240.jpg"
   },
   {
     "id": 82,
@@ -1172,9 +1172,9 @@
     "description_short": "Žieminė, gausiai deranti veislė. Skinami rugsėjo pabaigoje – spalio pradžioje.",
     "handle": "obelis-elyza",
     "images": [
-      "/img/p/2/3/8/238-large_default.jpg"
+      "/images/products/238.jpg"
     ],
-    "image": "/img/p/2/3/8/238-large_default.jpg"
+    "image": "/images/products/238.jpg"
   },
   {
     "id": 83,
@@ -1186,10 +1186,10 @@
     "description_short": "Derlinga veislė. Viena tinkamiausių veislių ekologiniams sodams. Vaisiai skinami rugsėjo antroje pusėje.",
     "handle": "obelis-freedom",
     "images": [
-      "/img/p/5/0/50-large_default.jpg",
-      "/img/p/5/1/51-large_default.jpg"
+      "/images/products/50.jpg",
+      "/images/products/51.jpg"
     ],
-    "image": "/img/p/5/0/50-large_default.jpg"
+    "image": "/images/products/50.jpg"
   },
   {
     "id": 84,
@@ -1201,10 +1201,10 @@
     "description_short": "Ankstyva vasarinė obelų veislė. Vaisiai sunoksta liepos pabaigoje- rugpjūčio pradžioje.",
     "handle": "obelis-geneva-early",
     "images": [
-      "/img/p/5/6/56-large_default.jpg",
-      "/img/p/5/7/57-large_default.jpg"
+      "/images/products/56.jpg",
+      "/images/products/57.jpg"
     ],
-    "image": "/img/p/5/6/56-large_default.jpg"
+    "image": "/images/products/56.jpg"
   },
   {
     "id": 85,
@@ -1216,10 +1216,10 @@
     "description_short": "Labai derlinga veislė. Vaisiai skinami spalio pirmosios pusės pabaigoje arba antroje pusėje.",
     "handle": "obelis-gloster",
     "images": [
-      "/img/p/5/8/58-large_default.jpg",
-      "/img/p/5/9/59-large_default.jpg"
+      "/images/products/58.jpg",
+      "/images/products/59.jpg"
     ],
-    "image": "/img/p/5/8/58-large_default.jpg"
+    "image": "/images/products/58.jpg"
   },
   {
     "id": 86,
@@ -1231,10 +1231,10 @@
     "description_short": "Vėlyva žieminė obelų veislė. Derėti pradeda spalio pradžioje.",
     "handle": "obelis-jonagold-jonika",
     "images": [
-      "/img/p/7/2/72-large_default.jpg",
-      "/img/p/7/3/73-large_default.jpg"
+      "/images/products/72.jpg",
+      "/images/products/73.jpg"
     ],
-    "image": "/img/p/7/2/72-large_default.jpg"
+    "image": "/images/products/72.jpg"
   },
   {
     "id": 87,
@@ -1246,10 +1246,10 @@
     "description_short": "Vidutinio ankstyvumo vasarinė derlinga veislė.",
     "handle": "obelis-konfetnaja",
     "images": [
-      "/img/p/9/4/94-large_default.jpg",
-      "/img/p/9/5/95-large_default.jpg"
+      "/images/products/94.jpg",
+      "/images/products/95.jpg"
     ],
-    "image": "/img/p/9/4/94-large_default.jpg"
+    "image": "/images/products/94.jpg"
   },
   {
     "id": 88,
@@ -1261,10 +1261,10 @@
     "description_short": "Vidutinio derlingumo veislė. Vaisiai skinami rugsėjo pabaigoje.",
     "handle": "obelis-kortland",
     "images": [
-      "/img/p/9/6/96-large_default.jpg",
-      "/img/p/9/7/97-large_default.jpg"
+      "/images/products/96.jpg",
+      "/images/products/97.jpg"
     ],
-    "image": "/img/p/9/6/96-large_default.jpg"
+    "image": "/images/products/96.jpg"
   },
   {
     "id": 89,
@@ -1276,10 +1276,10 @@
     "description_short": "Vėlyva rudeninė, prinoksta rugsėjo pabaigoje.",
     "handle": "obelis-koštelė",
     "images": [
-      "/img/p/1/0/0/100-large_default.jpg",
-      "/img/p/1/0/1/101-large_default.jpg"
+      "/images/products/100.jpg",
+      "/images/products/101.jpg"
     ],
-    "image": "/img/p/1/0/0/100-large_default.jpg"
+    "image": "/images/products/100.jpg"
   },
   {
     "id": 90,
@@ -1291,10 +1291,10 @@
     "description_short": "Labai derlinga veislė. Vaisiai skinami spalio pabaigoje.",
     "handle": "obelis-ligol",
     "images": [
-      "/img/p/1/0/4/104-large_default.jpg",
-      "/img/p/1/0/5/105-large_default.jpg"
+      "/images/products/104.jpg",
+      "/images/products/105.jpg"
     ],
-    "image": "/img/p/1/0/4/104-large_default.jpg"
+    "image": "/images/products/104.jpg"
   },
   {
     "id": 91,
@@ -1306,9 +1306,9 @@
     "description_short": "Rudeninė derlinga obelų veislė. Obuoliai skinami rugsėjo pradžioje.",
     "handle": "obelis-novamac",
     "images": [
-      "/img/p/2/4/4/244-large_default.jpg"
+      "/images/products/244.jpg"
     ],
-    "image": "/img/p/2/4/4/244-large_default.jpg"
+    "image": "/images/products/244.jpg"
   },
   {
     "id": 92,
@@ -1320,9 +1320,9 @@
     "description_short": "Vaisiai vidutinio didumo, rausi. Prinoksta rugpjūčio viduryje.",
     "handle": "obelis-piros",
     "images": [
-      "/img/p/2/6/2/262-large_default.jpg"
+      "/images/products/262.jpg"
     ],
-    "image": "/img/p/2/6/2/262-large_default.jpg"
+    "image": "/images/products/262.jpg"
   },
   {
     "id": 93,
@@ -1334,10 +1334,10 @@
     "description_short": "Labai derlinga obelų veislė. Vaisiai skinami rugsėjo pabaigoje.",
     "handle": "obelis-rajka",
     "images": [
-      "/img/p/1/2/3/123-large_default.jpg",
-      "/img/p/1/2/4/124-large_default.jpg"
+      "/images/products/123.jpg",
+      "/images/products/124.jpg"
     ],
-    "image": "/img/p/1/2/3/123-large_default.jpg"
+    "image": "/images/products/123.jpg"
   },
   {
     "id": 94,
@@ -1349,10 +1349,10 @@
     "description_short": "Vaisiai skinami rugsėjo antroje pusėje.",
     "handle": "obelis-rubinola",
     "images": [
-      "/img/p/1/3/1/131-large_default.jpg",
-      "/img/p/1/3/2/132-large_default.jpg"
+      "/images/products/131.jpg",
+      "/images/products/132.jpg"
     ],
-    "image": "/img/p/1/3/1/131-large_default.jpg"
+    "image": "/images/products/131.jpg"
   },
   {
     "id": 95,
@@ -1364,10 +1364,10 @@
     "description_short": "Rudeninė, derlinga obelų veislė. Prinoksta rugsėjo viduryje.",
     "handle": "obelis-sawa",
     "images": [
-      "/img/p/1/3/5/135-large_default.jpg",
-      "/img/p/1/3/6/136-large_default.jpg"
+      "/images/products/135.jpg",
+      "/images/products/136.jpg"
     ],
-    "image": "/img/p/1/3/5/135-large_default.jpg"
+    "image": "/images/products/135.jpg"
   },
   {
     "id": 96,
@@ -1379,10 +1379,10 @@
     "description_short": "False",
     "handle": "obelis-starkrimson",
     "images": [
-      "/img/p/1/4/8/148-large_default.jpg",
-      "/img/p/1/4/9/149-large_default.jpg"
+      "/images/products/148.jpg",
+      "/images/products/149.jpg"
     ],
-    "image": "/img/p/1/4/8/148-large_default.jpg"
+    "image": "/images/products/148.jpg"
   },
   {
     "id": 97,
@@ -1394,10 +1394,10 @@
     "description_short": "Vaisiai vidutinio dydžio, labai skanūs, saldūs.",
     "handle": "obelis-šampion",
     "images": [
-      "/img/p/1/3/3/133-large_default.jpg",
-      "/img/p/1/3/4/134-large_default.jpg"
+      "/images/products/133.jpg",
+      "/images/products/134.jpg"
     ],
-    "image": "/img/p/1/3/3/133-large_default.jpg"
+    "image": "/images/products/133.jpg"
   },
   {
     "id": 98,
@@ -1409,10 +1409,10 @@
     "description_short": "Pavasarį labai gausiai žydinti rožiniais žiedais.",
     "handle": "rojaus-obelis-kelsey",
     "images": [
-      "/img/p/2/4/5/245-large_default.jpg",
-      "/img/p/8/4/84-large_default.jpg"
+      "/images/products/245.jpg",
+      "/images/products/84.jpg"
     ],
-    "image": "/img/p/2/4/5/245-large_default.jpg"
+    "image": "/images/products/245.jpg"
   },
   {
     "id": 99,
@@ -1424,10 +1424,10 @@
     "description_short": "Nepaprasto grožio dekoratyvios svyrančios šakos su mažais vyšnios dydžio obuoliukais.",
     "handle": "rojaus-obelis-professor-springer",
     "images": [
-      "/img/p/2/4/2/242-large_default.jpg",
-      "/img/p/2/4/3/243-large_default.jpg"
+      "/images/products/242.jpg",
+      "/images/products/243.jpg"
     ],
-    "image": "/img/p/2/4/2/242-large_default.jpg"
+    "image": "/images/products/242.jpg"
   },
   {
     "id": 100,
@@ -1439,10 +1439,10 @@
     "description_short": "Nuostabaus grožio rojaus obelis.",
     "handle": "rojaus-obelis-royalty",
     "images": [
-      "/img/p/2/3/5/235-large_default.jpg",
-      "/img/p/2/3/7/237-large_default.jpg",
-      "/img/p/1/2/9/129-large_default.jpg"
+      "/images/products/235.jpg",
+      "/images/products/237.jpg",
+      "/images/products/129.jpg"
     ],
-    "image": "/img/p/2/3/5/235-large_default.jpg"
+    "image": "/images/products/235.jpg"
   }
 ]
