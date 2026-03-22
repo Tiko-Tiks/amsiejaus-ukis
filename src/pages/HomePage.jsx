@@ -241,6 +241,216 @@ function HomePage() {
         </div>
       </section>
 
+      {/* 2026 Season Stock */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-10 text-center">
+            <div className="flex items-center gap-3 mb-3 justify-center">
+              <div className="h-1 w-12 bg-[#FFB800]"></div>
+              <h2 className="text-3xl md:text-4xl font-bold font-serif text-[#2D5016]">
+                Šių metų asortimentas
+              </h2>
+              <div className="h-1 w-12 bg-[#FFB800]"></div>
+            </div>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Šie sodinukai jau laukia Jūsų mūsų prekyvietėje. Kiti asortimento augalai — užsakomi telefonu.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Obelys */}
+            <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🍎</span>
+                <h3 className="font-bold font-serif text-xl text-[#2D5016]">Obelys</h3>
+              </div>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vasarinės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Konfetnoje', 'Julija', 'Isbranica', 'Baltasis Alyvinis'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Rudeninės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Auksis', 'Ananasinis', 'Sava', 'Novomac'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Žieminės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Antaninis', 'Šampion', 'Topaz', 'Koštelė', 'Bochemija', 'Gold Bochemija', 'Jonagold', 'Belaruskaja Sladkaja'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Kriaušės */}
+            <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🍐</span>
+                <h3 className="font-bold font-serif text-xl text-[#2D5016]">Kriaušės</h3>
+              </div>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vasarinės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Vasarinė Sviestinė', 'Izolda', 'Kliapo Mėgstamoji', 'Kliapo Raudonoji', 'Liepinukė'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Rudeninės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Konferencinė', 'Patten'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Žieminės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['General Leaclearc', 'Xena'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Slyvos */}
+            <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🟣</span>
+                <h3 className="font-bold font-serif text-xl text-[#2D5016]">Slyvos</h3>
+              </div>
+              <div className="space-y-1.5">
+                {[
+                  { name: 'Kometa', info: 'raudona, ankstyva' },
+                  { name: 'Vetrazi', info: 'rūžava, vid. ankstyvumo' },
+                  { name: 'Narač', info: 'mėlyna, vid. ankstyvumo' },
+                  { name: 'Herman', info: 'mėlyna, ankstyva' },
+                  { name: 'Vallor', info: 'mėlyna, vid. ankstyvumo' },
+                  { name: 'Jubiliejum', info: 'mėlyna, vid. ankstyvumo' },
+                  { name: 'Vengerka', info: 'mėlyna, vėlyva' },
+                  { name: 'Lodva', info: 'geltona, ankstyva' },
+                ].map(v => (
+                  <div key={v.name} className="flex items-center justify-between bg-white px-3 py-1.5 rounded-lg border border-[#2D5016]/10">
+                    <span className="text-[#2D5016] font-medium text-sm">{v.name}</span>
+                    <span className="text-gray-500 text-xs">{v.info}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Kaulavaisiai */}
+            <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🍒</span>
+                <h3 className="font-bold font-serif text-xl text-[#2D5016]">Kaulavaisiai</h3>
+              </div>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Trešnės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Burlat', 'Tamara', 'Karina'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vyšnios</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Žagarvyšnė', 'Pandy'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Abrikosai</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    <span className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">Šiaurės Triumfas</span>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Persikai</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    <span className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">Maira</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Šilauogės & Rojaus obelaitės */}
+            <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🫐</span>
+                <h3 className="font-bold font-serif text-xl text-[#2D5016]">Šilauogės ir kiti</h3>
+              </div>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Šilauogės</p>
+                  <div className="space-y-1.5">
+                    {[
+                      { name: 'Patriot', info: 'ankstyva' },
+                      { name: 'Bluecrop', info: 'vid. ankstyvumo' },
+                      { name: 'Chandler', info: 'vėlyva' },
+                    ].map(v => (
+                      <div key={v.name} className="flex items-center justify-between bg-white px-3 py-1.5 rounded-lg border border-[#2D5016]/10">
+                        <span className="text-[#2D5016] font-medium text-sm">{v.name}</span>
+                        <span className="text-gray-500 text-xs">{v.info}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Rojaus obelaitės</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Kelsey', 'Royalty'].map(v => (
+                      <span key={v} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium">{v}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Taip pat turime */}
+            <div className="bg-[#2D5016] rounded-xl p-6 text-white hover:shadow-lg transition-shadow flex flex-col justify-between">
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-2xl">🌿</span>
+                  <h3 className="font-bold font-serif text-xl">Taip pat turime</h3>
+                </div>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {['Sausmedžiai', 'Juodieji serbentai', 'Raudonieji serbentai', 'Geltonieji serbentai', 'Agrastai', 'Avietės', 'Gervuogės', 'Vynuogės', 'Braškių daigai'].map(v => (
+                    <span key={v} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium">{v}</span>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-[#FFB800]/20 border border-[#FFB800]/40 rounded-lg p-4 mt-auto">
+                <p className="text-sm text-white/90">
+                  <span className="font-bold text-[#FFB800]">Nerandate ko ieškote?</span> Kiti mūsų katalogo augalai gali būti užsakomi telefonu. Skambinkite ir pasiteiraukite!
+                </p>
+                <a href="tel:+37061500597" className="inline-flex items-center gap-2 mt-3 bg-[#FFB800] text-[#2D5016] font-bold px-5 py-2 rounded-full text-sm hover:bg-[#E6A600] transition-colors">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  +370 615 00597
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Location Banner */}
       <section className="bg-[#8B6F47] text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -11,7 +11,8 @@
     "images": [
       "/images/products/224.jpg"
     ],
-    "image": "/images/products/224.jpg"
+    "image": "/images/products/224.jpg",
+    "inStock": false
   },
   {
     "id": 2,
@@ -26,7 +27,8 @@
       "/images/products/191.jpg",
       "/images/products/183.jpg"
     ],
-    "image": "/images/products/191.jpg"
+    "image": "/images/products/191.jpg",
+    "inStock": false
   },
   {
     "id": 3,
@@ -41,7 +43,8 @@
       "/images/products/119.jpg",
       "/images/products/120.jpg"
     ],
-    "image": "/images/products/119.jpg"
+    "image": "/images/products/119.jpg",
+    "inStock": false
   },
   {
     "id": 4,
@@ -55,7 +58,8 @@
     "images": [
       "/images/products/206.jpg"
     ],
-    "image": "/images/products/206.jpg"
+    "image": "/images/products/206.jpg",
+    "inStock": false
   },
   {
     "id": 5,
@@ -70,7 +74,8 @@
       "/images/products/64.jpg",
       "/images/products/65.jpg"
     ],
-    "image": "/images/products/64.jpg"
+    "image": "/images/products/64.jpg",
+    "inStock": true
   },
   {
     "id": 6,
@@ -84,7 +89,8 @@
     "images": [
       "/images/products/208.jpg"
     ],
-    "image": "/images/products/208.jpg"
+    "image": "/images/products/208.jpg",
+    "inStock": false
   },
   {
     "id": 7,
@@ -98,7 +104,8 @@
     "images": [
       "/images/products/207.jpg"
     ],
-    "image": "/images/products/207.jpg"
+    "image": "/images/products/207.jpg",
+    "inStock": true
   },
   {
     "id": 8,
@@ -112,7 +119,8 @@
     "images": [
       "/images/products/204.jpg"
     ],
-    "image": "/images/products/204.jpg"
+    "image": "/images/products/204.jpg",
+    "inStock": true
   },
   {
     "id": 9,
@@ -126,7 +134,8 @@
     "images": [
       "/images/products/177.jpg"
     ],
-    "image": "/images/products/177.jpg"
+    "image": "/images/products/177.jpg",
+    "inStock": false
   },
   {
     "id": 10,
@@ -140,7 +149,8 @@
     "images": [
       "/images/products/192.jpg"
     ],
-    "image": "/images/products/192.jpg"
+    "image": "/images/products/192.jpg",
+    "inStock": false
   },
   {
     "id": 11,
@@ -156,7 +166,8 @@
       "/images/products/174.jpg",
       "/images/products/102.jpg"
     ],
-    "image": "/images/products/173.jpg"
+    "image": "/images/products/173.jpg",
+    "inStock": false
   },
   {
     "id": 12,
@@ -171,7 +182,8 @@
       "/images/products/125.jpg",
       "/images/products/126.jpg"
     ],
-    "image": "/images/products/125.jpg"
+    "image": "/images/products/125.jpg",
+    "inStock": false
   },
   {
     "id": 13,
@@ -186,7 +198,8 @@
       "/images/products/127.jpg",
       "/images/products/128.jpg"
     ],
-    "image": "/images/products/127.jpg"
+    "image": "/images/products/127.jpg",
+    "inStock": false
   },
   {
     "id": 14,
@@ -201,7 +214,8 @@
       "/images/products/150.jpg",
       "/images/products/151.jpg"
     ],
-    "image": "/images/products/150.jpg"
+    "image": "/images/products/150.jpg",
+    "inStock": false
   },
   {
     "id": 15,
@@ -216,7 +230,8 @@
       "/images/products/152.jpg",
       "/images/products/153.jpg"
     ],
-    "image": "/images/products/152.jpg"
+    "image": "/images/products/152.jpg",
+    "inStock": false
   },
   {
     "id": 16,
@@ -231,7 +246,8 @@
       "/images/products/144.jpg",
       "/images/products/145.jpg"
     ],
-    "image": "/images/products/144.jpg"
+    "image": "/images/products/144.jpg",
+    "inStock": false
   },
   {
     "id": 17,
@@ -245,7 +261,8 @@
     "images": [
       "/images/products/180.jpg"
     ],
-    "image": "/images/products/180.jpg"
+    "image": "/images/products/180.jpg",
+    "inStock": false
   },
   {
     "id": 18,
@@ -259,7 +276,8 @@
     "images": [
       "/images/products/179.jpg"
     ],
-    "image": "/images/products/179.jpg"
+    "image": "/images/products/179.jpg",
+    "inStock": false
   },
   {
     "id": 19,
@@ -274,7 +292,8 @@
       "/images/products/264.jpg",
       "/images/products/265.jpg"
     ],
-    "image": "/images/products/264.jpg"
+    "image": "/images/products/264.jpg",
+    "inStock": false
   },
   {
     "id": 20,
@@ -289,7 +308,8 @@
       "/images/products/188.jpg",
       "/images/products/189.jpg"
     ],
-    "image": "/images/products/188.jpg"
+    "image": "/images/products/188.jpg",
+    "inStock": false
   },
   {
     "id": 21,
@@ -304,7 +324,8 @@
       "/images/products/69.jpg",
       "/images/products/70.jpg"
     ],
-    "image": "/images/products/69.jpg"
+    "image": "/images/products/69.jpg",
+    "inStock": false
   },
   {
     "id": 22,
@@ -318,7 +339,8 @@
     "images": [
       "/images/products/241.jpg"
     ],
-    "image": "/images/products/241.jpg"
+    "image": "/images/products/241.jpg",
+    "inStock": false
   },
   {
     "id": 23,
@@ -333,7 +355,8 @@
       "/images/products/115.jpg",
       "/images/products/116.jpg"
     ],
-    "image": "/images/products/115.jpg"
+    "image": "/images/products/115.jpg",
+    "inStock": true
   },
   {
     "id": 24,
@@ -347,7 +370,8 @@
     "images": [
       "/images/products/223.jpg"
     ],
-    "image": "/images/products/223.jpg"
+    "image": "/images/products/223.jpg",
+    "inStock": false
   },
   {
     "id": 25,
@@ -361,7 +385,8 @@
     "images": [
       "/images/products/250.jpg"
     ],
-    "image": "/images/products/250.jpg"
+    "image": "/images/products/250.jpg",
+    "inStock": false
   },
   {
     "id": 26,
@@ -375,7 +400,8 @@
     "images": [
       "/images/products/220.jpg"
     ],
-    "image": "/images/products/220.jpg"
+    "image": "/images/products/220.jpg",
+    "inStock": false
   },
   {
     "id": 27,
@@ -389,7 +415,8 @@
     "images": [
       "/images/products/225.jpg"
     ],
-    "image": "/images/products/225.jpg"
+    "image": "/images/products/225.jpg",
+    "inStock": false
   },
   {
     "id": 28,
@@ -403,7 +430,8 @@
     "images": [
       "/images/products/246.jpg"
     ],
-    "image": "/images/products/246.jpg"
+    "image": "/images/products/246.jpg",
+    "inStock": false
   },
   {
     "id": 29,
@@ -417,7 +445,8 @@
     "images": [
       "/images/products/71.jpg"
     ],
-    "image": "/images/products/71.jpg"
+    "image": "/images/products/71.jpg",
+    "inStock": false
   },
   {
     "id": 30,
@@ -431,7 +460,8 @@
     "images": [
       "/images/products/219.jpg"
     ],
-    "image": "/images/products/219.jpg"
+    "image": "/images/products/219.jpg",
+    "inStock": false
   },
   {
     "id": 31,
@@ -445,7 +475,8 @@
     "images": [
       "/images/products/252.jpg"
     ],
-    "image": "/images/products/252.jpg"
+    "image": "/images/products/252.jpg",
+    "inStock": false
   },
   {
     "id": 32,
@@ -459,7 +490,8 @@
     "images": [
       "/images/products/212.jpg"
     ],
-    "image": "/images/products/212.jpg"
+    "image": "/images/products/212.jpg",
+    "inStock": false
   },
   {
     "id": 33,
@@ -474,7 +506,8 @@
       "/images/products/187.jpg",
       "/images/products/111.jpg"
     ],
-    "image": "/images/products/187.jpg"
+    "image": "/images/products/187.jpg",
+    "inStock": false
   },
   {
     "id": 34,
@@ -488,7 +521,8 @@
     "images": [
       "/images/products/227.jpg"
     ],
-    "image": "/images/products/227.jpg"
+    "image": "/images/products/227.jpg",
+    "inStock": true
   },
   {
     "id": 35,
@@ -502,7 +536,8 @@
     "images": [
       "/images/products/2.jpg"
     ],
-    "image": "/images/products/2.jpg"
+    "image": "/images/products/2.jpg",
+    "inStock": true
   },
   {
     "id": 36,
@@ -516,7 +551,8 @@
     "images": [
       "/images/products/184.jpg"
     ],
-    "image": "/images/products/184.jpg"
+    "image": "/images/products/184.jpg",
+    "inStock": true
   },
   {
     "id": 37,
@@ -530,7 +566,8 @@
     "images": [
       "/images/products/185.jpg"
     ],
-    "image": "/images/products/185.jpg"
+    "image": "/images/products/185.jpg",
+    "inStock": true
   },
   {
     "id": 38,
@@ -545,7 +582,8 @@
       "/images/products/218.jpg",
       "/images/products/217.jpg"
     ],
-    "image": "/images/products/218.jpg"
+    "image": "/images/products/218.jpg",
+    "inStock": true
   },
   {
     "id": 39,
@@ -560,7 +598,8 @@
       "/images/products/200.jpg",
       "/images/products/201.jpg"
     ],
-    "image": "/images/products/200.jpg"
+    "image": "/images/products/200.jpg",
+    "inStock": true
   },
   {
     "id": 40,
@@ -574,7 +613,8 @@
     "images": [
       "/images/products/251.jpg"
     ],
-    "image": "/images/products/251.jpg"
+    "image": "/images/products/251.jpg",
+    "inStock": false
   },
   {
     "id": 41,
@@ -588,7 +628,8 @@
     "images": [
       "/images/products/66.jpg"
     ],
-    "image": "/images/products/66.jpg"
+    "image": "/images/products/66.jpg",
+    "inStock": true
   },
   {
     "id": 42,
@@ -603,7 +644,8 @@
       "/images/products/74.jpg",
       "/images/products/75.jpg"
     ],
-    "image": "/images/products/74.jpg"
+    "image": "/images/products/74.jpg",
+    "inStock": true
   },
   {
     "id": 43,
@@ -618,7 +660,8 @@
       "/images/products/35.jpg",
       "/images/products/36.jpg"
     ],
-    "image": "/images/products/35.jpg"
+    "image": "/images/products/35.jpg",
+    "inStock": true
   },
   {
     "id": 44,
@@ -633,7 +676,8 @@
       "/images/products/37.jpg",
       "/images/products/38.jpg"
     ],
-    "image": "/images/products/37.jpg"
+    "image": "/images/products/37.jpg",
+    "inStock": true
   },
   {
     "id": 45,
@@ -648,7 +692,8 @@
       "/images/products/39.jpg",
       "/images/products/40.jpg"
     ],
-    "image": "/images/products/39.jpg"
+    "image": "/images/products/39.jpg",
+    "inStock": true
   },
   {
     "id": 46,
@@ -663,7 +708,8 @@
       "/images/products/156.jpg",
       "/images/products/157.jpg"
     ],
-    "image": "/images/products/156.jpg"
+    "image": "/images/products/156.jpg",
+    "inStock": true
   },
   {
     "id": 47,
@@ -678,7 +724,8 @@
       "/images/products/168.jpg",
       "/images/products/169.jpg"
     ],
-    "image": "/images/products/168.jpg"
+    "image": "/images/products/168.jpg",
+    "inStock": true
   },
   {
     "id": 48,
@@ -692,7 +739,8 @@
     "images": [
       "/images/products/269.jpg"
     ],
-    "image": "/images/products/269.jpg"
+    "image": "/images/products/269.jpg",
+    "inStock": true
   },
   {
     "id": 49,
@@ -707,7 +755,8 @@
       "/images/products/80.jpg",
       "/images/products/81.jpg"
     ],
-    "image": "/images/products/80.jpg"
+    "image": "/images/products/80.jpg",
+    "inStock": true
   },
   {
     "id": 50,
@@ -722,7 +771,8 @@
       "/images/products/137.jpg",
       "/images/products/138.jpg"
     ],
-    "image": "/images/products/137.jpg"
+    "image": "/images/products/137.jpg",
+    "inStock": true
   },
   {
     "id": 51,
@@ -736,7 +786,8 @@
     "images": [
       "/images/products/146.jpg"
     ],
-    "image": "/images/products/146.jpg"
+    "image": "/images/products/146.jpg",
+    "inStock": true
   },
   {
     "id": 52,
@@ -750,7 +801,8 @@
     "images": [
       "/images/products/147.jpg"
     ],
-    "image": "/images/products/147.jpg"
+    "image": "/images/products/147.jpg",
+    "inStock": true
   },
   {
     "id": 53,
@@ -764,7 +816,8 @@
     "images": [
       "/images/products/213.jpg"
     ],
-    "image": "/images/products/213.jpg"
+    "image": "/images/products/213.jpg",
+    "inStock": false
   },
   {
     "id": 54,
@@ -778,7 +831,8 @@
     "images": [
       "/images/products/139.jpg"
     ],
-    "image": "/images/products/139.jpg"
+    "image": "/images/products/139.jpg",
+    "inStock": true
   },
   {
     "id": 55,
@@ -792,7 +846,8 @@
     "images": [
       "/images/products/140.jpg"
     ],
-    "image": "/images/products/140.jpg"
+    "image": "/images/products/140.jpg",
+    "inStock": true
   },
   {
     "id": 56,
@@ -806,7 +861,8 @@
     "images": [
       "/images/products/141.jpg"
     ],
-    "image": "/images/products/141.jpg"
+    "image": "/images/products/141.jpg",
+    "inStock": true
   },
   {
     "id": 57,
@@ -820,7 +876,8 @@
     "images": [
       "/images/products/229.jpg"
     ],
-    "image": "/images/products/229.jpg"
+    "image": "/images/products/229.jpg",
+    "inStock": false
   },
   {
     "id": 58,
@@ -834,7 +891,8 @@
     "images": [
       "/images/products/170.jpg"
     ],
-    "image": "/images/products/170.jpg"
+    "image": "/images/products/170.jpg",
+    "inStock": false
   },
   {
     "id": 59,
@@ -848,7 +906,8 @@
     "images": [
       "/images/products/203.jpg"
     ],
-    "image": "/images/products/203.jpg"
+    "image": "/images/products/203.jpg",
+    "inStock": true
   },
   {
     "id": 60,
@@ -862,7 +921,8 @@
     "images": [
       "/images/products/228.jpg"
     ],
-    "image": "/images/products/228.jpg"
+    "image": "/images/products/228.jpg",
+    "inStock": false
   },
   {
     "id": 61,
@@ -877,7 +937,8 @@
       "/images/products/78.jpg",
       "/images/products/79.jpg"
     ],
-    "image": "/images/products/78.jpg"
+    "image": "/images/products/78.jpg",
+    "inStock": false
   },
   {
     "id": 62,
@@ -891,7 +952,8 @@
     "images": [
       "/images/products/230.jpg"
     ],
-    "image": "/images/products/230.jpg"
+    "image": "/images/products/230.jpg",
+    "inStock": true
   },
   {
     "id": 63,
@@ -905,7 +967,8 @@
     "images": [
       "/images/products/222.jpg"
     ],
-    "image": "/images/products/222.jpg"
+    "image": "/images/products/222.jpg",
+    "inStock": false
   },
   {
     "id": 64,
@@ -920,7 +983,8 @@
       "/images/products/92.jpg",
       "/images/products/93.jpg"
     ],
-    "image": "/images/products/92.jpg"
+    "image": "/images/products/92.jpg",
+    "inStock": true
   },
   {
     "id": 65,
@@ -934,7 +998,8 @@
     "images": [
       "/images/products/231.jpg"
     ],
-    "image": "/images/products/231.jpg"
+    "image": "/images/products/231.jpg",
+    "inStock": true
   },
   {
     "id": 66,
@@ -948,7 +1013,8 @@
     "images": [
       "/images/products/181.jpg"
     ],
-    "image": "/images/products/181.jpg"
+    "image": "/images/products/181.jpg",
+    "inStock": true
   },
   {
     "id": 67,
@@ -962,7 +1028,8 @@
     "images": [
       "/images/products/260.jpg"
     ],
-    "image": "/images/products/260.jpg"
+    "image": "/images/products/260.jpg",
+    "inStock": false
   },
   {
     "id": 68,
@@ -976,7 +1043,8 @@
     "images": [
       "/images/products/176.jpg"
     ],
-    "image": "/images/products/176.jpg"
+    "image": "/images/products/176.jpg",
+    "inStock": true
   },
   {
     "id": 69,
@@ -990,7 +1058,8 @@
     "images": [
       "/images/products/234.jpg"
     ],
-    "image": "/images/products/234.jpg"
+    "image": "/images/products/234.jpg",
+    "inStock": false
   },
   {
     "id": 70,
@@ -1004,7 +1073,8 @@
     "images": [
       "/images/products/233.jpg"
     ],
-    "image": "/images/products/233.jpg"
+    "image": "/images/products/233.jpg",
+    "inStock": false
   },
   {
     "id": 71,
@@ -1019,7 +1089,8 @@
       "/images/products/196.jpg",
       "/images/products/197.jpg"
     ],
-    "image": "/images/products/197.jpg"
+    "image": "/images/products/197.jpg",
+    "inStock": false
   },
   {
     "id": 72,
@@ -1033,7 +1104,8 @@
     "images": [
       "/images/products/232.jpg"
     ],
-    "image": "/images/products/232.jpg"
+    "image": "/images/products/232.jpg",
+    "inStock": false
   },
   {
     "id": 73,
@@ -1047,7 +1119,8 @@
     "images": [
       "/images/products/195.jpg"
     ],
-    "image": "/images/products/195.jpg"
+    "image": "/images/products/195.jpg",
+    "inStock": false
   },
   {
     "id": 74,
@@ -1061,7 +1134,8 @@
     "images": [
       "/images/products/193.jpg"
     ],
-    "image": "/images/products/193.jpg"
+    "image": "/images/products/193.jpg",
+    "inStock": false
   },
   {
     "id": 75,
@@ -1076,7 +1150,8 @@
       "/images/products/11.jpg",
       "/images/products/253.jpg"
     ],
-    "image": "/images/products/11.jpg"
+    "image": "/images/products/11.jpg",
+    "inStock": true
   },
   {
     "id": 76,
@@ -1090,7 +1165,8 @@
     "images": [
       "/images/products/186.jpg"
     ],
-    "image": "/images/products/186.jpg"
+    "image": "/images/products/186.jpg",
+    "inStock": true
   },
   {
     "id": 77,
@@ -1104,7 +1180,8 @@
     "images": [
       "/images/products/254.jpg"
     ],
-    "image": "/images/products/254.jpg"
+    "image": "/images/products/254.jpg",
+    "inStock": false
   },
   {
     "id": 78,
@@ -1118,7 +1195,8 @@
     "images": [
       "/images/products/202.jpg"
     ],
-    "image": "/images/products/202.jpg"
+    "image": "/images/products/202.jpg",
+    "inStock": false
   },
   {
     "id": 79,
@@ -1132,7 +1210,8 @@
     "images": [
       "/images/products/214.jpg"
     ],
-    "image": "/images/products/214.jpg"
+    "image": "/images/products/214.jpg",
+    "inStock": true
   },
   {
     "id": 80,
@@ -1146,7 +1225,8 @@
     "images": [
       "/images/products/239.jpg"
     ],
-    "image": "/images/products/239.jpg"
+    "image": "/images/products/239.jpg",
+    "inStock": false
   },
   {
     "id": 81,
@@ -1160,7 +1240,8 @@
     "images": [
       "/images/products/240.jpg"
     ],
-    "image": "/images/products/240.jpg"
+    "image": "/images/products/240.jpg",
+    "inStock": false
   },
   {
     "id": 82,
@@ -1174,7 +1255,8 @@
     "images": [
       "/images/products/238.jpg"
     ],
-    "image": "/images/products/238.jpg"
+    "image": "/images/products/238.jpg",
+    "inStock": false
   },
   {
     "id": 83,
@@ -1189,7 +1271,8 @@
       "/images/products/50.jpg",
       "/images/products/51.jpg"
     ],
-    "image": "/images/products/50.jpg"
+    "image": "/images/products/50.jpg",
+    "inStock": false
   },
   {
     "id": 84,
@@ -1204,7 +1287,8 @@
       "/images/products/56.jpg",
       "/images/products/57.jpg"
     ],
-    "image": "/images/products/56.jpg"
+    "image": "/images/products/56.jpg",
+    "inStock": false
   },
   {
     "id": 85,
@@ -1219,7 +1303,8 @@
       "/images/products/58.jpg",
       "/images/products/59.jpg"
     ],
-    "image": "/images/products/58.jpg"
+    "image": "/images/products/58.jpg",
+    "inStock": false
   },
   {
     "id": 86,
@@ -1234,7 +1319,8 @@
       "/images/products/72.jpg",
       "/images/products/73.jpg"
     ],
-    "image": "/images/products/72.jpg"
+    "image": "/images/products/72.jpg",
+    "inStock": true
   },
   {
     "id": 87,
@@ -1249,7 +1335,8 @@
       "/images/products/94.jpg",
       "/images/products/95.jpg"
     ],
-    "image": "/images/products/94.jpg"
+    "image": "/images/products/94.jpg",
+    "inStock": true
   },
   {
     "id": 88,
@@ -1264,7 +1351,8 @@
       "/images/products/96.jpg",
       "/images/products/97.jpg"
     ],
-    "image": "/images/products/96.jpg"
+    "image": "/images/products/96.jpg",
+    "inStock": false
   },
   {
     "id": 89,
@@ -1279,7 +1367,8 @@
       "/images/products/100.jpg",
       "/images/products/101.jpg"
     ],
-    "image": "/images/products/100.jpg"
+    "image": "/images/products/100.jpg",
+    "inStock": true
   },
   {
     "id": 90,
@@ -1294,7 +1383,8 @@
       "/images/products/104.jpg",
       "/images/products/105.jpg"
     ],
-    "image": "/images/products/104.jpg"
+    "image": "/images/products/104.jpg",
+    "inStock": false
   },
   {
     "id": 91,
@@ -1308,7 +1398,8 @@
     "images": [
       "/images/products/244.jpg"
     ],
-    "image": "/images/products/244.jpg"
+    "image": "/images/products/244.jpg",
+    "inStock": true
   },
   {
     "id": 92,
@@ -1322,7 +1413,8 @@
     "images": [
       "/images/products/262.jpg"
     ],
-    "image": "/images/products/262.jpg"
+    "image": "/images/products/262.jpg",
+    "inStock": false
   },
   {
     "id": 93,
@@ -1337,7 +1429,8 @@
       "/images/products/123.jpg",
       "/images/products/124.jpg"
     ],
-    "image": "/images/products/123.jpg"
+    "image": "/images/products/123.jpg",
+    "inStock": false
   },
   {
     "id": 94,
@@ -1352,7 +1445,8 @@
       "/images/products/131.jpg",
       "/images/products/132.jpg"
     ],
-    "image": "/images/products/131.jpg"
+    "image": "/images/products/131.jpg",
+    "inStock": false
   },
   {
     "id": 95,
@@ -1367,7 +1461,8 @@
       "/images/products/135.jpg",
       "/images/products/136.jpg"
     ],
-    "image": "/images/products/135.jpg"
+    "image": "/images/products/135.jpg",
+    "inStock": true
   },
   {
     "id": 96,
@@ -1382,7 +1477,8 @@
       "/images/products/148.jpg",
       "/images/products/149.jpg"
     ],
-    "image": "/images/products/148.jpg"
+    "image": "/images/products/148.jpg",
+    "inStock": false
   },
   {
     "id": 97,
@@ -1397,7 +1493,8 @@
       "/images/products/133.jpg",
       "/images/products/134.jpg"
     ],
-    "image": "/images/products/133.jpg"
+    "image": "/images/products/133.jpg",
+    "inStock": true
   },
   {
     "id": 98,
@@ -1412,7 +1509,8 @@
       "/images/products/245.jpg",
       "/images/products/84.jpg"
     ],
-    "image": "/images/products/245.jpg"
+    "image": "/images/products/245.jpg",
+    "inStock": true
   },
   {
     "id": 99,
@@ -1427,7 +1525,8 @@
       "/images/products/242.jpg",
       "/images/products/243.jpg"
     ],
-    "image": "/images/products/242.jpg"
+    "image": "/images/products/242.jpg",
+    "inStock": false
   },
   {
     "id": 100,
@@ -1443,6 +1542,293 @@
       "/images/products/237.jpg",
       "/images/products/129.jpg"
     ],
-    "image": "/images/products/235.jpg"
+    "image": "/images/products/235.jpg",
+    "inStock": true
+  },
+  {
+    "id": 101,
+    "name": "Trešnė Burlat",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Ankstyva prancūziška trešnių veislė, nokstanti birželio mėnesį. Vaisiai stambūs iki labai stambių, širdies formos, tamsiai raudoni. Minkštimas sultingas, mėsingas, tvirtas, aromatingas. Derlius nuimamas birželio viduryje. Medis auga sparčiai, pasiekia 3,5–4 m aukštį, reikalauja reguliaraus genėjimo po vaisių rinkimo. Pradeda derėti anksti – trečiais ar ketvirtais metais. Veislė vidutiniškai atspari šalčiui ir gerai atspari bakteriniam vėžiui. Labai derlinga, dera gausiai ir pastoviai. Kryžmadulė, tinka su anksčiau nokstančiomis trešnėmis.",
+    "description_short": "Ankstyva prancūziška trešnių veislė. Vaisiai stambūs, sultingi, aromatingi. Noksta birželio viduryje.",
+    "handle": "tresne-burlat",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 102,
+    "name": "Trešnė Tamara",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Vėlyva čekiška trešnių veislė, nokstanti liepos antroje pusėje. Vaisiai stambūs iki labai stambių, vidutiniškai 10 g ir daugiau, širdies formos, tamsiai raudoni iki beveik juodi, blizgūs. Minkštimas tankus, mėsingas, kremzlingas, sultingas, aromatingas, saldus, puikaus skonio. Vaisiai transportabilūs. Medis auga stipriai, plačiu, tankiu, kūginiu vainiku, pasiekia 3–4 m. Pradeda derėti trečiais–ketvirtais metais. Vidutiniškai atspari šalčiui, gana atspari ligoms. Labai derlinga, dera gausiai ir reguliariai.",
+    "description_short": "Vėlyva čekiška trešnių veislė. Vaisiai labai stambūs, saldūs, aromatingi. Noksta liepos pabaigoje.",
+    "handle": "tresne-tamara",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 103,
+    "name": "Trešnė Karina",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Vėlyva vokiška trešnių veislė, išvesta iš Šnaiderio vėlyvosios ir Rubė veislių. Vaisiai stambūs (7,5–9 g), tamsiai raudoni, blizgūs, plačiai širdies formos. Minkštimas sultingas, traškus, šviesiai raudonas, saldus, aromatingas. Vaisiai gana transportabilūs, su pailgu kauliuku, kuris lengvai atsiskiria, atsparūs skilimui po lietaus. Derlius nuimamas liepos pabaigoje–rugpjūčio pradžioje. Medis auga vidutiniu tempu, pasiekia 3–4 m. Pradeda derėti trečiais–ketvirtais metais. Gana atspari šalčiui, mažai jautri grybelinėms ligoms, dera gausiai kasmet.",
+    "description_short": "Vėlyva vokiška trešnių veislė. Vaisiai stambūs, saldūs, traškūs. Noksta liepos pabaigoje–rugpjūčio pradžioje.",
+    "handle": "tresne-karina",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 104,
+    "name": "Vyšnia Žagarvyšnė",
+    "category": "Vyšnia",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "vysnios",
+    "description": "Ankstyva lietuviška vyšnių veislė, nokstanti liepos pradžioje. Išsiskirianti ypatingu saldumu, stambiomis desertinėmis uogomis ir savaiminiu apsivaisinimu. Vaisiai stambūs, širdies formos, tamsiai raudoni, blizgūs. Minkštimas labai mėsingas, saldiarūgščio skonio, su mažu kauliuku, kuris lengvai atsiskiria. Tinka valgyti šviežius, džemams, kompotams, šaldyti. Medis auga greitai, su apvaliu, atviru vainiku ir nulenktašakėmis. Pradeda derėti antrais–trečiais metais. Žemesnio ūgio veislė, pasiekia 1,6–2 m. Pakankamai atspari šalčiui, savadulė, dera gausiai kasmet.",
+    "description_short": "Ankstyva lietuviška vyšnių veislė. Vaisiai stambūs, labai saldūs. Savadulė, žemo ūgio.",
+    "handle": "vysnia-zagarvysne",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 105,
+    "name": "Abrikosas Šiaurės Triumfas",
+    "category": "Abrikosas",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "abrikosai",
+    "description": "Labai šalčiui atspari abrikosų veislė, specialiai išvesta šiaurės klimatui. Vaisiai vidutinio dydžio iki stambių, apvalūs, oranžiniai su rausvumu nuo saulės pusės. Minkštimas oranžinis, sultingas, saldus, aromatingas, gerai atsiskiria nuo kauliuko. Medis vidutinio augumo, su plačiai išskleistuoju vainiku. Dera gausiai ir pastoviai. Žiedo pumpurai atsparūs pavasario šalnoms. Noksta liepos mėnesį. Tinka valgyti šviežiems, džemams, kompotams ir džiovinti.",
+    "description_short": "Labai šalčiui atspari abrikosų veislė šiaurės klimatui. Vaisiai saldūs, aromatingi. Noksta liepą.",
+    "handle": "abrikosas-siaures-triumfas",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 106,
+    "name": "Persikas Maira",
+    "category": "Persikas",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "persikai",
+    "description": "Ankstyvai vidutinio nokimo persikų veislė. Vaisiai vidutinio dydžio iki stambių, apvalūs, geltonai raudoni su ryškiu raudonu skruostučiu. Minkštimas geltonas, sultingas, saldus su maloniu rūgštumu, aromatingas. Kauliukas vidutinio dydžio, gerai atsiskiria nuo minkštimo. Medis vidutinio augumo, kompaktiško vainiko. Dera gausiai ir reguliariai. Pakankamai atspari šalčiui. Noksta rugpjūčio mėnesį. Tinka valgyti šviežius ir perdirbti.",
+    "description_short": "Derlinga persikų veislė. Vaisiai saldūs, sultingi, aromatingi. Noksta rugpjūtį.",
+    "handle": "persikas-maira",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 107,
+    "name": "Šilauogė Chandler",
+    "category": "Šilauogė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "silauoges",
+    "description": "Vidutiniškai vėlyva amerikietiška šilauogių veislė, viena populiariausių pasaulyje kartu su Bluecrop. Uogos išskirtinai stambios, vidutiniškai 2,5 cm skersmens, paplokščiai šešiakampės, aromatingos, skanios. Nenokusios šviesiai mėlynos, prinokusios – tamsiai mėlynos. Minkštimas sultingas, saldrūgštis, visiškai prinokus – saldus. Derlius pradeda nokti liepos pabaigoje ir renkamas 6–8 savaites – ilgiausias vaisingumo periodas tarp visų šilauogių veislių. Krūmas auga lėtai, daugiausia aukštyn, su stipriais, storais ūgliais, pasiekia apie 1,5 m. Labai atsparus šalčiui, dera gausiai ir pastoviai. Sodinti saulėtoje vietoje, rūgščiame durpių substrate (pH 3,5–4,5).",
+    "description_short": "Viena populiariausių šilauogių veislių pasaulyje. Uogos labai stambios, aromatingos. Ilgiausias derliaus rinkimo periodas.",
+    "handle": "silauoge-chandler",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 108,
+    "name": "Obelis Julija",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vasarinė obelių veislė. Vaisiai vidutinio dydžio, apskriti iki plokščiai apskritų, šviesiai žali su geltonumo atspalviu, saulėtoje pusėje gali būti švelniai rausvi. Minkštimas baltas, sultingas, švelnaus saldiai rūgščio skonio, aromatingas. Medis vidutinio augumo, kompaktiško vainiko. Pradeda derėti anksti – antrais trečiais metais. Dera reguliariai ir gausiai. Gerai atspari žiemos šalčiams. Noksta liepos pabaigoje–rugpjūčio pradžioje. Tinka valgyti šviežius.",
+    "description_short": "Vasarinė obelių veislė. Vaisiai sultingi, švelnaus skonio. Noksta liepos pabaigoje.",
+    "handle": "obelis-julija",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 109,
+    "name": "Obelis Isbranica",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Rudeninė obelių veislė, kilusi iš Rytų Europos. Vaisiai stambūs, plokščiai apskriti, žalsvai geltoni su ryškiu raudonu dryžuotu skruostučiu. Minkštimas baltas, tvirtas, sultingas, saldiai rūgščio skonio, aromatingas. Vaisiai gerai laikosi 2–3 mėnesius. Medis vidutinio augumo, apvaliu vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir reguliariai. Gerai atspari žiemos šalčiams ir rauplėms. Noksta rugsėjo mėnesį.",
+    "description_short": "Rudeninė obelių veislė. Vaisiai stambūs, gražiai nušvitę, aromatingi. Noksta rugsėjį.",
+    "handle": "obelis-isbranica",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 110,
+    "name": "Obelis Baltasis Alyvinis",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Ankstyva vasarinė obelių veislė, kilusi iš Lietuvos ir Baltijos regiono, nokstanti liepos pabaigoje–rugpjūčio pradžioje. Viena plačiausiai paplitusių vasarinių obelių veislių regione. Vaisiai vidutiniai iki stambių, minkštimas minkštas, akytasis, šviesiai geltonas, prinokus tampa baltas. Odelka plona. Skonis švelnus, aromatingas, su subtiliu rūgštumu. Puikūs kaip pirmieji vasaros obuoliai, laikosi 1–2 savaites. Medis pradeda derėti labai anksti – antrais–trečiais metais, pasiekia 2–2,5 m aukštį. Puikiai atsparus žiemos šalčiams, gerai atsparus miltligei, vidutiniškai – vėžiui, silpnai – rauplėms.",
+    "description_short": "Ankstyva vasarinė lietuviška obelis. Vaisiai švelnūs, aromatingi, balto minkštimo. Noksta liepos pabaigoje.",
+    "handle": "obelis-baltasis-alyvinis",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 111,
+    "name": "Obelis Topaz",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Žieminė obelių veislė, kilusi iš Čekijos, išvesta iš Vanda ir Rubin veislių. Pasižymi puikiu atsparumu ligoms, ypač rauplėms, ilgu laikymo periodu ir puikiu skoniu. Vaisiai vidutiniai iki stambių, šiek tiek priplokšti, oranžinės odelės su raudonais dryželiais. Minkštimas geltonas, tvirtas, saldiai rūgštus, sultingas, aromatingas. Skinami laikosi iki kovo–balandžio, laikant 1–2°C, laikymo metu skonis gerėja. Medis pradeda derėti antrais–trečiais metais, pasiekia 2–3 m. Auga vidutiniu tempu, apvaliu vainiku. Labai derlinga, dera gausiai kasmet. Visiškai atspari rauplėms, vidutiniškai – miltligei.",
+    "description_short": "Žieminė čekiška obelis. Vaisiai aromatingi, saldiarūgščio skonio. Laikosi iki pavasario. Atspari rauplėms.",
+    "handle": "obelis-topaz",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 112,
+    "name": "Obelis Bochemija",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Žieminė obelių veislė, kilusi iš Čekijos (Bohemijos). Vaisiai stambūs, apskriti, žalsvai geltoni su rausvu atspalviu. Minkštimas kreminis, tvirtas, sultingas, saldiai rūgščio skonio, aromatingas. Vaisiai gerai laikosi šaldytuve iki sausio–vasario mėnesio. Medis vidutinio augumo, kompaktišku vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir reguliariai. Gerai atspari žiemos šalčiams, atspari rauplėms ir miltligei. Noksta spalio mėnesį. Tinka valgyti šviežius ir laikyti.",
+    "description_short": "Žieminė čekiška obelis. Vaisiai stambūs, skanūs, ilgai laikosi. Atspari ligoms.",
+    "handle": "obelis-bochemija",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 113,
+    "name": "Obelis Gold Bochemija",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Žieminė obelių veislė, kilusi iš Čekoslovakijos, vedanti itin stambius, patrauklius ir skanius vaisius. Obuoliai labai stambūs, gelsvai žali iki ryškiai geltonų su būdingais smulkiais taškeliais. Minkštimas balsvai žalias, tvirtas, sultingas, aromatingas, subalansuoto saldumo su švelniu rūgštumu. Medis pradeda derėti antrais–trečiais metais, pasiekia apie 2 m aukštį, plačiu vainiku su nulenktašakėmis, tolygiai pasiskirstančiais žiedais. Vidutiniškai atsparus žiemos šalčiams, gerai atsparus miltligei ir rauplėms. Derlius nuimamas spalio pradžioje, laikosi +1–+2°C iki sausio ir ilgiau.",
+    "description_short": "Žieminė čekiška obelis. Vaisiai labai stambūs, gražūs, geltonos spalvos. Laikosi iki sausio.",
+    "handle": "obelis-gold-bochemija",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 114,
+    "name": "Obelis Belaruskaja Sladkaja",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Žieminė saldaus skonio obelių veislė, kilusi iš Baltarusijos, nokstanti spalio pradžioje. Vaisiai stambūs, vidutiniškai 200 g, apskriti, šiek tiek priplokšti. Odelka iš pradžių žalia, prinokus – tamsiai purpuriškai raudona. Minkštimas baltas, saldus, be rūgštumo, iš pradžių tvirtas, vėliau minkštesnis. Cukringumas 10–10,6%, vitamino C – 18,2 mg/100 g. Skinami laikosi +1–+2°C iki kovo. Medis pradeda derėti antrais–trečiais metais, pasiekia 2–2,5 m, auga sparčiai, su retoku apvaliu vainiku. Dera reguliariai ir gausiai. Atlaiko iki -37°C, stipriai atspari rauplėms ir grybelinėms ligoms. Tinka ekologiniams sodams.",
+    "description_short": "Žieminė baltarusiška saldi obelis. Vaisiai stambūs, saldūs, be rūgštumo. Atlaiko iki -37°C.",
+    "handle": "obelis-belaruskaja-sladkaja",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 115,
+    "name": "Kriaušė Izolda",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Ankstyva vasarinė kriaušių veislė, kilusi iš Vokietijos, nokstanti rugpjūčio pradžioje. Išvesta iš Jules Guyot ir Liepinukė veislių, priskiriama prie geriausių ankstyvų desertinių kriaušių veislių. Vaisiai vidutiniai iki stambių, kūgio formos, 160–230 g. Odelka žalia, prinokus – geltonai žalia su raudonu šonu nuo saulės. Minkštimas labai sultingas, tvirtas, pusiau sviestiniu, puikaus subalansuoto saldiarūgščio skonio. Medis auga vidutiniu tempu, piramidišku vainiku, neviršija 3 m. Pradeda derėti trečiais–ketvirtais metais. Labai derlinga, dera reguliariai ir gausiai. Atspari šalčiui ir rauplėms, vidutiniškai – rūdžiui.",
+    "description_short": "Ankstyva vokiška kriaušė. Vaisiai sultingi, puikaus desertinio skonio. Noksta rugpjūtį.",
+    "handle": "kriause-izolda",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 116,
+    "name": "Kriaušė Kliapo Raudonoji",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vėlyva rudeninė kriaušių veislė, Kliapo mėgstamosios raudonoji mutacija. Vaisiai stambūs, plačiai krūminiai, odelka ryškiai raudona per visą vaisių. Minkštimas sultingas, sviestiniu, saldus su švelniu rūgštumu, aromatingas, puikaus desertinio skonio. Medis auga stipriai, su plačiu, kūginiu vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir reguliariai. Gerai atspari šalčiui ir rauplėms. Noksta rugsėjo mėnesį. Tinka valgyti šviežius ir laikyti.",
+    "description_short": "Kriaušė su ryškiai raudona odelka. Vaisiai stambūs, saldūs, sultingi. Noksta rugsėjį.",
+    "handle": "kriause-kliapo-raudonoji",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 117,
+    "name": "Kriaušė Liepinukė",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vasarinė kriaušių veislė, viena seniausių ir plačiausiai paplitusių lietuviškų kriaušių veislių. Vaisiai smulkūs iki vidutinių, krūnio formos, geltonai žali, saulėtoje pusėje su rausvu atspalviu. Minkštimas baltas, sultingas, saldiarūgščio skonio, aromatingas. Vaisiai noksta rugpjūčio mėnesį. Medis auga stipriai, su plačiai piramidiniu vainiku. Pradeda derėti penktais–šeštais metais. Dera gausiai ir pastoviai. Labai atspari Lietuvos žiemos šalčiams. Sena, patikima veislė, tinkanti šiauriniam klimatui.",
+    "description_short": "Sena lietuviška kriaušių veislė. Vaisiai sultingi, aromatingi. Labai atspari šalčiams.",
+    "handle": "kriause-liepinuke",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 118,
+    "name": "Slyva Vetrazi",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vidutinio ankstyvumo slyvų veislė, kilusi iš Baltarusijos. Vaisiai stambūs, apvalūs iki ovalo formos, tamsiai mėlyni su vaško apnašu. Minkštimas geltonas, sultingas, saldiarūgščio skonio, aromatingas, gerai atsiskiria nuo kauliuko. Medis vidutinio augumo, su plačiu, retoku vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir reguliariai. Gerai atspari šalčiui ir ligoms. Noksta rugpjūčio antroje pusėje. Tinka valgyti šviežius, džemams, kompotams.",
+    "description_short": "Derlinga baltarusiška slyvų veislė. Vaisiai stambūs, saldūs. Noksta rugpjūtį.",
+    "handle": "slyva-vetrazi",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 119,
+    "name": "Slyva Narač",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vidutinio nokimo slyvų veislė, kilusi iš Baltarusijos. Vaisiai stambūs, ovalo formos, tamsiai violetiniai su vaško apnašu. Minkštimas gintarinis, sultingas, saldus su delikačiu rūgštumu, aromatingas. Kauliukas vidutinio dydžio, gerai atsiskiria. Medis vidutinio augumo, su apvaliu, gana tankiu vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir pastoviai. Gerai atspari žiemos šalčiams. Noksta rugpjūčio pabaigoje–rugsėjo pradžioje. Tinka valgyti šviežius ir perdirbti.",
+    "description_short": "Derlinga baltarusiška slyvų veislė. Vaisiai saldūs, aromatingi. Noksta rugpjūčio pabaigoje.",
+    "handle": "slyva-narac",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 120,
+    "name": "Slyva Vallor",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vėlyva slyvų veislė, išvesta Kanadoje. Vaisiai labai stambūs (iki 50–60 g), ovalo formos, tamsiai mėlyni iki violetinių su vaško apnašu. Minkštimas geltonai žalias, tvirtas, sultingas, saldiarūgščio skonio, puikaus desertinio skonio. Kauliukas nedidelis, gerai atsiskiria. Medis vidutinio augumo, su kompaktišku vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai. Gerai atspari šalčiui ir rauplėms. Noksta rugsėjo mėnesį. Tinka valgyti šviežius ir laikyti.",
+    "description_short": "Vėlyva kanadiška slyva. Vaisiai labai stambūs, desertinio skonio. Noksta rugsėjį.",
+    "handle": "slyva-vallor",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 121,
+    "name": "Slyva Jubiliejum",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vidutinio ankstyvumo slyvų veislė. Vaisiai stambūs, ovalo formos, geltonai rausvi su raudonu skruostučiu. Minkštimas geltonas, sultingas, saldiarūgščio skonio, aromatingas, gerai atsiskiria nuo kauliuko. Medis vidutinio augumo, su plačiai kūginiu vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir reguliariai. Gerai atspari šalčiui ir ligoms. Noksta rugpjūčio viduryje. Tinka valgyti šviežius, džemams, kompotams ir konservuoti.",
+    "description_short": "Derlinga slyvų veislė. Vaisiai stambūs, saldiarūgščio skonio. Noksta rugpjūčio viduryje.",
+    "handle": "slyva-jubiliejum",
+    "images": [],
+    "image": null,
+    "inStock": true
+  },
+  {
+    "id": 122,
+    "name": "Slyva Lodva",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vidutinio vėlyvumo slyvų veislė, kilusi iš Baltarusijos. Vaisiai stambūs (40–50 g), ovalo formos, geltonai žali su rausvu skruostučiu. Minkštimas geltonas, sultingas, saldus, aromatingas, gerai atsiskiria nuo kauliuko. Medis vidutinio augumo, su apvaliu, gana retoku vainiku. Pradeda derėti trečiais–ketvirtais metais. Dera gausiai ir reguliariai. Gerai atspari žiemos šalčiams ir pagrindinėms slyvų ligoms. Noksta rugsėjo pradžioje. Tinka valgyti šviežius ir perdirbti. Dališkai savadulė.",
+    "description_short": "Derlinga baltarusiška geltonoji slyva. Vaisiai stambūs, saldūs. Noksta rugsėjo pradžioje.",
+    "handle": "slyva-lodva",
+    "images": [],
+    "image": null,
+    "inStock": true
   }
 ]

@@ -32,6 +32,14 @@ function PlantCard({ plant }) {
               </svg>
             </div>
           )}
+          {/* Stock badge */}
+          <div className={`absolute top-3 right-3 px-3 py-1.5 text-xs font-bold uppercase tracking-wide rounded-full shadow-md ${
+            plant.inStock
+              ? 'bg-[#FFB800] text-[#2D5016]'
+              : 'bg-white/90 text-gray-600 border border-gray-300'
+          }`}>
+            {plant.inStock ? 'Prekyboje' : 'Užsakoma'}
+          </div>
           {plant.category && (
             <div className="absolute top-0 left-0 bg-[#2D5016]/90 text-white px-3 py-1.5 text-xs font-bold uppercase tracking-wide rounded-br-lg">
               {plant.category}
