@@ -2022,5 +2022,20 @@
     ],
     "image": "/images/products/132.jpg",
     "inStock": true
+  },
+  {
+    "id": 133,
+    "name": "Agrastas Invikta",
+    "category": "Agrastas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "agrastai",
+    "description": "Viena populiariausių agrasto veislių iš Didžiosios Britanijos. Uogos stambios, žalsvai geltonos, saldaus aromatingos skonio, plona tvirta odele, tinkamos valgyti šviežios ir perdirbti. Krūmas vidutinio aukščio (iki 1,2 m), labai derlingas (6–7 kg nuo krūmo), atsparus miltligei, šalčiui ir ligoms.",
+    "description_short": "Labai derlinga, žalsvai geltonų uogų agrasto veislė, atspari miltligei.",
+    "handle": "agrastas-invikta",
+    "images": [
+      "/images/products/invikta.jpg"
+    ],
+    "image": "/images/products/invikta.jpg",
+    "inStock": true
   }
 ]

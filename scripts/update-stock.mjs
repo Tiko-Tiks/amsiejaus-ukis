@@ -34,6 +34,18 @@ const inStockKeywords = [
   'burlat', 'tamara',
   // Šilauogės
   'patriot', 'bluecrop', 'chandler',
+  // Sausmedžiai
+  'duet',
+  // Serbentai
+  'tizel', 'tiben',
+  // Agrastai
+  'kaprivator', 'invikta', 'invicta', 'captivator',
+  // Avietės
+  'mapema',
+  // Gervuogės
+  'polar',
+  // Vynuogės
+  'juodupė', 'canadice', 'somerset', 'reliance', 'venus',
 ];
 
 // Sub-categories always in stock
