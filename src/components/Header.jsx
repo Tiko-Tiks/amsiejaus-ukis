@@ -55,7 +55,7 @@ function Header() {
               </a>
             </div>
             <div className="hidden md:block">
-              <span className="font-medium">Pr-Pn: 9:00-18:00 | Še: 10:00-16:00</span>
+              <span className="font-medium">Darbo laikas: 9:00-20:00</span>
             </div>
           </div>
         </div>

@@ -75,9 +75,7 @@ function KontaktaiPage() {
             </a>
             <p className="text-gray-700 mt-3 text-base">
               <strong>Darbo laikas:</strong><br />
-              Pr-Pn: 9:00-18:00<br />
-              Še: 10:00-16:00<br />
-              Sk: Susitarus telefonu
+              9:00-20:00 val.
             </p>
           </div>
 

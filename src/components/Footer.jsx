@@ -80,9 +80,7 @@ function Footer() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <div className="font-bold text-sm sm:text-base">
-                <span className="mr-4">Pr-Pn: 9:00-18:00</span>
-                <span className="mr-4">Še: 10:00-16:00</span>
-                <span>Sk: Uždaryta</span>
+                <span>Darbo laikas: 9:00-20:00 val.</span>
               </div>
             </div>
           </div>

@@ -235,7 +235,7 @@ function HomePage() {
               <svg className="w-4 h-4 text-[#FFB800]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Darbo laikas: I-V 8:00–18:00 &nbsp;|&nbsp; VI 8:00–15:00
+              Darbo laikas: 9:00–20:00 val.
             </div>
           </div>
         </div>
