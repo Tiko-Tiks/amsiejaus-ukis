@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary - Forest Green */
+  --color-primary: #2D5016;
+  --color-primary-hover: #234011;
+  --color-primary-light: #3a6b1d;
+
+  /* Secondary - Earth Brown */
+  --color-earth: #8B6F47;
+  --color-earth-light: #a08560;
+
+  /* Accent - Golden */
+  --color-accent: #FFB800;
+  --color-accent-hover: #E6A600;
+
+  /* Background */
+  --color-cream: #F5F5F0;
+
+  /* Legacy forest/honey kept for compatibility */
+  --color-forest-50: #f0f7f0;
+  --color-forest-100: #dceedd;
+  --color-forest-200: #b8ddb9;
+  --color-forest-300: #82c285;
+  --color-forest-400: #4fa554;
+  --color-forest-500: #2d8a33;
+  --color-forest-600: #2D5016;
+  --color-forest-700: #234011;
+  --color-forest-800: #1c3310;
+  --color-forest-900: #2F3B25;
+
+  --color-honey-50: #fdf8ed;
+  --color-honey-100: #f9edd0;
+  --color-honey-200: #f2d89e;
+  --color-honey-300: #ebc06c;
+  --color-honey-400: #FFB800;
+  --color-honey-500: #E6A600;
+  --color-honey-600: #bc6821;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2F3B25;
+  background-color: #F5F5F0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  color: #2D5016;
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Primary action button */
+.btn-primary {
+  background-color: #FFB800;
+  color: #2D5016;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #E6A600;
+  box-shadow: 0 4px 12px rgba(255, 184, 0, 0.4);
+}
+
+/* Secondary action button */
+.btn-secondary {
+  background-color: #2D5016;
+  color: white;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.btn-secondary:hover {
+  background-color: #234011;
+}
+
+/* Section header accent line */
+.section-accent {
+  height: 4px;
+  width: 64px;
+  background-color: #FFB800;
+}
+
+/* Marketplace button (kept for compatibility) */
+.marketplace-btn {
+  background: linear-gradient(135deg, #2D5016, #234011);
+  transition: all 0.3s ease;
+}
+.marketplace-btn:hover {
+  background: linear-gradient(135deg, #3a6b1d, #2D5016);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(45, 80, 22, 0.3);
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, #F5F5F0 0%, #ffffff 100%);
+}
+
+.section-divider {
+  width: 64px;
+  height: 4px;
+  background-color: #FFB800;
+  border-radius: 0;
+}

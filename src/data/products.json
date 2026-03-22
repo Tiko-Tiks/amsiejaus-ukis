@@ -1,0 +1,1448 @@
+[
+  {
+    "id": 1,
+    "name": "Abrikosas Mordeno ankstyvasis",
+    "category": "Abrikosas",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "abrikosai",
+    "description": "Vaisiai stambūs, apie 50-60 gr., specifinės formos su smailėjančia galūne, odelė oranžinė, dalinai nusispalvinusi raudonais taškeliais. Vaisiai stambūs. Minkštimas oranžinis, gana tvirtas, sultingas, saldus, labai skanus, nuo kauliuko atsiskiria gerai. Medis augus, atsparus šalčiui ir ligoms, dera gausiai, kasmet.",
+    "description_short": "Labai vertinga Kanadietiška ankstyva abrikosų veislė. Vaisiai prinoksta liepos pirmoje pusėje.",
+    "handle": "abrikosas-mordeno-ankstyvasis",
+    "images": [
+      "/img/p/2/2/4/224-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/4/224-large_default.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Abrikosas Zabu",
+    "category": "Abrikosas",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "abrikosai",
+    "description": "Vaisiai vidutiniai, sultingi, saldūs, tamsiai oranžiniai su raudonio atspalviu. Minkštimas labai gerai atsiskiria nuo kauliuko. Vidutiniškai atspari žiemos šalčiams.",
+    "description_short": "Dera gausiai ir kasmet. Vaisiai prinoksta liepos pabaigoje- rugpjūčio pradžioje.",
+    "handle": "abrikosas-zabu",
+    "images": [
+      "/img/p/1/9/1/191-large_default.jpg",
+      "/img/p/1/8/3/183-large_default.jpg"
+    ],
+    "image": "/img/p/1/9/1/191-large_default.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Persikas Velvet",
+    "category": "Persikas",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "persikai",
+    "description": "Vaisiai vidutinio dydžio, saldžiarūgščiai, sultingi. Labai derlinga. Vaisiai vidutinio dydžio, šviesiai oranžiniai su rausvu atspalviu. Minkštimas geltonas, sultingas. Lengvai atsiskiria nuo kauliuko.",
+    "description_short": "Vėlyva veislė, vaisius sunoksta rugpjūčio pabaigoje.",
+    "handle": "persikas-velvet",
+    "images": [
+      "/img/p/1/1/9/119-large_default.jpg",
+      "/img/p/1/2/0/120-large_default.jpg"
+    ],
+    "image": "/img/p/1/1/9/119-large_default.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Slyva Early gold",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vaisiai stambūs (iki 70gr.) apvalūs , geltoni su apnašu , labai grąžūs. Minkštimas ryškiai geltonas, sultingas, saldokas , labai skanus. Kauliukas nedidelis, atsiskiria vidutiniškai lengvai. Stipraus augumo, plačiu vainiku.",
+    "description_short": "Vidutinio ankstyvumo slyva. Dera pastoviai ir labai gausiai. Sunoksta liepos pabaigoj.",
+    "handle": "slyva-early-gold",
+    "images": [
+      "/img/p/2/0/6/206-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/6/206-large_default.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Slyva Herman",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Auga stipriai, pradėję derėti – vidutinio augumo, vainikai platūs, piramidiški, vidutinio tankumo. Gražūs, skanūs, transportabilūs, vidutiniai ar didesni už vidutinius 25-35 g, odelė rausvai violetinė. Vaismedžiai atsparūs žievės ir medienos ligoms, tolerantiški slyvų raupų virusui, žiemą ištvermingos.",
+    "description_short": "Ankstyva. Dera 3-4 metais, dera vidutiniškai ir gausiai.",
+    "handle": "slyva-herman",
+    "images": [
+      "/img/p/6/4/64-large_default.jpg",
+      "/img/p/6/5/65-large_default.jpg"
+    ],
+    "image": "/img/p/6/4/64-large_default.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Slyva Kaukazinė",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vaisiai smulkūs, geltoni, rūgštoko skonio, prinoksta rugpjūčio antroje pusėje, ypač tinkami kompotui, džemui. Augalas krūmo formos, vidutinio augumo, tinkamas žaliems atitvarams, užuovėjoms.",
+    "description_short": "Visiems žinomas geltonus slyvukus vedantis sėjinukas.",
+    "handle": "slyva-kaukazinė",
+    "images": [
+      "/img/p/2/0/8/208-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/8/208-large_default.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Slyva Kometa",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vaisiai gražūs, skaisčiai raudonos spalvos, gelsvais šonais, su neryškiu vaškiniu apnašu, beveik apvalūs, vidutinio stambumo arba stambesni (apie 30-35 g). Minkštimas gelsvas, labai sultingas, saldžiarūgštis , aromatingas, skanus, ypač saulėtą vasarą, kauliukas vidutinio dydžio, išsiima sunkiai. Vartojami desertui, bet tinka ir kompotams, marmeladui gaminti.Vaismedžiai vidutinio arba silpno augumo, vainikai plokščiai rutuliški, skėstomis šakomis, vidutinio tankumo. Vienas vaismedis duoda derliaus nuo 100-150 kg. Derėti pradeda anksti, 2-3-ais metais.",
+    "description_short": "Viena iš labiausiai paplitusių Lietuvoje ir vertingiausių ankstyvųjų slyvų veislių. Vaisiai sunoksta rugpjūčio pradžioje.",
+    "handle": "slyva-kometa",
+    "images": [
+      "/img/p/2/0/7/207-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/7/207-large_default.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Slyva Vengerka Dabrovicka",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vaisiai vidutiniai 30-35 g., pailgi, odelė mėlyna su intensyviu šviesiai melsvu apnašu. Minkštimas gelsvai žalsvas, pusiau standus, saldžiarūgštis, skanus. Kauliukas iš minkštimo išsiima lengvai. Labai tinka perdirbimui. Vaismedžiai vidutinio augumo, lengvai formuojama, dera gausiai.",
+    "description_short": "Vidutinio ankstyvumo slyvų veislė. Vaisiai prinoksta rugpjūčio pabaigoje – rugsėjo pradžioje.",
+    "handle": "slyva-vengerka-dabrovicka",
+    "images": [
+      "/img/p/2/0/4/204-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/4/204-large_default.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Slyva Viktorija",
+    "category": "Slyva",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "slyvos",
+    "description": "Vaisiai stambūs (iki 40 gr) gražūs, saldūs, rožiškai melsvos spalvos. Kauliukas lengvai atsiskiria nuo minkštimo. Medis vidutinio augumo. Žiemą ištveria vidutiniškai. Derėti pradeda 3-4 metais, deri labai gausiai ir kasmet.",
+    "description_short": "Vaisiai skinami rugpjūčio pabaigoje- rugsėjo pradžioje.",
+    "handle": "slyva-viktorija",
+    "images": [
+      "/img/p/1/7/7/177-large_default.jpg"
+    ],
+    "image": "/img/p/1/7/7/177-large_default.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Trešnė Drogano(Geltonoji)",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Vaisiai gražūs, stambūs (4,5 – 5,0 g), šviesiai geltoni, įsaulyje – gintarinio geltonumo, blizgantys, skanūs, prinoksta liepos pabaigoje. Minkštimas kremzliškas, sultingas, saldus. Vaismedžiai jauni augūs, derantys vidutinio augumo, žiemą vidutiniškai ištvermingi, žydi vėlai. Ligoms veislė atspari.",
+    "description_short": "Vaismedžiai vidutinio augumo, derėti pradeda (4-5) metais, labai derlinga, beveik nepramečiuoja.",
+    "handle": "trešnė-droganogeltonoji",
+    "images": [
+      "/img/p/1/9/2/192-large_default.jpg"
+    ],
+    "image": "/img/p/1/9/2/192-large_default.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Trešnė Lapins",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Vaisiai labai stambūs - iki 8 gr., gelsvai raudonos spalvos, sultingi ir labai skanūs, atsparūs skylinėjimui ir transportavimui, sunoksta liepos viduryje. Derėti pradeda 4-ais metais, derlingi, dera kasmet. Vidutinio augumo, tankiu piramidiniu vainiku.",
+    "description_short": "Deri gausiai ir kasmet, pradeda derėti liepos antroje pusėje.",
+    "handle": "trešnė-lapins",
+    "images": [
+      "/img/p/1/7/3/173-large_default.jpg",
+      "/img/p/1/7/4/174-large_default.jpg",
+      "/img/p/1/0/2/102-large_default.jpg"
+    ],
+    "image": "/img/p/1/7/3/173-large_default.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Trešnė Regina",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Uogos tamsiai raudonos, ypatingai didelės (8-10g), sultingos, skanios, minkštimas tvirtas. Prisirpusios uogos ilgai laikosi ant medžio, nepūna ir neskylinėja. Medis vidutiniškai augus, derėti pradeda 3-4 m. po pasodinimo, dera kasmet ir vidutiniškai gausiai. Atspari ligoms, gana atspari šalčiui, transportabili.",
+    "description_short": "Vėlyva stambiauogė trešnių veislė. Uogos prinoksta liepos antroje pusėje.",
+    "handle": "trešnė-regina",
+    "images": [
+      "/img/p/1/2/5/125-large_default.jpg",
+      "/img/p/1/2/6/126-large_default.jpg"
+    ],
+    "image": "/img/p/1/2/5/125-large_default.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Trešnė Rimgaudė",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Uogos spalva raudona su geltoniu. Sultinga, saldi, skani uoga. Minkštimas lengvai nusiima nuo kauliuko. Uogos svoris (7-8g.). Ligoms ir šalčiams atspari.",
+    "description_short": "Ankstyva trešnių veislė, sunoksta birželio pabaigoje.",
+    "handle": "trešnė-rimgaudė",
+    "images": [
+      "/img/p/1/2/7/127-large_default.jpg",
+      "/img/p/1/2/8/128-large_default.jpg"
+    ],
+    "image": "/img/p/1/2/7/127-large_default.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Trešnė Stella",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Tai pirmoji pasaulyje išvesta savidulkė trešnių veislė. Uogos tamsiai raudonos, šiek tiek pailgos, širdiškos formos, labai stambios: vidutinė masė 7-8g. Minkštimas tankus, kremzlingas, saldus ir sultingas.",
+    "description_short": "Vidutiniškai ankstyva veislė. Noksta liepos pirmoje pusėje. Vaismedis vidutiniškai ištvermingas šalčiams.",
+    "handle": "trešnė-stella",
+    "images": [
+      "/img/p/1/5/0/150-large_default.jpg",
+      "/img/p/1/5/1/151-large_default.jpg"
+    ],
+    "image": "/img/p/1/5/0/150-large_default.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Trešnė Summit",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Uogos labai stambios (9- 10g). Vaisiaus forma plačiai širdiška. Odelė raudona, blizganti, minkštimas taip pat raudonas, puikaus vyno skonio. Medis gana augus.",
+    "description_short": "Gausiai deranti veislė. Sunoksta rugpjūčio mėnesį. Atspari šalčiams.",
+    "handle": "trešnė-summit",
+    "images": [
+      "/img/p/1/5/2/152-large_default.jpg",
+      "/img/p/1/5/3/153-large_default.jpg"
+    ],
+    "image": "/img/p/1/5/2/152-large_default.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Trešnė Šnaiderio vėlyvoji",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Plačiai širdiški, labai stambūs 8-9 g. Transportabilūs, netrūkinėja. Odelė raudona, sultingos, saldaus vyno skonio. Tinka kompotams. Atspari šalčiui ir ligoms.",
+    "description_short": "Vėlyva veislė. Uogos skinamos rugpjūčio viduryje.",
+    "handle": "trešnė-šnaiderio-vėlyvoji",
+    "images": [
+      "/img/p/1/4/4/144-large_default.jpg",
+      "/img/p/1/4/5/145-large_default.jpg"
+    ],
+    "image": "/img/p/1/4/4/144-large_default.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Trešnė Van",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Uogos labai gražios, tamsiai raudonos, stambios (5-6 g), plačios širdiškos formos, transportabilios, minkštimas pusiau kremzlinis, šviesiai raudonas, sultingas, saldus, aromatingas, labai gero skonio. Kauliukas nedidelis, išsiima lengvai, vaiskotis nutrūksta lengvai ir sausai. Vartojamos šviežios desertui, tinka perdirbti. Vaismedžiai vidutinio augumo, vainikai apvalūs ar platūs, piramidiški, vidutinio tankumo. Derėti pradeda 4-5-ais metais.",
+    "description_short": "Vidutinio vėlyvumo trešnių veislė. Prinoksta liepos pradžioj -vidury.",
+    "handle": "trešnė-van",
+    "images": [
+      "/img/p/1/8/0/180-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/0/180-large_default.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Trešnė Vega",
+    "category": "Trešnė",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "tresnes",
+    "description": "Vidutinio augumo, tvirtu vainiku. Anksti pradeda derėti, reguliariai ir gausiai dera.Vidutiniškai atspari šalčiui. 7,5-8,5g. Charakteringas trumpas vaiskotis. Vaisiai šviesiai geltonai- raudoni. Minkštimas geltonas, labai skanus. Atspari šalčiams ir ligoms veislė.",
+    "description_short": "Ankstyva veislė. Sunoksta liepos viduryje.",
+    "handle": "trešnė-vega",
+    "images": [
+      "/img/p/1/7/9/179-large_default.jpg"
+    ],
+    "image": "/img/p/1/7/9/179-large_default.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Vyšnia Ara",
+    "category": "Vyšnia",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "vysnios",
+    "description": "Vidutinio ankstyvumo vyšnia. Atspari šalčiams. Vaismedis žemaūgis, augantis 2,5 - 3 m. Uogos tamsiai raudonos, mėsingos, kauliukas mažas, lengvai atsiskiriantis. Uoga sveria 4-5 g.",
+    "description_short": "Vidutinio ankstyvumo vyšnia. Atspari šalčiams. Vaismedis žemaūgis, augantis 2,5- 3 m. Uogos tamsiai raudonos, mėsingos, kauliukas mažas, lengvai atsiskiriantis. Uoga sveria 4-5 g.",
+    "handle": "vyšnia-ara",
+    "images": [
+      "/img/p/2/6/4/264-large_default.jpg",
+      "/img/p/2/6/5/265-large_default.jpg"
+    ],
+    "image": "/img/p/2/6/4/264-large_default.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Vyšnia Groniasta",
+    "category": "Vyšnia",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "vysnios",
+    "description": "Vaisiai gražūs, labai stambūs (5 – 6 g), vienodo didumo, tamsiai raudoni, gero saldžiarūgščio skonio, sultingi, prinoksta liepos viduryje. Vaismedžiai vidutinio augumo, žiemą pakankamai ištvermingi, tačiau labai šaltą žiemą gali pašalti žiediniai pumpurai.",
+    "description_short": "Vidutinio ankstyvumo, derėti pradeda anksti, dera kasmet, derlinga.",
+    "handle": "vyšnia-groniasta",
+    "images": [
+      "/img/p/1/8/8/188-large_default.jpg",
+      "/img/p/1/8/9/189-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/8/188-large_default.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Vyšnia Igrūška",
+    "category": "Vyšnia",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "vysnios",
+    "description": "Vaisiai labai stambūs (5-6g.), vienodi, tamsiai raudoni, saldžiarūgščio skonio, sultingi, prinoksta liepos pirmoje pusėje. Vaismedžiai nedidelio augumo, žiemą šalčiams atspari.",
+    "description_short": "Ankstyva veislė. Derėti pradeda liepos viduryje, dera kasmet, derlinga.",
+    "handle": "vyšnia-igrūška",
+    "images": [
+      "/img/p/6/9/69-large_default.jpg",
+      "/img/p/7/0/70-large_default.jpg"
+    ],
+    "image": "/img/p/6/9/69-large_default.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Vyšnia Lutovka",
+    "category": "Vyšnia",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "vysnios",
+    "description": "Vaisiai stambūs (4-4,5g) vienodo didumo, transportabilūs. Vartojami švieži ir perdirbti. Vaismedžiai vidutinio augumo, žydi vėlai. Derėti pradeda 2-3 metais, deri kasmet, labai derlinga. Gana reikli dirvai, mėgsta šiltesnes sodo vietas.",
+    "description_short": "Veislė vėlyva, vaisiai skinami liepos mėnesio pabaigoje.",
+    "handle": "vyšnia-lutovka",
+    "images": [
+      "/img/p/2/4/1/241-large_default.jpg"
+    ],
+    "image": "/img/p/2/4/1/241-large_default.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Vyšnia Pandy",
+    "category": "Vyšnia",
+    "categoryGroup": "kaulavaisiai",
+    "categorySub": "vysnios",
+    "description": "Vaisiai labai stambūs, 6-7 gr., skaisčiai raudoni, sultingi, saldžiarūgščiai, labai tinka kompotams ir uogienei. Derlinga, atspari ligoms, pakankamai atspari šalčiui, transportabili. Medžiai vidutinio augumo.",
+    "description_short": "Vėlyva, vaisiai sunoksta liepos pabaigoje.",
+    "handle": "vyšnia-pandy",
+    "images": [
+      "/img/p/1/1/5/115-large_default.jpg",
+      "/img/p/1/1/6/116-large_default.jpg"
+    ],
+    "image": "/img/p/1/1/5/115-large_default.jpg"
+  },
+  {
+    "id": 24,
+    "name": "100% Biohumusas",
+    "category": "Trąša",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "trasos",
+    "description": "Sliekų Eisenia Fetida biomasė – 10 kartų turtingesnė maisto medžiagomis, o dirvožemis naudingais mikroorganizmais praturtėja net iki 1000 kartų. Biohumuso sudėtyje – visas kompleksas reikalingų natūralių makro ir mikroelementų, fermentų, dirvos antibiotikų, vitaminų, augimo ir vystymosi hormonų ir huminių medžiagų. NAUDA augalų augimui naudojant biohumusą: -Pagreitina dygimą, augimą; -Pagerina šaknų augimą ir struktūrą; -Didina derlių.",
+    "description_short": "Biohumusas – tai organinė medžiaga, kuri susidaro sąveikaujant sliekams ir mikroorganizmams. Tai natūraliai švari ekologiška mikrobiologinė trąša – perdirbta Kalifornijos sliekų Eisenia Fetida, kuri, perėjusi sliekų virškinimo traktą, suteikia biomasei naujų komponentų.",
+    "handle": "100-biohumusas",
+    "images": [
+      "/img/p/2/2/3/223-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/3/223-large_default.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Biohumus start 5L (padeda sodinukams adaptuotis)",
+    "category": "Trąša",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "trasos",
+    "description": "Sliekų Eisenia Fetida biomasė – 10 kartų turtingesnė maisto medžiagomis, o dirvožemis naudingais mikroorganizmais praturtėja net iki 1000 kartų. Biohumuso sudėtyje – visas kompleksas reikalingų natūralių makro ir mikroelementų, fermentų, dirvos antibiotikų, vitaminų, augimo ir vystymosi hormonų ir huminių medžiagų. NAUDA augalų augimui naudojant biohumusą: -Pagreitina dygimą, augimą; -Pagerina šaknų augimą ir struktūrą; -Didina derlių.",
+    "description_short": "Biohumusas – tai organinė medžiaga, kuri susidaro sąveikaujant sliekams ir mikroorganizmams. Tai natūraliai švari ekologiška mikrobiologinė trąša – perdirbta Kalifornijos sliekų Eisenia Fetida, kuri, perėjusi sliekų virškinimo traktą, suteikia biomasei naujų komponentų.",
+    "handle": "biohumus-start-5l-padeda-sodinukams-adaptuotis",
+    "images": [
+      "/img/p/2/2/5/225-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/5/225-large_default.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Graikiškas riešutmedis\t\t\tIdeal",
+    "category": "Riešutmedis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "riestumedziai",
+    "description": "Vaisiai vidutinio dydžio, branduolys labai gero, malonaus skonio, aliejingas, be kartumo.Derlius skinamas rugsėjo pabaigoje. Augalas atsparus ligoms ir kenkėjams, Lietuvos žiemas ištveria pakankamai gerai.",
+    "description_short": "Derėti pradeda labai greitai - 3-4 metais po pasodinimo, deri didelėmis kekėmis, gausiai, kasmet. Derlius skinamas rugsėjo pabaigoje - spalio pradžioje.",
+    "handle": "graikiškas-riešutmedis-ideal",
+    "images": [
+      "/img/p/2/2/9/229-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/9/229-large_default.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Ilgaamžė bambukinė lazdelė augalams remti",
+    "category": "Priemonė",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "trasos",
+    "description": "",
+    "description_short": "Medelių parišimas",
+    "handle": "ilgaamžė-bambukinė-lazdelė-augalams-remti",
+    "images": [
+      "/img/p/7/1/71-large_default.jpg"
+    ],
+    "image": "/img/p/7/1/71-large_default.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Lazdynas\t\t\tCosford",
+    "category": "Riešutmedis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "riestumedziai",
+    "description": "Riešutai skanūs, saldūs, stambūs, pavieniai arba kekėje po 2-4 riešutus. Kevalas cilindro formos, labai plonas, branduolys didelis. Pradeda derėti anksti, dera gausiai ir reguliariai. Vieta tinka saulėta arba pusiau pavėsis. Dirva lengvas priemolis, vidutiniškai derlinga ir drėgna. Krūmas augus, šiek tiek glaustas. Veislė vidutiniškai ištverminga žiemą, atspari ligoms ir kenkėjams.",
+    "description_short": "Vidutinio ankstyvumo veislė, vaisiai prinoksta pirmoje rugsėjo pusėje.",
+    "handle": "lazdynas-cosford",
+    "images": [
+      "/img/p/2/3/4/234-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/4/234-large_default.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Lazdynas\t\t\tHalės milžinai",
+    "category": "Riešutmedis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "riestumedziai",
+    "description": "Auga pavieniui, retkarčiais po 2-3. Riešutai įspudingo stambumo (4,3gr), skanūs. Krūmas augus, šakotas, platus, gana ištvermingas žiemą, atsparus ligoms ir kenkėjams, derlingas. Dirvai nereiklus.",
+    "description_short": "Viena populiariausių pasaulyje kultūrinių lazdynų veislių.",
+    "handle": "lazdynas-halės-milžinai",
+    "images": [
+      "/img/p/2/3/3/233-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/3/233-large_default.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Lazdynas Barcelona",
+    "category": "Riešutmedis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "riestumedziai",
+    "description": "Riešutai auga kekėmis po 2-7, stambūs, vienas riešutas vidutiniškai sveria 2 –3 gr., skanūs. Krūmas stambus, šakotas, išsikerojęs, atsparūs kenkėjams ir ligoms, atsparus šalčiui.",
+    "description_short": "Veislė kilusi iš Ispanijos. Riešutai prinoksta rugsėjo pradžioje.",
+    "handle": "lazdynas-barcelona",
+    "images": [
+      "/img/p/1/9/6/196-large_default.jpg",
+      "/img/p/1/9/7/197-large_default.jpg"
+    ],
+    "image": "/img/p/1/9/7/197-large_default.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Lazdynas Sirena (Raudonlapis)",
+    "category": "Riešutmedis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "riestumedziai",
+    "description": "SIRENA riešutai išsiskiria raudonais lapeliais. Vasaros pradžioje laja būna tamsiai raudona, vasaros pabaigoje lapai pradeda įgauti žalsvesnį atspalvį. SIRENA puikiai tinka ne tik dekoratyviniams tikslams, bet duoda ir stambiavaisius riešutus. Branduolys gero skonio. Krūmas vidutinio augumo. Veislė pakankamai atspari šalčiams.",
+    "description_short": "Vidutinio ankstyvumo veislė. Prinoksta rugsėjo antroje pusėje.",
+    "handle": "lazdynas-sirena-raudonlapis",
+    "images": [
+      "/img/p/2/3/2/232-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/2/232-large_default.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Persikas Navigator (raudonlapis)",
+    "category": "Dekoratyvus augalas",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Lapai tamsiai bordavi, žiedai išskirtinio didumo ir grožio, vainikas platus, vešlus, medis gana augus, atsparus ligoms. Vaisiai vidutinio dydžio, tamsiai raudoni. Sodinti šiltesnėse sodo vietose. Rudeniop lapai prašviesėja, raudonį išlaiko augančios šakelių viršūnės.",
+    "description_short": "Dekoratyvi persikų veislė. Vaisiai prinoksta rugsėjo mėnesį.",
+    "handle": "persikas-navigator-raudonlapis",
+    "images": [
+      "/img/p/1/8/7/187-large_default.jpg",
+      "/img/p/1/1/1/111-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/7/187-large_default.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Aviečių - šaltekšnio medus",
+    "category": "Medus",
+    "categoryGroup": "medus",
+    "categorySub": "medus",
+    "description": "Aviečių medus ypatingai sveikas peršalus arba susirgus gripu. Jis efektyviai gydo stomatitus ir gleivinių uždegimus. Kristalizuojasi. Dažnai būna baltos spalvos ir pasižymi maloniu skoniu.",
+    "description_short": "Aviečių medus ypatingai sveikas peršalus arba susirgus gripu.",
+    "handle": "aviečių-šaltekšnio-medus",
+    "images": [
+      "/img/p/2/5/0/250-large_default.jpg"
+    ],
+    "image": "/img/p/2/5/0/250-large_default.jpg"
+  },
+  {
+    "id": 34,
+    "name": "BAKFASTO BIČIŲ MOTINĖLĖS",
+    "category": "Bičių motinėlė",
+    "categoryGroup": "medus",
+    "categorySub": "biciu-motineles",
+    "description": "Pastaraisiais metais Lietuvoje greitai plinta šios rasės bitės, kadangi yra ramios, darbščios, nespitlios. Pilvelio pirmieji 3 tergitai auksinės spalvos. Straubliuko ilgis – nuo 6.3 iki 6.5 mm. Atsparesnės nozematozei ir erkėms. Silpnai gamina bičių pikį,augina daugiau perų. Žiemą suvartoja daugiau maisto. Galima užsakyti apvaisintas ir neapvaisintas motinėles, visos žymėtos šių metų (2015 m.) mėlyna spalva.",
+    "description_short": "Bitės labai ramios, darbščios, nespietlios, atsparesnės nozematozei ir erkėms.",
+    "handle": "bakfasto-bičių-motinėlės",
+    "images": [
+      "/img/p/2/2/0/220-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/0/220-large_default.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Grikių medus",
+    "category": "Medus",
+    "categoryGroup": "medus",
+    "categorySub": "medus",
+    "description": "Grikių meduje yra daugiau (nei šviesiame meduje) baltymų ir mineralinių medžiagų, ypač geležies, todėl jis dažnai naudojamas gydant mažakraujystę ir anemiją. Grikių medus yra būtinas kenčiant nuo nervų sistemos sutrikimų, nes jis yra puiki stiprinamoji priemonė. Jis pasižymi maloniu specifinių skoniu ir aromatu.",
+    "description_short": "Grikių meduje yra daugiau (nei šviesiame meduje) baltymų ir mineralinių medžiagų, ypač geležies. Jis pasižymi maloniu specifiniu skoniu ir aromatu.",
+    "handle": "grikių-medus",
+    "images": [
+      "/img/p/2/4/6/246-large_default.jpg"
+    ],
+    "image": "/img/p/2/4/6/246-large_default.jpg"
+  },
+  {
+    "id": 36,
+    "name": "KARNIKOS BIČIŲ MOTINĖLĖS",
+    "category": "Bičių motinėlė",
+    "categoryGroup": "medus",
+    "categorySub": "biciu-motineles",
+    "description": "Karnikos bičių motinėlė tamsi. Jos puikiai išsivysčiusi krūtinės lasta ir ilgas smailėjantis pilvelis. Karnikos bitės grakščios, kūno paviršius tamsus, veltininės tergitų juostelės, trumpais, tankiais plaukeliais. Plaukeliai pilki, o jaunų bičių pilvelio plaukeliai sidabrinio atspalvio. Straubliukas nuo 6.4 iki 6.8 mm ilgio. Medų dengia baltai. Bitės vidutinio ramumo. Anksčiau už kitas pradeda auginti perus, todėl iš pavasario šeimos greičiau sustiprėja, tačiau žiemoja silpnos šeimos.Gerai išnaudoja pavasarinį medunešį. Jei medunešis silpnas, augina mažiau perų. Neblogai lanko raudonuosius dobilus, bet nektaro iš jų prirenka mažiau nei Kaukazo pilkosios. Bitės nevagiliauja iš svetimų avilių, gerai orientuojasi ieškodamos medingųjų augalų, puikiai siuva dirbtinius korius, mažai serga perų ligomis, atsparesnės lipčiaus toksikozei. Medų pila į magazinų korius ir į lizdą. Lizdą ir lakas pikiuoja silpnai.(Karosas, 2005 ; Straigis, 2002 ).",
+    "description_short": "Spartus pavasarinis vystymasis.",
+    "handle": "karnikos-bičių-motinėlės",
+    "images": [
+      "/img/p/2/1/9/219-large_default.jpg"
+    ],
+    "image": "/img/p/2/1/9/219-large_default.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Liepų medus",
+    "category": "Medus",
+    "categoryGroup": "medus",
+    "categorySub": "medus",
+    "description": "Liepų medus dažniausiai naudojamas gydant: slogą, anginą, laringitą, bronchitą, tracheitą (trachėjos uždegimą) ir bronchinę astmą. Liepų (liepžiedžių) medus – tai puiki stiprinanti ir raminanti žmogaus organizmą priemonė. Jis dažniausiai būna šviesus (baltas) ir vertinamas dėl savo malonaus skonio.",
+    "description_short": "Liepų medus - šviesiai geltonas, malonaus liepų žiedų kvapo. Vartojamas gydyti peršalimo ligoms.",
+    "handle": "liepų-medus",
+    "images": [
+      "/img/p/2/5/2/252-large_default.jpg"
+    ],
+    "image": "/img/p/2/5/2/252-large_default.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Miško medus",
+    "category": "Medus",
+    "categoryGroup": "medus",
+    "categorySub": "medus",
+    "description": "Miško pievų medus yra poliflorinis, t.y. surinktas iš daugelio augalų žiedų, malonaus skonio, geltonas arba gelsvai rusvos spalvos. Jame yra daug aromatinių medžiagų, nemažai B grupės ir C vitaminų. Jis vertingas nusilpusiems ir peršalimo ligoms gydyti.",
+    "description_short": "Daugiarūšis (poliflorinis) – miško, pievų, lipčiaus, aviečių medus.",
+    "handle": "miško-medus",
+    "images": [
+      "/img/p/2/1/2/212-large_default.jpg"
+    ],
+    "image": "/img/p/2/1/2/212-large_default.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Agrastas Captivator (bespyglis) ",
+    "category": "Agrastas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "agrastai",
+    "description": "Vertinama dėl bedyglių šakų. Uogos raudonos, saldžios, vidutinio dydžio. Gerai auga derlingoje, drėgnoje, lengvoje dirvoje, saulėtoje vietoje. Atspari šalčiui, miltligei, kitoms grybinėms ligoms.",
+    "description_short": "Derlinga, raudonų uogų agrasto veislė.",
+    "handle": "agrastas-captivator-bespyglis",
+    "images": [
+      "/img/p/2/2/7/227-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/7/227-large_default.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Agrastas Hinnonmaki raudona",
+    "category": "Agrastas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "agrastai",
+    "description": "HINNONMAKI RAUDONI - Suomijoje sukurta agrastų veislė, yra europinių ir amerikinių veslių hibridas. Uogos rausvos spalvos, apvalokos, gana stambios, odelė plona. Krūmas neaugus (rekomenduojama kilstelėti aukščiau žemės ir atremti), veislė atspari ligoms ir šalčiui, dera gausiai ir kasmet. Valgomi švieži ir nuostabūs džemuose Agrastai auga bet kokiame neužmirkstančiame dirvožemyje, toleruoja kalkėtas dirvas, saulėtoje vietoje arba pusiau pavėsyje. Atviresnėje vietoje augantys krūmai mažiau serga grybinėm ligom. Augančios uogos reikalauja palyginti daug vandens, todėl per sausras laistyti būtina (geriau ankstų rytą nei vakare, kad neplistų grybinės ligos). Pomedį laikyti mulčiuotą ir nepiktžolėtą.",
+    "description_short": "Labai skanios uogos. Rekomenduojamas ekologiniam ūkiui.",
+    "handle": "agrastas-hinnonmaki-raudona",
+    "images": [
+      "/img/p/2/2-large_default.jpg"
+    ],
+    "image": "/img/p/2/2-large_default.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Agrastas Invicta",
+    "category": "Agrastas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "agrastai",
+    "description": "Vaisiai šviesiai žalios spalvos, gana stambūs, gero saldžiarūgščio skonio. Krūmas vidutinio augumo, pakankamai tvirtas. Veislė labai derlinga, atspari valkčiui.",
+    "description_short": "Angliška vidutinio ankstyvumo agrastų veislė. Noksta liepos viduryje.",
+    "handle": "agrastas-invicta",
+    "images": [
+      "/img/p/1/8/4/184-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/4/184-large_default.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Agrastas Triumf ",
+    "category": "Agrastas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "agrastai",
+    "description": "Sukurta Suomijoje, agrastų veislė, yra europinių ir amerikinių veslių hibridas. Uogos rausvos spalvos, apvalokos, gana stambios, odelė plona. Veislė atspari ligoms ir šalčiui, dera gausiai ir kasmet. Agrastai auga bet kokiame neužmirkstančiame dirvožemyje, toleruoja kalkėtas dirvas, saulėtoje vietoje arba pusiau pavėsyje. Atviresnėje vietoje augantys krūmai mažiau serga grybinėm ligom.",
+    "description_short": "Labai derlinga veislė. Prinoksta liepos mėnesio viduryje.",
+    "handle": "agrastas-triumf",
+    "images": [
+      "/img/p/1/8/5/185-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/5/185-large_default.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Avietė Polka",
+    "category": "Avietė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "avietes",
+    "description": "Labai skanios uogos, skaisčiai raudonos, didelės (4g), saldžios. Skinamos rugpjūčio viduryje iki vegetacijos pabaigos. Atspari šalčiui ir ligoms. Kiekvieną ankstyvą pavasarį reikia krūmą nupjauti iki pat žemės, nes geriausias derlius būna ant vienmečių ūglių.",
+    "description_short": "Remontantinė avietė. Labai derlinga.",
+    "handle": "avietė-polka",
+    "images": [
+      "/img/p/2/1/8/218-large_default.jpg",
+      "/img/p/2/1/7/217-large_default.jpg"
+    ],
+    "image": "/img/p/2/1/8/218-large_default.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Avietė Poranna rosa",
+    "category": "Avietė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "avietes",
+    "description": "Krūmas iki 1,5 m. aukščio su tvirtais stiebais. Antramečiai ūgliai dera liepos mėn., o nauji ūgliai nuo rugsėjo pradžios iki sezono pabaigos. Uogos geltonos spalvos, minkštimas tvirtas, sultingas ir skanus. Puikiai tinka uogienėms, kompotams ar šaldyti.",
+    "description_short": "Remontantinė geltonuogė derlinga veislė.",
+    "handle": "avietė-poranna-rosa",
+    "images": [
+      "/img/p/2/0/0/200-large_default.jpg",
+      "/img/p/2/0/1/201-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/0/200-large_default.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Bespyglė gervuogė - Orkan",
+    "category": "Vaiskrūmis",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "kiti",
+    "description": "Tai bespyglė gervuogių veislė, pasižyminti stipriu augimu, tvirtais, stačiais stiebais. Šios veislės uogos yra didelės, cilindrinės formos, blizgančios, odelė jų tvirta, rūgštoko skonio. Uogos prinoksta rugpjūčio pirmoje pusėje.",
+    "description_short": "Gervuogėse gausu vitaminų A, C, E, PP, B grupės, mi­neralinių medžiagų, ypač kalio, flavanoidų, rūgščių, pektinų, rauginių ir dažinių jungi­nių.",
+    "handle": "bespyglė-gervuogė-orkan",
+    "images": [
+      "/img/p/2/5/1/251-large_default.jpg"
+    ],
+    "image": "/img/p/2/5/1/251-large_default.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Hinnonmaki geltonas",
+    "category": "Agrastas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "agrastai",
+    "description": "Uogos vidutinio dydžio, gelsvai žalsvos, prinoksta anksti, liepos viduryje, saldaus ar saldžiarūgščio skonio. Atspari ligoms ir šalčiams, nereikli.",
+    "description_short": "Derlinga geltonųjų agrastų veislė.",
+    "handle": "hinnonmaki-geltonas",
+    "images": [
+      "/img/p/6/6/66-large_default.jpg"
+    ],
+    "image": "/img/p/6/6/66-large_default.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Jonkheer van Tets",
+    "category": "Raudonasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Uogos stambios, rūgščiasaldės, labai gero skonio, tinka perdirbti. Derėti pradeda labai greitai, dera kasmet, derlinga. Krūmai stipraus augumo, gana glausti, žiemą ištvermingi.",
+    "description_short": "Pati ankstyviausia raudonųjų serbentų veislė. Prinoksta birželio pabaigoje.",
+    "handle": "jonkheer-van-tets",
+    "images": [
+      "/img/p/7/4/74-large_default.jpg",
+      "/img/p/7/5/75-large_default.jpg"
+    ],
+    "image": "/img/p/7/4/74-large_default.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Juodasis serbentas\t\t\tBen Lemond",
+    "category": "Juodasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Uogos vidutinės ir didelės (0,8 – 1,1 g), saldžiarūgštės, vaisinės kekės vidutinio ilgumo, uogos geros kokybės, nebyra, derlius gausus ir reguliarus. Iš krūmo vidutiniškai priskinama iki 5 kg uogų. Vidutiniškai atspari grybinėms ligoms.",
+    "description_short": "Vėlyva veislė. Krūmai neaukšti. Iš krūmo vidutiniškai priskinama iki 5 kg uogų.",
+    "handle": "juodasis-serbentas-ben-lemond",
+    "images": [
+      "/img/p/3/5/35-large_default.jpg",
+      "/img/p/3/6/36-large_default.jpg"
+    ],
+    "image": "/img/p/3/5/35-large_default.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Juodasis serbentas\t\t\tBen Nevis",
+    "category": "Juodasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Vaiskrūmis užauga iki 2 m aukščio ir pločio. Uogos didelės (0,9 – 1,2 g), stambios, prinokusios netyžta. Iš krūmo vidutiniškai priskinama iki 3 - 4 kg uogų. Šalčiui ir ligoms atsparūs.",
+    "description_short": "Vidutinio ankstyvumo veislė.",
+    "handle": "juodasis-serbentas-ben-nevis",
+    "images": [
+      "/img/p/3/7/37-large_default.jpg",
+      "/img/p/3/8/38-large_default.jpg"
+    ],
+    "image": "/img/p/3/7/37-large_default.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Juodasis serbentas\t\t\tBen Tirran",
+    "category": "Juodasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Uogos vidutinės ir didelės (0,8-1,0 g), saldžiarūgštės. Uogose yra 121 mg/proc. vitamino C. Vaisinės kekės vidutinio ilgio. Iš krūmo vidutiniškai priskinama iki 5 kg uogų. Atspari miltligei, pakankamai atspari kitoms grybinėms ligoms, jautri serbentinei erkutei.",
+    "description_short": "Vėlyva juodųjų serbentų veislė. Krūmai vidutinio augumo.",
+    "handle": "juodasis-serbentas-ben-tirran",
+    "images": [
+      "/img/p/3/9/39-large_default.jpg",
+      "/img/p/4/0/40-large_default.jpg"
+    ],
+    "image": "/img/p/3/9/39-large_default.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Juodasis serbentas\t\t\tTiben",
+    "category": "Juodasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Gana derlinga, uogos vidutinio didumo, sultingos, galima spausti sultis, jų sudėtyje daug askorbo rūgšties. Vaisiai sunoksta vienu metu.",
+    "description_short": "Vėlyvoji juodojo serbento veislė.",
+    "handle": "juodasis-serbentas-tiben",
+    "images": [
+      "/img/p/1/5/6/156-large_default.jpg",
+      "/img/p/1/5/7/157-large_default.jpg"
+    ],
+    "image": "/img/p/1/5/6/156-large_default.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Juodasis serbentas\t\t\tZagadka",
+    "category": "Juodasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Uogos stambios, saldžiarūgštės, aromatingos. Iš krūmo vidutiniškai priskinama po 2–3 kg uogų. Vidutiniškai atsparūs miltligei, deguliams bei serbentinei erkutei.",
+    "description_short": "Vidutinio ankstyvumo juodųjų serbentų veislė.",
+    "handle": "juodasis-serbentas-zagadka",
+    "images": [
+      "/img/p/1/6/8/168-large_default.jpg",
+      "/img/p/1/6/9/169-large_default.jpg"
+    ],
+    "image": "/img/p/1/6/8/168-large_default.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Kvanza",
+    "category": "Avietė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "avietes",
+    "description": "Avietė stipriai neplinta . Pradeda derėti nuo rugpjūčio pabaigos iki šalnų. Uogos didelės , kvapnios ir skanios . Uogos sveria 7-10 g.",
+    "description_short": "Remontantinė avietė \"Kvanza\"",
+    "handle": "kvanza",
+    "images": [
+      "/img/p/2/6/9/269-large_default.jpg"
+    ],
+    "image": "/img/p/2/6/9/269-large_default.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Sausmedis Karina",
+    "category": "Sausmedis",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "sausmedžiai",
+    "description": "Mūsų siūloma \"Karina\" veislė pasižymi 1,5-3 cm dydžio uogomis. Uogose gausu mineralinių medžiagų (geležies, magnio, natrio, kalio), mikroelementų (jodo, mangano, vario), daug antocianų, kurie suteikia intensyvią purpurinio atspalvio tamsiai mėlyną spalvą. Atparus ligoms ir šalčiams.",
+    "description_short": "Valgomieji sausmedžiai labiausiai džiugina ypač anksti prinokusiomis uogomis. Sausmedžio uogų derlius skinamas ankščiau už braškes (pirmosiomis birželio dienomis).",
+    "handle": "sausmedis-karina",
+    "images": [
+      "/img/p/8/0/80-large_default.jpg",
+      "/img/p/8/1/81-large_default.jpg"
+    ],
+    "image": "/img/p/8/0/80-large_default.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Serbentas Rozeta",
+    "category": "Raudonasis serbentas",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "serbentai",
+    "description": "Uogos didelės šviesiai raudonos spalvos . Koteliai tvirtai laikosi ant krūmo. Skonis saldžiarūgštis, uogos turi stiprų aromatą. Prinokusios uogos nesuminkštėja, nesutežta. Gerai tinka transportavimui.",
+    "description_short": "Labai derlinga saldžiarūgštė veislė. Vidutinio vėlyvumo veislė sunokstanti liepos viduryje.",
+    "handle": "serbentas-rozeta",
+    "images": [
+      "/img/p/1/3/7/137-large_default.jpg",
+      "/img/p/1/3/8/138-large_default.jpg"
+    ],
+    "image": "/img/p/1/3/7/137-large_default.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Spanguolė Early Black ",
+    "category": "Spanguolė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "spanguoles",
+    "description": "Spanguolių nauda visiems žinoma, stambiauogė spanguolė kilusi iš Šiaurės Amerikos ir yra populiariausia tarp auginamų spanguolių kultūrų. Geriausiai tinkamos užpelkėjusios vietovės ar specialiai įrengtos drėgmę išlaikančios lysvės. Dirva turi būti rūgšti.",
+    "description_short": "Vidutiniškai ankstyva. Uogos juosvai raudonos, be apnašo, vidutinio stambumo, prinoksta pirmoje rugsėjo pusėje, tinka laikyti sandėliuose.",
+    "handle": "spanguolė-early-black",
+    "images": [
+      "/img/p/1/4/6/146-large_default.jpg"
+    ],
+    "image": "/img/p/1/4/6/146-large_default.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Spanguolė Pilgrim ",
+    "category": "Spanguolė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "spanguoles",
+    "description": "Uogos ovalios, purpurinės su nedidele melsva vaškine apnaša, labai stambios, (15-23 mm ilgio ir 12-19 mm skersmens, masė 1,3-2,3 g). Uogos gerai laikosi sandėliuojamos. Atspari šalčiui, vienos didžiausių ir raudoniausių uogų. Į kvadratinį metrą reikia sodinti 3-4 sodinukus. Spanguolės mėgsta saulėtą, nepavėsingą vietą. Pavėsyje jos derės blogai. Netinka sodinti po medeliais. Dirva turi būti drėgna, bet ne šlapia. Tinkamiausios spanguolėms rūgščios durpės, taip pat gali augti ir durpių-smėlio mišinyje. Joms netinka sunkus molis ar priemolis, kalkingas žvyras.",
+    "description_short": "Hibridinė veislė. Prinoksta rugsėjo pabaigoje – spalio pradžioje.",
+    "handle": "spanguolė-pilgrim",
+    "images": [
+      "/img/p/1/4/7/147-large_default.jpg"
+    ],
+    "image": "/img/p/1/4/7/147-large_default.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Šaltalankis Trofimovskaja",
+    "category": "Šaltalankis",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "saltalankiai",
+    "description": "Trofimovskaja. Vaismedžiai kompaktišku piramidišku vainiku, ištvermingi žiemą. Dygliuotumas – 1-2 balo. Gausiai derėti pradeda 4-5 metais po pasodinimo. Vaisiai stambūs, ovalūs, oranžiniai, su raudonomis dėmelėmis ties pagrindu ir viršūnėle, prinoksta rugpjūčio viduryje – antroje pusėje. Vaisiai nuo šakų atsiskiria sausai. Minkštimas sultingas, rūgštus, silpno aromato. Minkštime yra 11,4 proc. tirpių sausųjų medžiagų, 118,5 mg% vitamino C, 4,6 proc. cukrų, 14,2 mg% karotino, 3,3 proc. riebalų, titruojamasis rūgštingumas – 2,51 proc.",
+    "description_short": "Vaisiai stambūs, ovalūs, oranžiniai, su raudonomis dėmelėmis ties pagrindu ir viršūnėle",
+    "handle": "šaltalankis-trofimovskaja",
+    "images": [
+      "/img/p/2/1/3/213-large_default.jpg"
+    ],
+    "image": "/img/p/2/1/3/213-large_default.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Šilauoge Bluecrop",
+    "category": "Šilauogė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "silauoges",
+    "description": "Krūmas augus, gali pasiekti 2 m aukštį, formuoja daug stiebų, todėl šią veislę reikia nuolat genėti. Vienmečiai ūgliai tamsiai raudoni. Lapai vidutinio dydžio, tamsiai žali. Žiedai vidutiniai, balti. Uogos nuo vidutinio dydžio iki labai didelių, šviesiai mėlynos su stipriu vaškiniu apnašu, skonis labai geras, transportabilios, aromatingos, geros išvaizdos, galima ilgai išlaikyti, šaldyti. Veislė atspari šalčiui, drėgmės trūkumui. Ji tinka skinti mechanizuotai. Uogos sunoksta ne vienu metu, per 4-6 savaites. Nuo krūmo priskinama 4-8 kg. Gana gerai pakelia laikiną vandens trūkumą, esant gausiam derėjimui reikia riboti derančių šakų kiekį. Atspari šalčiui, šalnoms, gana atspari grybinėms ligoms. Viena geriausių veislių tiek pramoninėms plantacijoms, tiek mėgėjiškai sodininkystei.",
+    "description_short": "Vidutinio ankstyvumo veislė. Didelis, platus krūmas užauga iki 1,5 m aukščio. Žydi gegužės-birželio mėn. Uogos šviesiai mėlynos. Prinoksta: liepos mėn. pabaigoje. Tinka derlinga dirva ir saulėta ar pusiau pavėsinga vieta.",
+    "handle": "šilauoge-bluecrop",
+    "images": [
+      "/img/p/1/3/9/139-large_default.jpg"
+    ],
+    "image": "/img/p/1/3/9/139-large_default.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Šilauogė Patriot ",
+    "category": "Šilauogė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "silauoges",
+    "description": "Krūmas vidutinio augumo, gali pasiekti 1,8 m aukštį, stiebai nėra tvirti, esant gausiam derliui nusvyra. Suaugusį krūmą genėti reikia kasmet. Pirmamečiai ūgliai turi bronzinį atspalvį. Lapai vidutinio dydžio, ovalūs. Žiedai vidutinio dydžio, balti. Uogos nuo vidutinių iki labai didelių, vidutiniškai mėlynos su nedideliu vaškiniu apnašu, saulėtą vasarą skonis labai geras, transportabilios, geros išvaizdos, galima ilgai išlaikyti, šaldyti. Veislė tinkama skinti mechanizuotai. Uogos noksta 3 savaites, liepos 20- rugpjūčio 10 d., galima skinti per 2-3 kartus, nuo krūmo priskinama 4-9 kg. Nėra lepios. Atspari šalčiui, grybinėms ligoms, vėlyvoms pavasario šalnoms žiedai gana atsparūs, pakelia laikiną užmirkimą.",
+    "description_short": "Stambios, kvapnios, 130cm, nereikli dirvai, pakenčia šlapias dirvas, tinka auginti dideliuose konteineriuose.",
+    "handle": "šilauogė-patriot",
+    "images": [
+      "/img/p/1/4/0/140-large_default.jpg"
+    ],
+    "image": "/img/p/1/4/0/140-large_default.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Šilauoge Reka ",
+    "category": "Šilauogė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "silauoges",
+    "description": "Krūmas stipraus augumo, jį formuojantys stiebai auga statmenai, ūgliai tamsiai raudoni su bronziniu atspalviu. Lapai vidutinio dydžio, žali, žiedai smulkūs, balti. Uogos vidutinio dydžio, labai gero skonio, mėlynos, su stipriu vaškiniu apnašu, tvirta odele, išsidėsčiusios didelėse pakankamai retose kekėse. Tai išskirtinai derlinga veislė. Atsparios pavasarinėms šalnoms ir ištvermingos žiemoms.",
+    "description_short": "Ankstyvoji šilauogių veislė. Uogos pradeda nokti liepos mėnesio viduryje.",
+    "handle": "šilauoge-reka",
+    "images": [
+      "/img/p/1/4/1/141-large_default.jpg"
+    ],
+    "image": "/img/p/1/4/1/141-large_default.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Kriaušė Alicija",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisius išvaizdžios geltonos spalvos, minkštimas baltas, sultingas, vidutinio didumo. Vaismedžiai vidutinio augumo. Atsparios rauplėms, šalčiams.",
+    "description_short": "Ankstyvoji kriaušių veislė. Derlius būna liepos pabaigoje.",
+    "handle": "kriaušė-alicija",
+    "images": [
+      "/img/p/1/7/0/170-large_default.jpg"
+    ],
+    "image": "/img/p/1/7/0/170-large_default.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Kriaušė General leclerc",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Derėti pradeda anksti, dera reguliariai ir labai gausiai. Rugsėjo pabaigoj nuskynus , šaldytuve galima išlaikyti iki sausio. Vaisiai stambūs (iki 250 g), žalsvai geltoni. Minkštimas baltos spalvos, sultingas, saldus ir labai skanus. Šalčiui ir rauplėms vidutiniškai ištvermingi.",
+    "description_short": "Vėlyva rudeninė – žieminė veislė. Dera reguliariai ir labai gausiai.",
+    "handle": "kriaušė-general-leclerc",
+    "images": [
+      "/img/p/2/0/3/203-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/3/203-large_default.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Kriaušė Jules guyot",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisiai labai gražūs, skanūs, stambūs, sultingi, odelė geltona, įsaulyje rausva, vidutinio transportabilumo. Minkštimas baltas, sultingas, tirpstantis, turi mažai granulių. Atsparūs rauplėms ir puviniui. Vaismedžiai vidutinio augumo, vidutinio ištvermingumo žiemą, vaisiai ant šakų laikosi tvirtai.",
+    "description_short": "Derlinga veislė, skinami rugpjūčio pabaigoje.",
+    "handle": "kriaušė-jules-guyot",
+    "images": [
+      "/img/p/2/2/8/228-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/8/228-large_default.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Kriaušė Jūratė",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Sunokusio vaisiaus svoris 120-135g., minkštimas sultingas, saldus, aromatingas. Pakankamai atsparūs rauplėms. Vaismedžiai žiemą ištvermingi. .",
+    "description_short": "Rudeninė veislė. Skinami rugsėjo mėnesį.",
+    "handle": "kriaušė-jūratė",
+    "images": [
+      "/img/p/7/8/78-large_default.jpg",
+      "/img/p/7/9/79-large_default.jpg"
+    ],
+    "image": "/img/p/7/8/78-large_default.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Kriaušė Kliapo mėgstamoji",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisiai prinokę sveria (170 – 210g), beveik vienodi, gražūs, labai skanūs, saldūs, aromatingi, beveik atsparūs rauplėms ir rudajam puviniui. Odelė žalsvai gelsva ar geltona, su plytinio raudonumo dryželiais, išsiliejančiais į ištisinį raudonį saulės pusėje. Minkštimas labai sultingas, tirpstantis burnoje. Šalčiui vidutiniškai ištverminga, dera gausiai.",
+    "description_short": "Vasarinė kriaušių veislė. Vaisiai noksta rugpjūčio pabaigoje, rugsėjo pradžioje.",
+    "handle": "kriaušė-kliapo-mėgstamoji",
+    "images": [
+      "/img/p/2/3/0/230-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/0/230-large_default.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Kriaušė Komisinė",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisiai gražūs, puikaus skonio, stambesni už vidutinius ar stambūs, žalsvai geltoni, įsaulyje aukso geltonumo su susiliejančiu raudoniu. Minkštimas gelsvai baltas, tirpstantis, labai sultingas, saldus, su vos jaučiama rūgštele, aromatingas, beveik be granulių. Vaismedžiai žiemą mažiau ištvermingi, veislė rauplėms ir rudajam puviniui atspari. Veislė verta dėl labai skanių ir sultingų kriaušių vėlyvo rudens sezonui.",
+    "description_short": "Vėlyva rudeninė. Prinoksta rugsėjo pabaigoje – spalio pradžioje, vartojami spalio – lapkričio mėnesiais, saugyklose laikosi iki sausio mėnesio.",
+    "handle": "kriaušė-komisinė",
+    "images": [
+      "/img/p/2/2/2/222-large_default.jpg"
+    ],
+    "image": "/img/p/2/2/2/222-large_default.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Kriaušė Konferencinė",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisiai dideli, labai skanūs, aromatingi, pakankamai atsparūs rauplėms ir rudajam puviniui. Vaismedžiai vidutinio augumo, žiemą vidutiniškai ištvermingi, derėti pradeda 3 - 4 metais, dera gausiai ir kasmet. Odelė šiurkšti, žalsvai gelsva. Minkštimas gelsvai baltas. Vaismedžiai vidutiniškai augūs, dera gausiai ir kasmet. Veislė vidutiniškai atspari šalčiui.",
+    "description_short": "Vaisiai skinami rugsėjo pabaigoje, tinkamai laikomi išsilaiko 3 - 4 mėnesius.",
+    "handle": "kriaušė-konferencinė",
+    "images": [
+      "/img/p/9/2/92-large_default.jpg",
+      "/img/p/9/3/93-large_default.jpg"
+    ],
+    "image": "/img/p/9/2/92-large_default.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Kriaušė Patten",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisiai gražūs, skanūs, stambūs, sultingi, salstelėjusio skonio. Vaisiai skinami rugsėjo pabaigoje, vėsiuose sandėliuose išsilaiko iki sausio pabaigos, vienodo didumo, aromatingi, transportabilūs, pakankamai atsparūs rauplėms ir puviniui.",
+    "description_short": "Rudeninė, derlinga veislė.",
+    "handle": "kriaušė-patten",
+    "images": [
+      "/img/p/2/3/1/231-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/1/231-large_default.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Kriaušė Sviestinė",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Vaisiai yra stambūs ir labai stambūs (200– 300g), žalsvai geltona odele, įsaulyje padengti neryškios plytinio raudonumo spalvos. Minkštimas labai sultingas, tirpstantis, ypatingai skanus. Vidutinio augumo, vainikai platūs piramidiški, vidutinio tankumo. Derėti pradeda 5-6-ais metais. Šalčiams atspari. Mėgsta sausesnę vietą. Tinka ekologiniam sodui.",
+    "description_short": "Vaisiai skinami rugpjūčio pabaigoje.",
+    "handle": "kriaušė-sviestinė",
+    "images": [
+      "/img/p/1/8/1/181-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/1/181-large_default.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Kriaušė Štaro ankstyvoji",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Kriaušės nėra didelės, geltonos spalvos, labai saldžios ir sultingos. Atsparios šalčiams. Vidutiniškai atsparios rūdims.",
+    "description_short": "Tai pati ankstyviausia kriaušių veislė. Dera liepos mėnesyje.",
+    "handle": "kriaušė-štaro-ankstyvoji",
+    "images": [
+      "/img/p/2/6/0/260-large_default.jpg"
+    ],
+    "image": "/img/p/2/6/0/260-large_default.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Kriaušė Xena",
+    "category": "Kriaušė",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "kriauses",
+    "description": "Odelė žalsvai gelsva, minkštimas žalsvai baltas, sultingas, skanus, saldus. Veislė labai atspari ligoms ir šalčiams. Medžiai vidutinio augumo, pradeda derėti 3-4 metais, dera gausiai ir kasmet. Išskirtinė savybė – ypatingas atsparumas ligoms. Tinka ekologiniam sodui.",
+    "description_short": "Rudeninė kriaušių veislė. Vaisiai skinami rugsėjo viduryje.",
+    "handle": "kriaušė-xena",
+    "images": [
+      "/img/p/1/7/6/176-large_default.jpg"
+    ],
+    "image": "/img/p/1/7/6/176-large_default.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Obelis Alyvinis",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai balti, gražios formos, vienodos spalvos, vidutinio didumo ir dideli, ankstyvo sunokimo ir gero skonio. Veislė atspari šalčiams. Medžiai dirvos atžvilgiu didelių reikalavimų nekelia, tačiau geriau auga drėgnesnėse žemėse. Sausoje dirvoje vaisiai užauga smulkūs, krinta nuo medžių dar nesunokę. Sodinti šios veislės medelius reikėtų į pavėsingas, pakankamai drėgmės turinčias dirvas, tik ne per daug šlapias. Medžiai žydi anksti, žiedai nuo šalnų nenukenčia. Derlius gausus. Ligoms ir kenkėjams atsparūs.",
+    "description_short": "Vasarinė veislė. Vaisius pradeda vesti rugpjūčio viduryje.",
+    "handle": "obelis-alyvinis",
+    "images": [
+      "/img/p/1/9/5/195-large_default.jpg"
+    ],
+    "image": "/img/p/1/9/5/195-large_default.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Obelis Alva",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaismedžiai vidutiniškai augūs, apvaliais vainikais, odelė tamsiai raudona. Minkštimas baltas, sultingas. Vaismedžiai šalčiams ištvermingi, tinka auginti ir žemesnėse vietose. Žydi vėlai. Rauplėms vidutiniškai jautrūs, miltligei ir žievės ligoms atsparūs. Saugykloje(+1- +2 C) išsilaiko iki gegužės vidurio.",
+    "description_short": "Derlinga veislė. Vaisius gaiviai saldžiarūgštis, labai sultingas, bei skanus.",
+    "handle": "obelis-alva",
+    "images": [
+      "/img/p/1/9/3/193-large_default.jpg"
+    ],
+    "image": "/img/p/1/9/3/193-large_default.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Obelis Ananasinis",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Atspa­rūs rauplėms, rudajam puviniui ir miltligei, apvaliai kūgiški, ne visada simetriški, lygūs arba šiek tiek briaunoti. Odelė gana stora, švelni, žalsvai geltona, prinokusių- geltona, beveik dramblio kaulo spalvos, saulės apšviestoje pusėje oranžinė arba švelniai raustelėjusi. Vaismedžiai išauga stori, vidutinio aukščio, šakoti, sode- didžiuliai.",
+    "description_short": "Rudeninė veislė, vaisiai malonaus rūgščiasaldžio vyno skonio, sunoksta rugpjūčio pabaigoje - rugsėjo pradžioje.",
+    "handle": "obelis-ananasinis",
+    "images": [
+      "/img/p/1/1/11-large_default.jpg",
+      "/img/p/2/5/3/253-large_default.jpg"
+    ],
+    "image": "/img/p/1/1/11-large_default.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Obelis Antaninis",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Rudeninė veislė. Vaisiai dideli, balsvi - geltoni, cilindro formos, sultingi, rūgštoki, vidutinio stambumo arba stambūs, tinkami gabenimui. Ypač tinka perdirbimui. Vaismedžiai vidutinio augumo, atsparūs šalčiams ir grybinėms ligoms. Dirvai nėra reiklūs, bet nepakenčia įmirkusių sunkių dirvų.",
+    "description_short": "Derlinga veislė. Vaisiai skinami rugsėjo viduryje,vartojami iki gruodžio vidurio ir ilgiau.",
+    "handle": "obelis-antaninis",
+    "images": [
+      "/img/p/1/8/6/186-large_default.jpg"
+    ],
+    "image": "/img/p/1/8/6/186-large_default.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Obelis Antėj",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai stambūs, labai gero skonio, beveik ištisai bordavi, transportabilūs, sunokę gerai laikosi ant medžio. Vaismedžiai vidutiniškai augūs, atsparūs šalčiui ir ligoms, deri gausiai ir kasmet. Saugykloje laikosi iki kovo mėnesio. Jie apvaliai kūgiški, kartais briaunoti, stambesni už vidutinius arba stambūs. Odelė šviesiai žalia, didžioji vaisiaus dalis padengta avietine spalva su tamsiu bordo atspalviu. Vaisiai jautrūs kalcio trūkumui. Vaismedžiai, vidutinio augumo, vainikas plačiai piramidiškas, vidutinio tankumo.",
+    "description_short": "Žieminė veislė, vaisiai stambūs, rūgščiasaldžiai, skinami rugsėjo antrame dešimtadienyje, išsilaiko iki vasario – kovo mėnesio.",
+    "handle": "obelis-antėj",
+    "images": [
+      "/img/p/2/5/4/254-large_default.jpg"
+    ],
+    "image": "/img/p/2/5/4/254-large_default.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Obelis Arbat (Koloninė)",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai gražūs, vidutinio dydžio ar smulkesni, apvaliai kūgiški, gelsvi su didesnėje vaisiaus dalyje išsiliejusiu skaisčiu raudoniu, rūgščiasaldžiai, gaivaus skonio. Vaismedžiai kolonos formos, gausiai dera trumposios vaisinės šakutės, išsidėsčiusios ant kamieno. Derėti pradeda anksti. Veislė derlinga, žiemą vidutiniškai ištverminga, rauplėms visiškai atspari. Lietuvoje paplitusi koloninė obelų veislė, auginama dėl dekoratyvaus vainiko ir gražių, atsparių rauplėms obuolių.",
+    "description_short": "Koloninė rudeninė obelų veislė, sukurta Rusijoje, Biruliove. Vaisiai skinami rugsėjo viduryje, vartojami 30-40 dienų.",
+    "handle": "obelis-arbat-koloninė",
+    "images": [
+      "/img/p/2/0/2/202-large_default.jpg"
+    ],
+    "image": "/img/p/2/0/2/202-large_default.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Obelis Auksis",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutiniai ir stambesni (120g) , plokščiai apvalūs, sultingi, labai skanūs. Valgomi nuo rugsėjo vidurio. Ilgesniam laikymui patartina nuskinti iki 10-15 rugsėjo ( tuomet išsilaikys iki vasario- kovo). Žiemai vidutiniškai ištverminga, rauplėms ir vėžiui vidutiniškai atspari. Vaismedžiai vidutiniškai augūs ir augūs, vainikas plataus kūgio ar rutulio formos, vidutinio tankumo, su daug trumpųjų vaisinių šakučių.",
+    "description_short": "Lietuviška, rudeninė, vidutinio augumo veislė. Derėti pradeda rugsėjo viduryje, derlinga.",
+    "handle": "obelis-auksis",
+    "images": [
+      "/img/p/2/1/4/214-large_default.jpg"
+    ],
+    "image": "/img/p/2/1/4/214-large_default.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Obelis Avietinis",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai apvalūs, balsvi, saulėje pasipuošia raudonais dryželiais ar dėmėmis, labai sultingi ir aromatingi. Obuoliai skanūs, švelnaus saldžiarūgščio vyno skonio, aviečių aromato. Odelė plona. Vaismedžiai augūs arba vidutinio augumo, žiemai ištvermingi. Derėti pradeda ketvirtaisiais - septintaisiais augimo sode metais. Nelabai atsparūs rauplėms.",
+    "description_short": "Vasarinė veislė. Vaisiai skinami rugpjūčio viduryje. Išsilaiko iki lapkričio mėnesio ir ilgiau. Vidutiniškai tinkami gabenimui.",
+    "handle": "obelis-avietinis",
+    "images": [
+      "/img/p/2/3/9/239-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/9/239-large_default.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Obelis Balero (koloninė)",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai stambūs, geltoni su oranžišku raudoniu, minkštimas sultingas, saldžiarūgštis, skanus, laikosi apie 2 mėnesius. Vaismedžiai žiemą vidutiniškai ištvermingi, rauplėms vidutiniškai atsparūs.",
+    "description_short": "Rudeninė koloninių obelų veislė, sukurta Anglijoje. Prinoksta rugsėjo viduryje.",
+    "handle": "obelis-balero-koloninė",
+    "images": [
+      "/img/p/2/4/0/240-large_default.jpg"
+    ],
+    "image": "/img/p/2/4/0/240-large_default.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Obelis Elyza",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio stambumo, tamsiai raudoni, minkštimas baltai žalsvas, sultingas, saldžiarūgštis, obuoliai labai skanus, laikosi iki gegužės mėnesio. Vaismedžiai žiemą vidutiniškai ištvermingi, vidutiniškai atsparūs rauplėms, bet jautrūs žievės ligoms. Vertinga žieminių obelų veislė, kurios obuoliai vieni iš skaniausių.",
+    "description_short": "Žieminė, gausiai deranti veislė. Skinami rugsėjo pabaigoje – spalio pradžioje.",
+    "handle": "obelis-elyza",
+    "images": [
+      "/img/p/2/3/8/238-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/8/238-large_default.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Obelis Freedom",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vidutinio stambumo ir stambūs, atsparūs rauplėms, skanūs, saldžiarūgščiai, apvaliai kūgiški, kartais nesimetriški. Minkštimas sultingas, gelsvas. Vaismedžiai vidutiniškai augūs. Vainikas kūgiškas, su svyrančiomis šakomis. Itin atspari ligoms.",
+    "description_short": "Derlinga veislė. Viena tinkamiausių veislių ekologiniams sodams. Vaisiai skinami rugsėjo antroje pusėje.",
+    "handle": "obelis-freedom",
+    "images": [
+      "/img/p/5/0/50-large_default.jpg",
+      "/img/p/5/1/51-large_default.jpg"
+    ],
+    "image": "/img/p/5/0/50-large_default.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Obelis Geneva early",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai gražios išvaizdos, stambūs arba stambesni už vidutinius, plokščiai apvalūs, odelė žalsvai geltona, didžioji vaisiaus dalis padengta skaisčiu raudoniu. Minkštimas kreminio atspalvio, sultingas, aromatingas, desertinio skonio.",
+    "description_short": "Ankstyva vasarinė obelų veislė. Vaisiai sunoksta liepos pabaigoje- rugpjūčio pradžioje.",
+    "handle": "obelis-geneva-early",
+    "images": [
+      "/img/p/5/6/56-large_default.jpg",
+      "/img/p/5/7/57-large_default.jpg"
+    ],
+    "image": "/img/p/5/6/56-large_default.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Obelis Gloster",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Odelė žalsvai gelsva, beveik visa su tamsiu raudoniu. Minkštimas baltai žalias, sultingas. Lietuvos agroklimato sąlygomis tik atviroje ir saulėtoje vainiko vietoje užaugę vaisiai būna dideli, gražūs ir skanūs. Tankiuose vainikuose, po lapais vaisiai būna mažesni, nespalvoti, prasto skonio. Vaismedžiai vidutiniškai atsparūs rauplėms, žiemą gana ištvermingi, žydi vėlai. pramečiuoja. Vaisių kokybei pagerinti ir pramečiavimui sumažinti lankstomos šakos, vasarą genima, retinamos užuomazgos.",
+    "description_short": "Labai derlinga veislė. Vaisiai skinami spalio pirmosios pusės pabaigoje arba antroje pusėje.",
+    "handle": "obelis-gloster",
+    "images": [
+      "/img/p/5/8/58-large_default.jpg",
+      "/img/p/5/9/59-large_default.jpg"
+    ],
+    "image": "/img/p/5/8/58-large_default.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Obelis Jonagold jonika",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Apvaliai kūgiški, vidutinio stambumo ar stambesni už vidutinius su pastebimomis briaunelėmis. Odelė vidutinio storio, lygi, žalia, vaisiams nokstant gelsva ir tik gerai saulės apšviestoje vietoje – išsiliejęs raudonis su rausvai oranžiniu atspalviu. Minkštimas kreminio atspalvio, saldžiarūgštis, sultingas. Vaismedžiai labai augūs, vainikas vidutinio tankumo, plačiai išsikerojęs. Saugykloje (+1 – +2 oC) išsilaiko iki gegužės vidurio.",
+    "description_short": "Vėlyva žieminė obelų veislė. Derėti pradeda spalio pradžioje.",
+    "handle": "obelis-jonagold-jonika",
+    "images": [
+      "/img/p/7/2/72-large_default.jpg",
+      "/img/p/7/3/73-large_default.jpg"
+    ],
+    "image": "/img/p/7/2/72-large_default.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Obelis Konfetnaja",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio didumo, raudonais dryželiais, prinoksta rugpjūčio viduryje, minkštimas švelnus, sultingas, saldaus skonio. Vaismedžiai ištvermingi rauplėms, žiemai.",
+    "description_short": "Vidutinio ankstyvumo vasarinė derlinga veislė.",
+    "handle": "obelis-konfetnaja",
+    "images": [
+      "/img/p/9/4/94-large_default.jpg",
+      "/img/p/9/5/95-large_default.jpg"
+    ],
+    "image": "/img/p/9/4/94-large_default.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Obelis Kortland",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai stambesni už vidutinius, plačiai arba apvaliai kūgiški, kartais cilindriškai apvalūs, saldžiarūgščio skonio, aromatingi, labai skanūs, bet labai jautrūs rauplėms. Vaismedžiai vidutiniškai augūs, vainikai plačiai rutuliški, tankūs su nusvirusiais šakų galais, vyrauja vytelinės vaisinės šakutės.",
+    "description_short": "Vidutinio derlingumo veislė. Vaisiai skinami rugsėjo pabaigoje.",
+    "handle": "obelis-kortland",
+    "images": [
+      "/img/p/9/6/96-large_default.jpg",
+      "/img/p/9/7/97-large_default.jpg"
+    ],
+    "image": "/img/p/9/6/96-large_default.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Obelis Koštelė",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Labai augli. Vaisiai geltoni su smulkiais taškeliais, saldūs, sultingi. Nuskintus galima išlaikyti iki sausio. Atspari šalčiui ir ligoms.",
+    "description_short": "Vėlyva rudeninė, prinoksta rugsėjo pabaigoje.",
+    "handle": "obelis-koštelė",
+    "images": [
+      "/img/p/1/0/0/100-large_default.jpg",
+      "/img/p/1/0/1/101-large_default.jpg"
+    ],
+    "image": "/img/p/1/0/0/100-large_default.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Obelis Ligol",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio stambumo ir stambūs, apvaliai kūgiški, saldžiarūgščiai, skanūs. Odelė žalsva, tvirta, su raudonais dryželiais, vietomis susiliejančiais į vientisą raudonį. Minkštimas žalsvai baltas, tvirtas. Vaisiai kieti, tinkami transportuoti. Vaismedžiai vidutiniškai augūs, vainikai kūgio formos.",
+    "description_short": "Labai derlinga veislė. Vaisiai skinami spalio pabaigoje.",
+    "handle": "obelis-ligol",
+    "images": [
+      "/img/p/1/0/4/104-large_default.jpg",
+      "/img/p/1/0/5/105-large_default.jpg"
+    ],
+    "image": "/img/p/1/0/4/104-large_default.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Obelis Novamac",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio stambumo, tamsiai raudoni, prinoksta rugsėjo antroje pusėje, minkštimas kreminio baltumo, sultingas, švelnus, gero rūgščiasaldžio skonio, laikosi iki sausio - vasario mėnesio. Vaismedžiai žiemą ištvermingi, rauplėms atsparūs. Verta auginti kaip ištvermingą ir atsparią rudeninę veislę su gaivaus skonio obuoliais.",
+    "description_short": "Rudeninė derlinga obelų veislė. Obuoliai skinami rugsėjo pradžioje.",
+    "handle": "obelis-novamac",
+    "images": [
+      "/img/p/2/4/4/244-large_default.jpg"
+    ],
+    "image": "/img/p/2/4/4/244-large_default.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Obelis Piros",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio didumo, rausvi. Prinoksta rugpjūčio viduryje. Minkštimas sultingas, saldžiarūgštis, gelsvos spalvos. Vaismedžiai atsparūs šalčiui ir ligoms.",
+    "description_short": "Vaisiai vidutinio didumo, rausi. Prinoksta rugpjūčio viduryje.",
+    "handle": "obelis-piros",
+    "images": [
+      "/img/p/2/6/2/262-large_default.jpg"
+    ],
+    "image": "/img/p/2/6/2/262-large_default.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Obelis Rajka",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Obuoliai yra vidutinio dydžio ir dideli, apvaliai kūgiški. Odelė geltona, beveik visa padengta išsiliejusiu raudoniu. Minkštimas gelsvas, sultingas, aromatingas ir skanus. Vaismedžiai vidutiniškai augūs, jų vainikai tankūs, augina daug trumpųjų vaisinių šakučių. Atsparūs rauplėms, žydi anksti, dera gausiai, bet linkę pramečiuoti. Vaisių kokybei pagerinti retinamos užuomazgos. Saugykloje plius 1-2 laipsnių temperatūroje išsilaiko iki vasario vidurio.",
+    "description_short": "Labai derlinga obelų veislė. Vaisiai skinami rugsėjo pabaigoje.",
+    "handle": "obelis-rajka",
+    "images": [
+      "/img/p/1/2/3/123-large_default.jpg",
+      "/img/p/1/2/4/124-large_default.jpg"
+    ],
+    "image": "/img/p/1/2/3/123-large_default.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Obelis Rubinola",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio dydžio, kūgiškai apvalūs. Odelė gelsva, dryželiais pereinanti į raudonį. Minkštimas gelsvas, sultingas, švelniai saldžiarūgščio skonio. Laikosi iki balandžio - gegužės. Obuoliai desertiniai. Veislė genetiškai atspari rauplėms. Tinka ekologiniam sodui.",
+    "description_short": "Vaisiai skinami rugsėjo antroje pusėje.",
+    "handle": "obelis-rubinola",
+    "images": [
+      "/img/p/1/3/1/131-large_default.jpg",
+      "/img/p/1/3/2/132-large_default.jpg"
+    ],
+    "image": "/img/p/1/3/1/131-large_default.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Obelis Sawa",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Vaisiai vidutinio stambumo ir stambūs, tamsiai raudoni, minkštimas kreminio baltumo, tvirtas, vidutiniškai sultingas, aromatingas, saldžiarūgščio skonio, išsilaiko iki gruodžio mėnesio. Vaismedžiai žiemą ištvermingi, rauplėms atsparūs.Tinka auginti kaip ištvermingą ir atsparią rudeninę veislę su gražiais ir gero skonio obuoliais.",
+    "description_short": "Rudeninė, derlinga obelų veislė. Prinoksta rugsėjo viduryje.",
+    "handle": "obelis-sawa",
+    "images": [
+      "/img/p/1/3/5/135-large_default.jpg",
+      "/img/p/1/3/6/136-large_default.jpg"
+    ],
+    "image": "/img/p/1/3/5/135-large_default.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Obelis Starkrimson",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "False",
+    "description_short": "False",
+    "handle": "obelis-starkrimson",
+    "images": [
+      "/img/p/1/4/8/148-large_default.jpg",
+      "/img/p/1/4/9/149-large_default.jpg"
+    ],
+    "image": "/img/p/1/4/8/148-large_default.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Obelis Šampion",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Žieminė veislė, vaisiai skinami rugsėjo pabaigoje, saugykloje laikosi iki kovo mėn. Vaisių odelė žalsvai geltona, su išsiliejusiais raudonais dryželiais, vaisiai vidutinio dydžio, labai skanūs, saldūs. Vaismedžiai neaugūs, derėti pradeda labai anksti ir dera gausiai, todėl reiktų retinti užuomazgas. Šalčiui ir ligoms vidutiniškai atspari, reikia sodinti šiltesnėse sodo vietose.",
+    "description_short": "Vaisiai vidutinio dydžio, labai skanūs, saldūs.",
+    "handle": "obelis-šampion",
+    "images": [
+      "/img/p/1/3/3/133-large_default.jpg",
+      "/img/p/1/3/4/134-large_default.jpg"
+    ],
+    "image": "/img/p/1/3/3/133-large_default.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Rojaus obelis Kelsey",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Medis vidutinio augumo, žydi prieš skleidžiantis lapams. Vaisiai raudoni. Prinokę nenukrenta ir laikosi ant medžio per žiemą, juos lesa paukščiai. Tinka kompotams, džemams, stalo papuošimui. Atsparus šalčiui ir ligoms.",
+    "description_short": "Pavasarį labai gausiai žydinti rožiniais žiedais.",
+    "handle": "rojaus-obelis-kelsey",
+    "images": [
+      "/img/p/2/4/5/245-large_default.jpg",
+      "/img/p/8/4/84-large_default.jpg"
+    ],
+    "image": "/img/p/2/4/5/245-large_default.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Rojaus obelis Professor springer",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Balti žiedai pavasarį, dailūs, geltoni vaisiai rudenį. Vyšnios dydžio. Tinka džemams, kompotams, stalo papuošimams. Nereikli, atspari šalčiams.",
+    "description_short": "Nepaprasto grožio dekoratyvios svyrančios šakos su mažais vyšnios dydžio obuoliukais.",
+    "handle": "rojaus-obelis-professor-springer",
+    "images": [
+      "/img/p/2/4/2/242-large_default.jpg",
+      "/img/p/2/4/3/243-large_default.jpg"
+    ],
+    "image": "/img/p/2/4/2/242-large_default.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Rojaus obelis Royalty",
+    "category": "Obelis",
+    "categoryGroup": "vaismedziai",
+    "categorySub": "obelys",
+    "description": "Pavasarį labai gausiai žydinti raudonais žiedais. Medis vidutinio augumo, žydi prieš skleidžiantis lapams. Vaisiai tamsiai raudoni. Prinokę nenukrenta ir laikosi ant medžio per žiemą, juos lesa paukščiai. Atsparus šalčiui ir ligoms.",
+    "description_short": "Nuostabaus grožio rojaus obelis.",
+    "handle": "rojaus-obelis-royalty",
+    "images": [
+      "/img/p/2/3/5/235-large_default.jpg",
+      "/img/p/2/3/7/237-large_default.jpg",
+      "/img/p/1/2/9/129-large_default.jpg"
+    ],
+    "image": "/img/p/2/3/5/235-large_default.jpg"
+  }
+]

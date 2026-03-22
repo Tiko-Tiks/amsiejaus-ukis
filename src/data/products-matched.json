@@ -1,0 +1,826 @@
+[
+  {
+    "id": 8,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Abrikosas Zabu",
+    "description": "Aprikosų vaisiai panašūs į persiką: apvalūs ar pailgi, beveik lygia odele, geltonai oranžiniai. Minkštimas geltonas, o viduje - stambus kauliukas.",
+    "description_short": "Geltonai oranžiniai, persiką primenantys kaulavaisiai.",
+    "link_rewrite": "abrikosas-zabu",
+    "images": [
+      {
+        "id": 10008,
+        "path": "1/0/0/0/8",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Agrastas Hinnonmaki raudonas",
+    "description": "Raudonų agrastų veislė, tinkama desertui ar kulinarijai. Krūmas augus ir stačias; uogos apvalios, sultingos, sunoksta vasaros viduryje.",
+    "description_short": "Raudoni, apvalūs, sultingi agrastai; sunoksta vasaros viduryje.",
+    "link_rewrite": "agrastas-hinnonmaki-raudona",
+    "images": [
+      {
+        "id": 10009,
+        "path": "1/0/0/0/9",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Agrastas Invicta",
+    "description": "Žaliavaisis agrastas, dažniau kulinarinis, bet gero skonio. Dera gausiai; krūmas labai augus, plačiai augantis ir dyglėtas. Sezono vidurio veislė.",
+    "description_short": "Žalsvi vaisiai, gausus derlius, vidutinio sezono.",
+    "link_rewrite": "agrastas-invicta",
+    "images": [
+      {
+        "id": 10010,
+        "path": "1/0/0/1/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Rojaus obelis Kelsey",
+    "description": "Dekoratyvinė rojaus obelis: pavasarį gausiai žydi, o rudenį subrandina smulkius vaisius, kurie dažnai išsilaiko iki žiemos ir vilioja paukščius.",
+    "description_short": "Smulkūs vaisiai laikosi iki žiemos ir vilioja paukščius.",
+    "link_rewrite": "rojaus-obelis-kelsey",
+    "images": [
+      {
+        "id": 10056,
+        "path": "1/0/0/5/6",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Kriaušė Kliapo mėgstamoji",
+    "description": "Stambūs, geltonai žalsvi vaisiai su raudonu skaistalu. Minkštimas baltas, smulkios tekstūros, labai sultingas ir saldus; skinama vasaros pabaigoje (dažniausiai rugpjūčio antroje pusėje).",
+    "description_short": "Vasarinė kriaušė: geltonai žalsva su raudonu skaistalu, labai sultinga.",
+    "link_rewrite": "kriaušė-kliapo-mėgstamoji",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/270e37e8-2428-49dc-a0f2-49c75194641b.jpg?v=1706635019",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/files/Kliapom.jpg?v=1706635118",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Kriaušė Kliapo mėgstamoji",
+    "shopify_handle": "kiause-kliapo-megstamoji"
+  },
+  {
+    "id": 58,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Slyva Kometa",
+    "description": "Vyšninių slyvų tipo veislė. Vaisiai nedideli (apie 2,5 cm), apvalūs, raudoni, oranžiniai arba geltoni; tinka šviežiam vartojimui.",
+    "description_short": "Nedideli, apvalūs vyšninės slyvos vaisiai, raudoni arba geltoni.",
+    "link_rewrite": "slyva-kometa",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/FB_IMG_1635348297921.jpg?v=1635403893",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_slyvos_7.jpg?v=1613747355",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Kometa5.jpg?v=1613748161",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Kometa_5.jpg?v=1613747690",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_slyvos_12.jpg?v=1613747354",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Kometa_4.jpg?v=1613747690",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Slyva Kometa",
+    "shopify_handle": "slyva-kometa"
+  },
+  {
+    "id": 59,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Kriaušė Komisinė",
+    "description": "Desertinė kriaušė, vertinama dėl labai sodraus skonio. Minkštimas labai sultingas, sviestinės tekstūros, aromatingas; vartojimo sezonas - lapkritis-gruodis.",
+    "description_short": "Labai sultinga, sviestinės tekstūros desertinė kriaušė.",
+    "link_rewrite": "kriaušė-komisinė",
+    "images": [
+      {
+        "id": 10059,
+        "path": "1/0/0/5/9",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Kriaušė Konferencinė",
+    "description": "Pailgos butelio formos kriaušė. Odelė žalsvai rusva (russet), prinokusi gelsvėja; minkštimas smulkus ir saldus. Vartojimo sezonas dažniausiai spalį-lapkritį.",
+    "description_short": "Pailga, žalsvai rusva rudeninė kriaušė.",
+    "link_rewrite": "kriaušė-konferencinė",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/pic.jpg?v=1614188436",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/pears-1229961_1920.jpg?v=1641913987",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Kriaušė Konferencinė",
+    "shopify_handle": "kriause-konferencine"
+  },
+  {
+    "id": 61,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Konfetnaja",
+    "description": "Vasarinė obelų veislė. Vaisiai vidutinio dydžio (apie 80 g), apvalūs, šviesiai žali su raudonais dryželiais, odelė truputį rūdėta; skonis saldus. Skinama rugpjūčio viduryje, vartojama 5-20 dienų; veislė ištverminga ir beveik atspari rauplėms bei vėžiui.",
+    "description_short": "Vidutinio dydžio (apie 80 g), šviesiai žali su raudonais dryželiais; skinami rugpjūčio viduryje.",
+    "link_rewrite": "obelis-konfetnaja",
+    "images": [
+      {
+        "id": 10061,
+        "path": "1/0/0/6/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Kortland",
+    "description": "Vidutinio ar stambesnio dydžio, raudoni su geltonais dryželiais obuoliai. Minkštimas baltas, traškus ir sultingas; pjaunant neparuduoja, todėl tinka salotoms ir kepiniams.",
+    "description_short": "Baltas, neparuduojantis minkštimas; tinka salotoms.",
+    "link_rewrite": "obelis-kortland",
+    "images": [
+      {
+        "id": 10062,
+        "path": "1/0/0/6/2",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Lazdynas Cosford",
+    "description": "Derlinga lazdyno veislė, duodanti pailgus, aromatingus riešutus. Derlius paprastai renkamas rugsėjį-spalį; krūmas ištvermingas.",
+    "description_short": "Pailgi, aromatingi riešutai; derlius rugsėjį-spalį.",
+    "link_rewrite": "lazdynas-cosford",
+    "images": [
+      {
+        "id": 10063,
+        "path": "1/0/0/6/3",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Slyva Viktorija",
+    "description": "Vaisiai ovalūs, geltono minkštimo, odele raudona ar marga. Sunoksta rugsėjo viduryje-pabaigoje.",
+    "description_short": "Ovalios slyvos su geltonu minkštimu ir raudonu/margu skaistalu.",
+    "link_rewrite": "slyva-viktorija",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/victoria-2-800x800.jpg?v=1642191582",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/vikrorija.jpg?v=1642191570",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Viktorija1.jpg?v=1642192629",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Slyva Viktorija",
+    "shopify_handle": "slyva-viktorija"
+  },
+  {
+    "id": 100,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Kriaušė Xena",
+    "description": "Stambiavaisė kriaušė (apie 250-300 g). Vaisiai žali, apvalesnės kriaušės formos, su tvirta odele; sultingi ir gerai laikosi.",
+    "description_short": "Stambi (apie 250-300 g), gerai laikoma kriaušė.",
+    "link_rewrite": "kriaušė-xena",
+    "images": [
+      {
+        "id": 10100,
+        "path": "1/0/1/0/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "id_category_default": 0,
+    "price": 0,
+    "active": true,
+    "name": "Juodasis serbentas Zagadka",
+    "description": "Veislė bandyta Estijoje mechaniniam derliaus nuėmimui; bandymuose 'Zagadka' davė didesnį derlių ir stambesnes uogas nei kontrolinė 'Öjebyn'. Uogos tamsiai violetinės, noksta vasaros viduryje, skonis rūgštokas - tinka perdirbimui.",
+    "description_short": "Tamsios uogos, noksta vasaros viduryje; tinka perdirbimui.",
+    "link_rewrite": "juodasis-serbentas-zagadka",
+    "images": [
+      {
+        "id": 10101,
+        "path": "1/0/1/0/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "id_category_default": 39,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Auksis",
+    "description": "Lietuviška rudeninė obelų veislė, išvesta Lietuvos sodininkystės ir daržininkystės institute. Vaisiai vidutinio dydžio (130-180 g), plokščiai apvalūs, geltonai žali su ryškiu raudonu skaistalu. Minkštimas gelsvai baltas, vidutinio tankumo, sultingas, malonaus rūgščiai saldaus skonio su stipriu aromatu. Noksta rugsėjo pabaigoje, laikosi iki gruodžio. Medis vidutinio augimo, atsparus šalčiui ir rauplėms.",
+    "description_short": "Lietuviška rudeninė veislė, geltonai žali vaisiai su raudonu skaistalu, aromatingi.",
+    "link_rewrite": "obelis-auksis",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/20210819_122321.jpg?v=1674579124",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/124116959_3681038911940515_8369241926290579019_n_32cdd9a0-e103-4ff5-a7de-80faad18fae7.jpg?v=1674579107",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/auksis_38bbcc70-c581-47bb-aaeb-df21aec99368.jpg?v=1674579107",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Rudeninė obelis Auksis (vazone)",
+    "shopify_handle": "obelis-auksis-vazone"
+  },
+  {
+    "id": 201,
+    "id_category_default": 39,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Aldas",
+    "description": "Lietuviška žieminė obelų veislė. Vaisiai stambūs (180-250 g), apvalūs, tamsiai raudoni su mėlynu vaško apnašu. Minkštimas baltas, tankus, traškus, sultingas, saldaus skonio su vynuogių aromatu. Noksta spalio pradžioje, laikosi iki kovo mėnesio. Medis vidutinio augimo, derlingas, gerai žiemoja Lietuvos klimate.",
+    "description_short": "Lietuviška žieminė veislė, stambūs tamsiai raudoni vaisiai, ilgai laikosi.",
+    "link_rewrite": "obelis-aldas",
+    "images": [
+      {
+        "id": 10201,
+        "path": "1/0/2/0/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "id_category_default": 39,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Ligol",
+    "description": "Lenkiška žieminė obelų veislė, labai populiari Lietuvoje. Vaisiai labai stambūs (200-350 g), apvaliai kūgiški, žalsvai geltoni su intensyviu raudonu skaistalu. Minkštimas kreminės spalvos, tankus, traškus, labai sultingas, saldžiai rūgštaus skonio. Noksta spalio viduryje, laikosi iki balandžio. Medis vidutinio augimo, anksti pradeda derėti.",
+    "description_short": "Labai stambūs, traškūs, saldžiai rūgštūs obuoliai, ilgai laikosi.",
+    "link_rewrite": "obelis-ligol",
+    "images": [
+      {
+        "id": 10202,
+        "path": "1/0/2/0/2",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "id_category_default": 39,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Rubin",
+    "description": "Čekiška žieminė obelų veislė. Vaisiai stambūs (150-200 g), plokščiai apvalūs, tamsiai raudoni, beveik visiškai padengti skaistalu. Minkštimas balkšvas su žalsvomis gyslomis, vidutinio tankumo, sultingas, saldžiai rūgštaus skonio. Noksta spalio pradžioje, laikosi iki vasario. Atsparus rauplėms ir miltligei.",
+    "description_short": "Tamsiai raudoni, efektingos išvaizdos žieminiai obuoliai.",
+    "link_rewrite": "obelis-rubin",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Rubinola11_63320807-c7ef-4995-b39f-dae1ab158749.jpg?v=1662219106",
+        "cover": true
+      }
+    ],
+    "shopify_name": "Žieminė obelis Rubinola (vazone)",
+    "shopify_handle": "obelis-rubinola-vazone"
+  },
+  {
+    "id": 204,
+    "id_category_default": 39,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Spartan",
+    "description": "Kanadietiška žieminė obelų veislė. Vaisiai vidutinio dydžio (120-180 g), apvalūs, tamsiai raudoni su mėlynu vaško apnašu. Minkštimas baltas, tankus, traškus, sultingas, saldaus skonio su vynuogių aromatu. Noksta spalio pradžioje, laikosi iki vasario. Medis kompaktiškas, tinkamas mažiems sodams.",
+    "description_short": "Tamsiai raudoni obuoliai su vynuogių aromatu, kompaktiškas medis.",
+    "link_rewrite": "obelis-spartan",
+    "images": [
+      {
+        "id": 10204,
+        "path": "1/0/2/0/4",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "id_category_default": 39,
+    "price": 0,
+    "active": true,
+    "name": "Obelis Connell Red",
+    "description": "Amerikietiška žieminė obelų veislė, Fireside mutantas. Vaisiai labai stambūs (200-300 g), pailgai kūgiški, ryškiai raudoni. Minkštimas gelsvai baltas, vidutinio tankumo, sultingas, saldaus skonio su silpnu aromatu. Noksta spalio viduryje, laikosi iki kovo. Medis vidutinio augimo, derlingas.",
+    "description_short": "Labai stambūs, ryškiai raudoni, saldūs žieminiai obuoliai.",
+    "link_rewrite": "obelis-connell-red",
+    "images": [
+      {
+        "id": 10205,
+        "path": "1/0/2/0/5",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "id_category_default": 40,
+    "price": 0,
+    "active": true,
+    "name": "Kriaušė Lukšiai",
+    "description": "Sena lietuviška kriaušių veislė iš Šakių rajono. Vaisiai vidutinio dydžio (100-150 g), kriaušiški, žalsvai geltoni su rausvu skaistalu. Minkštimas balkšvas, vidutinio tankumo, sultingas, saldžiai rūgštaus skonio. Noksta rugpjūčio pabaigoje - rugsėjo pradžioje. Medis stipraus augimo, atsparus šalčiui, ilgaamžis.",
+    "description_short": "Sena lietuviška veislė, sultingos vasarinės kriaušės.",
+    "link_rewrite": "kriause-luksiai",
+    "images": [
+      {
+        "id": 10210,
+        "path": "1/0/2/1/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "id_category_default": 40,
+    "price": 0,
+    "active": true,
+    "name": "Kriaušė Talgarų gražuolė",
+    "description": "Kazachiška rudeninė kriaušių veislė. Vaisiai stambūs (150-250 g), ištęstai kriaušiški, šviesiai žali su rudu skaistalu. Minkštimas kreminės spalvos, smulkiagrūdis, sultingas, saldaus skonio. Noksta rugsėjo pabaigoje, laikosi iki lapkričio. Medis vidutinio augimo, anksti pradeda derėti.",
+    "description_short": "Stambios, saldžios rudeninės kriaušės su rudu skaistalu.",
+    "link_rewrite": "kriause-talgaru-grazuole",
+    "images": [
+      {
+        "id": 10211,
+        "path": "1/0/2/1/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "id_category_default": 45,
+    "price": 0,
+    "active": true,
+    "name": "Slyva Stanley",
+    "description": "Amerikietiška vėlyva slyvų veislė, viena populiariausių pasaulyje. Vaisiai stambūs (35-50 g), ovalūs, tamsiai mėlyni su storu vaško apnašu. Minkštimas geltonai žalias, tankus, sultingas, saldžiai rūgštaus skonio. Kauliukas lengvai atsiskiria. Noksta rugsėjo viduryje. Tinka valgyti šviežius ir džiovinti (slyvaičiai).",
+    "description_short": "Populiariausia slyva pasaulyje, tinka džiovinti, kauliukas atsiskiria.",
+    "link_rewrite": "slyva-stanley",
+    "images": [
+      {
+        "id": 10220,
+        "path": "1/0/2/2/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "id_category_default": 45,
+    "price": 0,
+    "active": true,
+    "name": "Slyva Renklod žalia",
+    "description": "Sena prancūziška slyvų veislė, vertinama dėl puikaus skonio. Vaisiai vidutinio dydžio (25-35 g), apvalūs, žalsvai geltoni. Minkštimas geltonai žalias, tirpstantis, labai sultingas, saldus su medaus aromatu. Kauliukas atsiskiria. Noksta rugpjūčio pabaigoje. Desertinė veislė.",
+    "description_short": "Prancūziška desertinė veislė, saldžios su medaus aromatu.",
+    "link_rewrite": "slyva-renklod-zalia",
+    "images": [
+      {
+        "id": 10221,
+        "path": "1/0/2/2/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "id_category_default": 44,
+    "price": 0,
+    "active": true,
+    "name": "Vyšnia Vytėnų žvaigždė",
+    "description": "Lietuviška vyšnių veislė, išvesta Vytėnuose. Vaisiai stambūs (5-7 g), apvalūs, tamsiai raudoni, blizgūs. Minkštimas tamsiai raudonas, sultingas, saldžiai rūgštaus skonio. Sultys tamsios spalvos. Noksta liepos viduryje. Medis vidutinio augimo, gerai žiemoja, atsparus kokomikoze.",
+    "description_short": "Lietuviška veislė, stambios tamsiai raudonos uogos, atspari ligoms.",
+    "link_rewrite": "vysnia-vytenu-zvaigzde",
+    "images": [
+      {
+        "id": 10230,
+        "path": "1/0/2/3/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "id_category_default": 44,
+    "price": 0,
+    "active": true,
+    "name": "Vyšnia Latvijos žema",
+    "description": "Latviška vyšnių veislė, tinkama auginti kaip žemakrūmę. Vaisiai vidutinio dydžio (3,5-4,5 g), apvalūs, tamsiai raudoni. Minkštimas raudonas, sultingas, rūgštokas. Noksta liepos viduryje - pabaigoje. Krūmas žemas (iki 2 m), savaiminių šaknų, labai atsparus šalčiui.",
+    "description_short": "Žemakrūmė vyšnia, labai atspari šalčiui, tinka mažiems sodams.",
+    "link_rewrite": "vysnia-latvijos-zema",
+    "images": [
+      {
+        "id": 10231,
+        "path": "1/0/2/3/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "id_category_default": 49,
+    "price": 0,
+    "active": true,
+    "name": "Avietė Polana",
+    "description": "Lenkiška remontantinė aviečių veislė, viena populiariausių Lietuvoje. Uogos vidutinio dydžio (3-5 g), kūgiškos, raudonos, blizgios. Skonis saldžiai rūgštus, aromatingas. Derlius ant vienmečių ūglių nuo rugpjūčio vidurio iki šalnų. Krūmas vidutinio augimo, be atramų auga gerai.",
+    "description_short": "Populiariausia remontantinė veislė, dera nuo rugpjūčio iki šalnų.",
+    "link_rewrite": "aviete-polana",
+    "images": [
+      {
+        "id": 10240,
+        "path": "1/0/2/4/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "id_category_default": 49,
+    "price": 0,
+    "active": true,
+    "name": "Avietė Heritage",
+    "description": "Amerikietiška remontantinė aviečių veislė. Uogos vidutinio dydžio (3-4 g), apvaliai kūgiškos, tamsiai raudonos. Skonis saldžiai rūgštus su stipriu aromatu. Derlius ant vienmečių ūglių nuo rugpjūčio pabaigos. Krūmas stipraus augimo, atsparių ligoms.",
+    "description_short": "Amerikietiška remontantinė veislė, aromatingos tamsiai raudonos uogos.",
+    "link_rewrite": "aviete-heritage",
+    "images": [
+      {
+        "id": 10241,
+        "path": "1/0/2/4/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "id_category_default": 49,
+    "price": 0,
+    "active": true,
+    "name": "Avietė Glen Ample",
+    "description": "Škotiška vasarinė aviečių veislė. Uogos labai stambios (5-8 g), kūgiškos, raudonos. Skonis saldus su silpnu rūgštumu, aromatingas. Derlius liepos viduryje - rugpjūčio pradžioje. Krūmas stipraus augimo, be spyglių, reikia atramos. Labai derlinga veislė.",
+    "description_short": "Labai stambios uogos, be spyglių, vasarinė derlinga veislė.",
+    "link_rewrite": "aviete-glen-ample",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/9768c7bf-b073-4e70-a5ef-48a828719db4.jpg?v=1615463522",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/637f9724-88e2-4aa4-b5e2-1062ce140847.jpg?v=1614203463",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/GlenAmple_1.jpg?v=1612687879",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Glena-Ample_7.jpg?v=1612687868",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/GlenAmple_3.jpg?v=1612687899",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/GlenAmple_2.jpg?v=1612687871",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Vasarinė avietė Glen Ample (5 vnt. +1 dovanų)",
+    "shopify_handle": "vasarine-aviete-glen-ample"
+  },
+  {
+    "id": 250,
+    "id_category_default": 50,
+    "price": 0,
+    "active": true,
+    "name": "Šilauogė Bluecrop",
+    "description": "Amerikietiška vidutinio ankstyvumo šilauogių veislė, viena populiariausių pasaulyje. Uogos stambios (15-20 mm), šviesiai mėlynos su storu vaško apnašu. Skonis saldžiai rūgštus, aromatingas. Derlius liepos viduryje - rugpjūčio pradžioje. Krūmas stipraus augimo (1,5-2 m), derlingas, atsparus šalčiui.",
+    "description_short": "Populiariausia šilauogių veislė pasaulyje, stambios aromatingos uogos.",
+    "link_rewrite": "silauge-bluecrop",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/6100138a42a00.image.jpg?v=1674811784",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_11_4241b99e-05a5-4ae3-9b4b-4295e59b78e0.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_10.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejuas_medelyno_silauoges_4_700x_c9b22755-e82d-4b9c-8fe1-bdcb0baa2f6b.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_4_700x_c45eb819-b7b2-49ae-8773-19762ab14bc8.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_5.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_10.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_9.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_7.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_silauoges_1.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_1.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_8.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/20200721_105930.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_6.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejuas_medelyno_silauoges_5.jpg?v=1674811744",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bluecrop_2.jpg?v=1674811744",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Šilauogė Bluecrop (trimetė)",
+    "shopify_handle": "silauoge-bluecrop"
+  },
+  {
+    "id": 251,
+    "id_category_default": 50,
+    "price": 0,
+    "active": true,
+    "name": "Šilauogė Duke",
+    "description": "Amerikietiška ankstyva šilauogių veislė. Uogos stambios (17-20 mm), šviesiai mėlynos. Skonis saldus su silpnu rūgštumu. Derlius liepos pradžioje - viduryje. Krūmas vidutinio augimo (1,2-1,8 m), kompaktiškas, labai derlingas. Viena ankstyviausių veislių.",
+    "description_short": "Ankstyva veislė, stambios saldžios uogos, kompaktiškas krūmas.",
+    "link_rewrite": "silauge-duke",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bonus_3.jpg?v=1614431189",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelyno_silauoges_2.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_silauoges_2.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Duke_2.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Duke_5.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Duke_7.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejuas_medelynas.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_silauoges_1_258228aa-240e-48fd-be0b-2edec57883ac.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Duke_3.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_Bonus_1_c06e95e5-0143-42d4-a5b2-2ccdc1983818.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/20170817_161137_1900x_cc4591ab-485a-44fe-9ccb-267873e462d1.jpg?v=1614431189",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/20190802_175002.jpg?v=1614431189",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Šilauogė Duke",
+    "shopify_handle": "silauoge-duke-2"
+  },
+  {
+    "id": 252,
+    "id_category_default": 50,
+    "price": 0,
+    "active": true,
+    "name": "Šilauogė Patriot",
+    "description": "Amerikietiška ankstyva šilauogių veislė. Uogos labai stambios (18-22 mm), šviesiai mėlynos, plokščios. Skonis saldžiai rūgštus, aromatingas. Derlius liepos pradžioje - viduryje. Krūmas vidutinio augimo (1,2-1,6 m), atsparus šaknų puviniui, tinka drėgnesnėms vietoms.",
+    "description_short": "Labai stambios uogos, atspari šaknų puviniui, tinka drėgnesnėms vietoms.",
+    "link_rewrite": "silauge-patriot",
+    "images": [
+      {
+        "id": 10252,
+        "path": "1/0/2/5/2",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "id_category_default": 48,
+    "price": 0,
+    "active": true,
+    "name": "Raudonasis serbentas Jonkheer van Tets",
+    "description": "Olandiška ankstyva raudonųjų serbentų veislė. Uogos stambios (0,7-1 g), ryškiai raudonos, blizgios, ilgose kekėse. Skonis saldžiai rūgštus. Derlius birželio pabaigoje - liepos pradžioje. Krūmas stipraus augimo, derlingas, atsparus miltligei.",
+    "description_short": "Ankstyva veislė, stambios ryškiai raudonos uogos ilgose kekėse.",
+    "link_rewrite": "raudonasis-serbentas-jonkheer-van-tets",
+    "images": [
+      {
+        "id": 10260,
+        "path": "1/0/2/6/0",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "id_category_default": 47,
+    "price": 0,
+    "active": true,
+    "name": "Juodasis serbentas Titania",
+    "description": "Švediška juodųjų serbentų veislė. Uogos stambios (1-2,5 g), juodos, blizgios, ilgose kekėse. Skonis saldžiai rūgštus, aromatingas, tinka valgyti šviežias. Derlius liepos viduryje. Krūmas stipraus augimo, atsparus miltligei ir erkutėms.",
+    "description_short": "Stambios saldžios uogos, atspari ligoms, tinka valgyti šviežias.",
+    "link_rewrite": "juodasis-serbentas-titania",
+    "images": [
+      {
+        "id": 10261,
+        "path": "1/0/2/6/1",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "id_category_default": 46,
+    "price": 0,
+    "active": true,
+    "name": "Agrastas Hinnonmaki geltona",
+    "description": "Suomiška agrastų veislė. Uogos stambios (4-6 g), ovalios, geltonos, plonos odelės. Skonis labai saldus, desertinis. Derlius liepos viduryje. Krūmas vidutinio augimo, silpnai dyglėtas, atsparus amerikinei miltligei.",
+    "description_short": "Saldžiausia agrastų veislė, geltonos desertinės uogos.",
+    "link_rewrite": "agrastas-hinnonmaki-geltona",
+    "images": [
+      {
+        "id": 10262,
+        "path": "1/0/2/6/2",
+        "cover": true
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "id_category_default": 43,
+    "price": 0,
+    "active": true,
+    "name": "Trešnė Lapins",
+    "description": "Kanadietiška vėlyva trešnių veislė. Vaisiai labai stambūs (8-12 g), širdies formos, tamsiai raudoni iki juodai raudoni. Minkštimas tamsiai raudonas, tankus, traškus, saldaus skonio. Noksta liepos pabaigoje. Medis vidutinio augimo, savivaislis.",
+    "description_short": "Labai stambios, tamsiai raudonos, saldžios trešnės, savivaislis medis.",
+    "link_rewrite": "tresne-lapins",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/320dcc98-98ce-4c9f-96be-b5829e3cd0cc_dc959aa2-fe1e-4534-b482-f55a79bc288d.jpg?v=1646031123",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/DSC_2788_05ad908e-09f8-4c91-af2b-94dcccaff5c2.jpg?v=1646031123",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_tresnes_4_1_9e03636e-0a15-4b1f-ba85-7d2c81cfe72e.jpg?v=1646031124",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Trešnė Lapins (vazone)",
+    "shopify_handle": "tresne-lapins-1"
+  },
+  {
+    "id": 271,
+    "id_category_default": 43,
+    "price": 0,
+    "active": true,
+    "name": "Trešnė Regina",
+    "description": "Vokiška vėlyva trešnių veislė. Vaisiai labai stambūs (9-14 g), širdies formos, tamsiai raudoni. Minkštimas raudonas, tankus, traškus, saldžiai rūgštaus skonio. Noksta liepos pabaigoje - rugpjūčio pradžioje. Medis vidutinio augimo, vėlyvai žydintis - išvengia pavasario šalnų.",
+    "description_short": "Viena stambiausių trešnių, vėlyvai žydi - išvengia šalnų.",
+    "link_rewrite": "tresne-regina",
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/18ecb606-b173-4b9e-8fb9-c7bf1bf6d0b3_6fac6e61-8f96-4328-a001-5fa22dfd20e8.jpg?v=1646038477",
+        "cover": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/20200701_195503_ecfbb977-7414-4fd8-8658-ec8bb955f959.jpg?v=1646038477",
+        "cover": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0519/4144/1702/products/Amsiejaus_medelynas_9_c49d83cc-6afe-4a0b-be71-d2aef552bcdb.jpg?v=1646038477",
+        "cover": false
+      }
+    ],
+    "shopify_name": "Trešnė Regina (vazone)",
+    "shopify_handle": "tresne-regina-1"
+  }
+]

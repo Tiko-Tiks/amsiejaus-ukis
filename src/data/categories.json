@@ -1,0 +1,788 @@
+[
+  {
+    "id": 1,
+    "parent_id": 0,
+    "active": true,
+    "name": "Root",
+    "description": "",
+    "link_rewrite": "root"
+  },
+  {
+    "id": 2,
+    "parent_id": 1,
+    "active": true,
+    "name": "Pagrindinis",
+    "description": "",
+    "link_rewrite": "pagrindinis",
+    "products": [
+      9,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      99,
+      100,
+      101,
+      102,
+      103,
+      105,
+      107,
+      108,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ]
+  },
+  {
+    "id": 38,
+    "parent_id": 2,
+    "active": true,
+    "name": "Vaismedžiai",
+    "description": "",
+    "link_rewrite": "vaismedziai",
+    "products": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      26,
+      27,
+      37,
+      38,
+      40,
+      41,
+      42,
+      50,
+      52,
+      53,
+      57,
+      60,
+      61,
+      62,
+      64,
+      66,
+      71,
+      73,
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      91,
+      94,
+      100,
+      59,
+      56,
+      114,
+      115
+    ],
+    "children": [
+      {
+        "id": 39,
+        "parent_id": 38,
+        "active": true,
+        "name": "Obelys",
+        "description": "",
+        "link_rewrite": "obelys",
+        "products": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          26,
+          27,
+          37,
+          38,
+          41,
+          42,
+          50,
+          61,
+          62,
+          64,
+          66,
+          71,
+          75,
+          76,
+          79,
+          80,
+          81,
+          82,
+          91,
+          56,
+          115
+        ]
+      },
+      {
+        "id": 40,
+        "parent_id": 38,
+        "active": true,
+        "name": "Kriaušės",
+        "description": "",
+        "link_rewrite": "kriauses",
+        "products": [
+          12,
+          40,
+          52,
+          53,
+          57,
+          60,
+          73,
+          94,
+          100,
+          59,
+          114
+        ]
+      },
+      {
+        "id": 64,
+        "parent_id": 38,
+        "active": true,
+        "name": "Koloninės obelys",
+        "description": "",
+        "link_rewrite": "koloninės-obelys",
+        "products": [
+          18,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "parent_id": 38,
+    "active": true,
+    "name": "Obelys",
+    "description": "",
+    "link_rewrite": "obelys",
+    "products": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      26,
+      27,
+      37,
+      38,
+      41,
+      42,
+      50,
+      61,
+      62,
+      64,
+      66,
+      71,
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      91,
+      56,
+      115
+    ]
+  },
+  {
+    "id": 40,
+    "parent_id": 38,
+    "active": true,
+    "name": "Kriaušės",
+    "description": "",
+    "link_rewrite": "kriauses",
+    "products": [
+      12,
+      40,
+      52,
+      53,
+      57,
+      60,
+      73,
+      94,
+      100,
+      59,
+      114
+    ]
+  },
+  {
+    "id": 41,
+    "parent_id": 2,
+    "active": true,
+    "name": "Vaiskrūmiai",
+    "description": "",
+    "link_rewrite": "vaiskrumiai",
+    "products": [
+      9,
+      10,
+      11,
+      23,
+      25,
+      30,
+      31,
+      34,
+      46,
+      51,
+      54,
+      83,
+      84,
+      85,
+      86,
+      89,
+      90,
+      101,
+      95,
+      113
+    ],
+    "children": [
+      {
+        "id": 52,
+        "parent_id": 41,
+        "active": true,
+        "name": "Avietės",
+        "description": "",
+        "link_rewrite": "avietes",
+        "products": [
+          23,
+          25
+        ]
+      },
+      {
+        "id": 53,
+        "parent_id": 41,
+        "active": true,
+        "name": "Šilauogės",
+        "description": "",
+        "link_rewrite": "silauoges",
+        "products": [
+          84,
+          85,
+          86
+        ]
+      },
+      {
+        "id": 54,
+        "parent_id": 41,
+        "active": true,
+        "name": "Valgomieji sausmedžiai",
+        "description": "",
+        "link_rewrite": "valgomieji-sausmedziai",
+        "products": [
+          54
+        ]
+      },
+      {
+        "id": 55,
+        "parent_id": 41,
+        "active": true,
+        "name": "Agrastai",
+        "description": "",
+        "link_rewrite": "agrastai",
+        "products": [
+          9,
+          10,
+          11,
+          34,
+          46
+        ]
+      },
+      {
+        "id": 56,
+        "parent_id": 41,
+        "active": true,
+        "name": "Raudonieji serbentai",
+        "description": "",
+        "link_rewrite": "raudonieji-serbentai",
+        "products": [
+          51,
+          83
+        ]
+      },
+      {
+        "id": 57,
+        "parent_id": 41,
+        "active": true,
+        "name": "Juodieji serbentai",
+        "description": "",
+        "link_rewrite": "juodieji-serbentai",
+        "products": [
+          29,
+          30,
+          31,
+          101,
+          95
+        ]
+      },
+      {
+        "id": 58,
+        "parent_id": 41,
+        "active": true,
+        "name": "Spanguolės",
+        "description": "",
+        "link_rewrite": "spanguoles",
+        "products": [
+          89,
+          90
+        ]
+      },
+      {
+        "id": 66,
+        "parent_id": 41,
+        "active": true,
+        "name": "Šaltalankiai",
+        "description": "",
+        "link_rewrite": "šaltalankiai"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "parent_id": 2,
+    "active": true,
+    "name": "Kaulavaisiai",
+    "description": "",
+    "link_rewrite": "kaulavaisiai",
+    "products": [
+      65,
+      8,
+      35,
+      36,
+      43,
+      45,
+      48,
+      55,
+      58,
+      67,
+      69,
+      72,
+      74,
+      77,
+      88,
+      92,
+      93,
+      99,
+      97,
+      96,
+      78,
+      105,
+      116
+    ],
+    "children": [
+      {
+        "id": 43,
+        "parent_id": 42,
+        "active": true,
+        "name": "Vyšnios",
+        "description": "",
+        "link_rewrite": "vysnios",
+        "products": [
+          43,
+          48,
+          67,
+          72,
+          116
+        ]
+      },
+      {
+        "id": 44,
+        "parent_id": 42,
+        "active": true,
+        "name": "Trešnės",
+        "description": "",
+        "link_rewrite": "tresnes",
+        "products": [
+          65,
+          35,
+          77,
+          88,
+          92,
+          93,
+          97,
+          96,
+          78
+        ]
+      },
+      {
+        "id": 45,
+        "parent_id": 42,
+        "active": true,
+        "name": "Slyvos",
+        "description": "",
+        "link_rewrite": "slyvos",
+        "products": [
+          36,
+          45,
+          55,
+          58,
+          99,
+          105
+        ]
+      },
+      {
+        "id": 46,
+        "parent_id": 42,
+        "active": true,
+        "name": "Abrikosai",
+        "description": "",
+        "link_rewrite": "abrikosai",
+        "products": [
+          8,
+          69
+        ]
+      },
+      {
+        "id": 47,
+        "parent_id": 42,
+        "active": true,
+        "name": "Persikai",
+        "description": "",
+        "link_rewrite": "persikai",
+        "products": [
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "parent_id": 42,
+    "active": true,
+    "name": "Vyšnios",
+    "description": "",
+    "link_rewrite": "vysnios",
+    "products": [
+      43,
+      48,
+      67,
+      72,
+      116
+    ]
+  },
+  {
+    "id": 44,
+    "parent_id": 42,
+    "active": true,
+    "name": "Trešnės",
+    "description": "",
+    "link_rewrite": "tresnes",
+    "products": [
+      65,
+      35,
+      77,
+      88,
+      92,
+      93,
+      97,
+      96,
+      78
+    ]
+  },
+  {
+    "id": 45,
+    "parent_id": 42,
+    "active": true,
+    "name": "Slyvos",
+    "description": "",
+    "link_rewrite": "slyvos",
+    "products": [
+      36,
+      45,
+      55,
+      58,
+      99,
+      105
+    ]
+  },
+  {
+    "id": 46,
+    "parent_id": 42,
+    "active": true,
+    "name": "Abrikosai",
+    "description": "",
+    "link_rewrite": "abrikosai",
+    "products": [
+      8,
+      69
+    ]
+  },
+  {
+    "id": 47,
+    "parent_id": 42,
+    "active": true,
+    "name": "Persikai",
+    "description": "",
+    "link_rewrite": "persikai",
+    "products": [
+      74
+    ]
+  },
+  {
+    "id": 51,
+    "parent_id": 2,
+    "active": true,
+    "name": "Trąšos",
+    "description": "",
+    "link_rewrite": "trąšos",
+    "products": [
+      32,
+      33
+    ],
+    "children": []
+  },
+  {
+    "id": 52,
+    "parent_id": 41,
+    "active": true,
+    "name": "Avietės",
+    "description": "",
+    "link_rewrite": "avietes",
+    "products": [
+      23,
+      25
+    ]
+  },
+  {
+    "id": 53,
+    "parent_id": 41,
+    "active": true,
+    "name": "Šilauogės",
+    "description": "",
+    "link_rewrite": "silauoges",
+    "products": [
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "id": 54,
+    "parent_id": 41,
+    "active": true,
+    "name": "Valgomieji sausmedžiai",
+    "description": "",
+    "link_rewrite": "valgomieji-sausmedziai",
+    "products": [
+      54
+    ]
+  },
+  {
+    "id": 55,
+    "parent_id": 41,
+    "active": true,
+    "name": "Agrastai",
+    "description": "",
+    "link_rewrite": "agrastai",
+    "products": [
+      9,
+      10,
+      11,
+      34,
+      46
+    ]
+  },
+  {
+    "id": 56,
+    "parent_id": 41,
+    "active": true,
+    "name": "Raudonieji serbentai",
+    "description": "",
+    "link_rewrite": "raudonieji-serbentai",
+    "products": [
+      51,
+      83
+    ]
+  },
+  {
+    "id": 57,
+    "parent_id": 41,
+    "active": true,
+    "name": "Juodieji serbentai",
+    "description": "",
+    "link_rewrite": "juodieji-serbentai",
+    "products": [
+      29,
+      30,
+      31,
+      101,
+      95
+    ]
+  },
+  {
+    "id": 58,
+    "parent_id": 41,
+    "active": true,
+    "name": "Spanguolės",
+    "description": "",
+    "link_rewrite": "spanguoles",
+    "products": [
+      89,
+      90
+    ]
+  },
+  {
+    "id": 61,
+    "parent_id": 2,
+    "active": true,
+    "name": "Dekoratyvūs augalai",
+    "description": "",
+    "link_rewrite": "dekoratyvūs-augalai",
+    "products": [
+      70
+    ],
+    "children": []
+  },
+  {
+    "id": 62,
+    "parent_id": 2,
+    "active": true,
+    "name": "Riešutmedžiai",
+    "description": "",
+    "link_rewrite": "riesutmedziai",
+    "products": [
+      47,
+      28,
+      63,
+      44,
+      87
+    ],
+    "children": []
+  },
+  {
+    "id": 63,
+    "parent_id": 2,
+    "active": true,
+    "name": "Bičių motinėlės",
+    "description": "",
+    "link_rewrite": "bičių-motinėlės",
+    "products": [
+      103,
+      102
+    ],
+    "children": []
+  },
+  {
+    "id": 64,
+    "parent_id": 38,
+    "active": true,
+    "name": "Koloninės obelys",
+    "description": "",
+    "link_rewrite": "koloninės-obelys",
+    "products": [
+      18,
+      27
+    ]
+  },
+  {
+    "id": 65,
+    "parent_id": 2,
+    "active": true,
+    "name": "Medus",
+    "description": "",
+    "link_rewrite": "medus",
+    "products": [
+      107,
+      110,
+      111,
+      112
+    ],
+    "children": []
+  },
+  {
+    "id": 66,
+    "parent_id": 41,
+    "active": true,
+    "name": "Šaltalankiai",
+    "description": "",
+    "link_rewrite": "šaltalankiai"
+  }
+]
