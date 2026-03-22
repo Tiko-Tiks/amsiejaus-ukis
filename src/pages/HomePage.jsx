@@ -2,12 +2,73 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import MarketplaceBanner from '../components/MarketplaceBanner'
 
+/* SVG icons matching the green/gold design system */
+const IconApple = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
+    <path d="M12 2c-1 0-2.5.8-2.5 2.5S12 7 12 7s1.5-1 1.5-2.5S13 2 12 2z" fill="#2D5016" stroke="none"/>
+    <path d="M17 8c-1.5 0-3 .5-5 .5S8.5 8 7 8c-3 0-5 3-5 7s2 7 5 7c1.5 0 2.5-1 5-1s3.5 1 5 1c3 0 5-3 5-7s-2-7-5-7z" stroke="#2D5016" fill="#2D5016" fillOpacity={0.15}/>
+  </svg>
+)
+const IconPear = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#2D5016" strokeWidth={1.5}>
+    <path d="M12 2c-.5 0-1.5.5-1.5 2 0 1 .5 1.5 1.5 2" fill="#2D5016" stroke="none"/>
+    <path d="M12 6c-1 1-4 4-4 8 0 4 2 8 4 8s4-4 4-8c0-4-3-7-4-8z" fill="#8B6F47" fillOpacity={0.15}/>
+  </svg>
+)
+const IconPlum = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#2D5016" strokeWidth={1.5}>
+    <ellipse cx="12" cy="13" rx="6" ry="7" fill="#2D5016" fillOpacity={0.15}/>
+    <path d="M12 6c0-2 1-4 3-4" strokeLinecap="round"/>
+    <path d="M10 7c-1-1.5 0-3.5 1-4" fill="#2D5016" stroke="none" opacity={0.6}/>
+  </svg>
+)
+const IconCherry = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#2D5016" strokeWidth={1.5}>
+    <circle cx="8" cy="16" r="4" fill="#8B6F47" fillOpacity={0.2}/>
+    <circle cx="16" cy="17" r="3.5" fill="#8B6F47" fillOpacity={0.2}/>
+    <path d="M8 12C7 8 9 4 12 2" strokeLinecap="round"/>
+    <path d="M16 13.5C16 10 14 6 12 2" strokeLinecap="round"/>
+  </svg>
+)
+const IconBerry = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#2D5016" strokeWidth={1.5}>
+    <circle cx="9" cy="14" r="3" fill="#2D5016" fillOpacity={0.15}/>
+    <circle cx="15" cy="14" r="3" fill="#2D5016" fillOpacity={0.15}/>
+    <circle cx="12" cy="10" r="3" fill="#2D5016" fillOpacity={0.15}/>
+    <path d="M12 7V3M10 4l2-1 2 1" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+const IconHoney = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#FFB800" strokeWidth={1.5}>
+    <path d="M12 2l4 3v4l-4 3-4-3V5l4-3z" fill="#FFB800" fillOpacity={0.2}/>
+    <path d="M12 12l4 3v4l-4 3-4-3v-4l4-3z" fill="#FFB800" fillOpacity={0.2}/>
+    <path d="M4 7l4 3v4l-4 3-4-3V10l4-3z" fill="#FFB800" fillOpacity={0.1} stroke="#FFB800" strokeOpacity={0.5}/>
+    <path d="M20 7l4 3v4l-4 3-4-3V10l4-3z" fill="#FFB800" fillOpacity={0.1} stroke="#FFB800" strokeOpacity={0.5}/>
+  </svg>
+)
+const IconTree = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#2D5016" strokeWidth={1.5}>
+    <path d="M12 22V10" strokeLinecap="round"/>
+    <path d="M12 10c-4 0-7-3-7-6h14c0 3-3 6-7 6z" fill="#2D5016" fillOpacity={0.15}/>
+    <path d="M12 14c-3 0-5-2-5-4h10c0 2-2 4-5 4z" fill="#2D5016" fillOpacity={0.2}/>
+    <path d="M9 22h6" strokeLinecap="round"/>
+  </svg>
+)
+const IconLeaf = () => (
+  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="#FFB800" strokeWidth={1.5}>
+    <path d="M17 3C12 3 4 7 4 15c0 2 1 4 3 5" fill="#2D5016" fillOpacity={0.15} stroke="#2D5016"/>
+    <path d="M7 20C9 14 13 8 17 3" stroke="#2D5016" strokeLinecap="round"/>
+    <path d="M7 20c2-2 5-3 8-3" stroke="#2D5016" strokeLinecap="round" strokeOpacity={0.4}/>
+    <path d="M7 20c1-3 1-6 0-9" stroke="#2D5016" strokeLinecap="round" strokeOpacity={0.4}/>
+  </svg>
+)
+
 const categories = [
-  { to: '/vaismedziai', title: 'Vaismedžiai', desc: 'Obelys, kriaušės, koloninės ir rojaus obelys — daugiau nei 40 veislių', icon: '🍎' },
-  { to: '/vaiskrumiai', title: 'Vaiskrūmiai', desc: 'Avietės, šilauogės, agrastai, serbentai, gervuogės ir kiti uogakrūmiai', icon: '🫐' },
-  { to: '/kaulavaisiai', title: 'Kaulavaisiai', desc: 'Trešnės, slyvos, vyšnios, abrikosai ir persikai', icon: '🍒' },
-  { to: '/medus', title: 'Medus ir bitės', desc: 'Natūralus medus, bičių motinėlės ir bitininkystės produktai', icon: '🍯' },
-  { to: '/kiti-augalai', title: 'Kiti augalai', desc: 'Riešutmedžiai, dekoratyvūs augalai, sakuros ir hortenzijos', icon: '🌳' },
+  { to: '/vaismedziai', title: 'Vaismedžiai', desc: 'Obelys, kriaušės, koloninės ir rojaus obelys — daugiau nei 40 veislių', Icon: IconApple },
+  { to: '/vaiskrumiai', title: 'Vaiskrūmiai', desc: 'Avietės, šilauogės, agrastai, serbentai, gervuogės ir kiti uogakrūmiai', Icon: IconBerry },
+  { to: '/kaulavaisiai', title: 'Kaulavaisiai', desc: 'Trešnės, slyvos, vyšnios, abrikosai ir persikai', Icon: IconCherry },
+  { to: '/medus', title: 'Medus ir bitės', desc: 'Natūralus medus, bičių motinėlės ir bitininkystės produktai', Icon: IconHoney },
+  { to: '/kiti-augalai', title: 'Kiti augalai', desc: 'Riešutmedžiai, dekoratyvūs augalai, sakuros ir hortenzijos', Icon: IconTree },
 ]
 
 function Countdown() {
@@ -220,20 +281,33 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#2D5016] text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
-              <div className="text-4xl mb-4 mt-2">📞</div>
+              <div className="w-14 h-14 bg-[#2D5016]/10 rounded-full flex items-center justify-center mx-auto mb-4 mt-2">
+                <svg className="w-7 h-7 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+              </div>
               <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Paskambinkite mums</h3>
               <p className="text-gray-600 text-sm">Susisiekite telefonu ir pasirinkite norimus sodinukus iš mūsų asortimento</p>
               <a href="tel:+37061500597" className="inline-block mt-3 text-[#2D5016] font-bold hover:text-[#FFB800] transition-colors">+370 615 00597</a>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#FFB800] text-[#2D5016] rounded-full flex items-center justify-center font-bold text-lg">2</div>
-              <div className="text-4xl mb-4 mt-2">📋</div>
+              <div className="w-14 h-14 bg-[#FFB800]/15 rounded-full flex items-center justify-center mx-auto mb-4 mt-2">
+                <svg className="w-7 h-7 text-[#FFB800]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15a2.25 2.25 0 012.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                </svg>
+              </div>
               <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Rezervuokite</h3>
               <p className="text-gray-600 text-sm">Mes rezervuosime jūsų pasirinktus sodinukus ir paruošime atsiėmimui</p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#2D5016] text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
-              <div className="text-4xl mb-4 mt-2">🌱</div>
+              <div className="w-14 h-14 bg-[#2D5016]/10 rounded-full flex items-center justify-center mx-auto mb-4 mt-2">
+                <svg className="w-7 h-7 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+              </div>
               <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Atsiimkite prekyvietėje</h3>
               <p className="text-gray-600 text-sm">Atvykite į mūsų prekyvietę Valkininkuose ir atsiimkite savo sodinukus</p>
             </div>
@@ -261,7 +335,7 @@ function HomePage() {
             {/* Obelys */}
             <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">🍎</span>
+                <div className="w-9 h-9 bg-[#2D5016]/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconApple /></div>
                 <h3 className="font-bold font-serif text-xl text-[#2D5016]">Obelys</h3>
               </div>
               <div className="space-y-3">
@@ -295,7 +369,7 @@ function HomePage() {
             {/* Kriaušės */}
             <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">🍐</span>
+                <div className="w-9 h-9 bg-[#8B6F47]/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconPear /></div>
                 <h3 className="font-bold font-serif text-xl text-[#2D5016]">Kriaušės</h3>
               </div>
               <div className="space-y-3">
@@ -329,7 +403,7 @@ function HomePage() {
             {/* Slyvos */}
             <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">🟣</span>
+                <div className="w-9 h-9 bg-[#2D5016]/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconPlum /></div>
                 <h3 className="font-bold font-serif text-xl text-[#2D5016]">Slyvos</h3>
               </div>
               <div className="space-y-1.5">
@@ -354,7 +428,7 @@ function HomePage() {
             {/* Kaulavaisiai */}
             <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">🍒</span>
+                <div className="w-9 h-9 bg-[#8B6F47]/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconCherry /></div>
                 <h3 className="font-bold font-serif text-xl text-[#2D5016]">Kaulavaisiai</h3>
               </div>
               <div className="space-y-3">
@@ -392,7 +466,7 @@ function HomePage() {
             {/* Šilauogės & Rojaus obelaitės */}
             <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">🫐</span>
+                <div className="w-9 h-9 bg-[#2D5016]/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconBerry /></div>
                 <h3 className="font-bold font-serif text-xl text-[#2D5016]">Šilauogės ir kiti</h3>
               </div>
               <div className="space-y-3">
@@ -426,7 +500,7 @@ function HomePage() {
             <div className="bg-[#2D5016] rounded-xl p-6 text-white hover:shadow-lg transition-shadow flex flex-col justify-between">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-2xl">🌿</span>
+                  <div className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconLeaf /></div>
                   <h3 className="font-bold font-serif text-xl">Taip pat turime</h3>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -569,7 +643,9 @@ function HomePage() {
             {categories.map(cat => (
               <Link key={cat.to} to={cat.to} className="group">
                 <div className="bg-white border-l-4 border-[#2D5016] p-7 rounded-r-lg shadow-md hover:shadow-xl transition-all duration-300 h-full group-hover:border-[#FFB800]">
-                  <span className="text-3xl mb-3 block">{cat.icon}</span>
+                  <div className="w-10 h-10 bg-[#2D5016]/10 rounded-lg flex items-center justify-center mb-3 group-hover:bg-[#FFB800]/15 transition-colors">
+                    <cat.Icon />
+                  </div>
                   <h3 className="text-xl font-bold font-serif text-[#2D5016] mb-2 group-hover:text-[#8B6F47] transition-colors">
                     {cat.title}
                   </h3>
