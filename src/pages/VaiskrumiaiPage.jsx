@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import productsData from '../data/products.json'
 import CategorySection from '../components/CategorySection'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 function VaiskrumiaiPage() {
+  usePageMeta('Vaiskrūmiai', 'Avietės, šilauogės, serbentai, agrastai ir kiti vaiskrūmių sodinukai. Platus veislių pasirinkimas iš Juozo Amšiejaus medelyno.')
   const allProducts = productsData.filter(p => p.categoryGroup === 'vaiskrumiai')
 
   const avietes = allProducts.filter(p => p.categorySub === 'avietes')

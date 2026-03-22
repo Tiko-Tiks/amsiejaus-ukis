@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import productsData from '../data/products.json'
 import CategorySection from '../components/CategorySection'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 function KaulavaisaiPage() {
+  usePageMeta('Kaulavaisiai', 'Trešnių, vyšnių, slyvų, persikų ir abrikosų sodinukai. Kaulavaisių veislės pritaikytos Lietuvos klimatui.')
   const allProducts = productsData.filter(p => p.categoryGroup === 'kaulavaisiai')
 
   const tresnes = allProducts.filter(p => p.categorySub === 'tresnes')

@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 function KontaktaiPage() {
+  usePageMeta('Kontaktai', 'Juozo Amšiejaus ūkio kontaktai — adresas, telefonas, darbo laikas. Vilniaus g. 1A, Valkininkų miestelis, Varėnos r.')
   return (
     <div className="bg-[#F5F5F0]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">

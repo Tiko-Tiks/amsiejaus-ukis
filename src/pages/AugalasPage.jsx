@@ -1,12 +1,14 @@
 import { useParams, Link } from 'react-router-dom'
 import { useState } from 'react'
 import productsData from '../data/products.json'
+import usePageMeta from '../hooks/usePageMeta'
 
 function AugalasPage() {
   const { id } = useParams()
   const plantId = parseInt(id)
   const plant = productsData.find(p => p.id === plantId)
   const [selectedImage, setSelectedImage] = useState(0)
+  usePageMeta(plant ? plant.name : 'Augalas nerastas', plant ? `${plant.name} — ${plant.category}. Sodinukas iš Juozo Amšiejaus medelyno.` : undefined)
 
   if (!plant) {
     return (

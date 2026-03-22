@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import productsData from '../data/products.json'
 import CategorySection from '../components/CategorySection'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 function KitiAugalaiPage() {
+  usePageMeta('Kiti augalai', 'Riešutmedžiai, dekoratyviniai augalai, vynuogės ir kiti sodinukai iš Juozo Amšiejaus medelyno.')
   const allProducts = productsData.filter(p => p.categoryGroup === 'kiti-augalai')
 
   const riesutmedziai = allProducts.filter(p => p.categorySub === 'riestumedziai')

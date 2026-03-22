@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import productsData from '../data/products.json'
 import CategorySection from '../components/CategorySection'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 function VaismedzaiPage() {
+  usePageMeta('Vaismedžiai', 'Obelų, kriaušių sodinukai — daugiau nei 50 veislių. Kokybiški vaismedžių sodinukai iš Juozo Amšiejaus medelyno Dzūkijoje.')
   const allProducts = productsData.filter(p => p.categoryGroup === 'vaismedziai')
 
   const obelys = allProducts.filter(p => p.categorySub === 'obelys')

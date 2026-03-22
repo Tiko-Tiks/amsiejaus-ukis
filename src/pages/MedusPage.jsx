@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import productsData from '../data/products.json'
 import CategorySection from '../components/CategorySection'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 function MedusPage() {
+  usePageMeta('Medus ir bitės', 'Natūralus medus ir bičių produktai iš Dzūkijos. Bičių motinėlės ir bitininkystės reikmenys.')
   const allProducts = productsData.filter(p => p.categoryGroup === 'medus')
   const medus = allProducts.filter(p => p.categorySub === 'medus')
   const motineles = allProducts.filter(p => p.categorySub === 'biciu-motineles')

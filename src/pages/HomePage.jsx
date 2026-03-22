@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import MarketplaceBanner from '../components/MarketplaceBanner'
+import usePageMeta from '../hooks/usePageMeta'
 
 /* SVG icons matching the green/gold design system */
 const IconApple = () => (
@@ -130,6 +131,7 @@ function Countdown() {
 }
 
 function HomePage() {
+  usePageMeta(null, 'Juozo Amšiejaus medelynas Valkininkuose — daugiau nei 100 veislių vaismedžių ir vaiskrūmių sodinukai. Natūralus medus ir bičių produktai. 30+ metų patirtis.')
   return (
     <div className="bg-[#F5F5F0]">
       {/* Hero Announcement */}
