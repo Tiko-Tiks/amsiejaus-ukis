@@ -199,7 +199,7 @@ function HomePage() {
                   </div>
                   <div className="text-left">
                     <p className="text-[#FFB800] text-xs uppercase tracking-widest font-bold">Vieta</p>
-                    <p className="text-white text-base md:text-lg font-bold">Vilniaus g. 1A, Valkininkai</p>
+                    <p className="text-white text-base md:text-lg font-bold">Vilniaus g. 1A, Valkininkų miestelis</p>
                     <p className="text-white/70 text-sm">Varėnos r.</p>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ function HomePage() {
               <div className="text-gray-600 text-sm mt-1">Veislių asortimentas</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold font-serif text-[#2D5016]">20+</div>
+              <div className="text-3xl md:text-4xl font-bold font-serif text-[#2D5016]">30+</div>
               <div className="text-gray-600 text-sm mt-1">Metų patirties</div>
             </div>
             <div className="text-center">
@@ -579,7 +579,7 @@ function HomePage() {
               </svg>
               <div>
                 <p className="text-lg md:text-xl font-bold">Aplankykite mūsų prekyvietę</p>
-                <p className="text-sm text-white/90">Vilniaus g. 1A, Valkininkai, Varėnos r.</p>
+                <p className="text-sm text-white/90">Vilniaus g. 1A, Valkininkų miestelis, Varėnos r.</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -630,7 +630,7 @@ function HomePage() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-[#FFB800] text-[#2D5016] p-6 shadow-xl max-w-xs rounded-lg">
-                <div className="text-4xl font-bold font-serif mb-1">20+</div>
+                <div className="text-4xl font-bold font-serif mb-1">30+</div>
                 <div className="text-sm uppercase tracking-wide">Metų patirties</div>
               </div>
             </div>

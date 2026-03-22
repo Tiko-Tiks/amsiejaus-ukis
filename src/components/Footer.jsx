@@ -47,7 +47,7 @@ function Footer() {
                     </svg>
                     <div className="text-white/80">
                       <p>Vilniaus g. 1A</p>
-                      <p>Valkininkai, Varėnos r.</p>
+                      <p>Valkininkų miestelis, Varėnos r.</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
