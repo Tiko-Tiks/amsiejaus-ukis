@@ -12,80 +12,128 @@ const categories = [
 function HomePage() {
   return (
     <div className="bg-[#F5F5F0]">
-      {/* Hero Section */}
-      <section className="relative">
-        <div className="relative h-[500px] md:h-[600px] bg-[#2D5016] overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#2D5016]/90 to-[#2D5016]/60"></div>
-          <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-            <div className="w-full text-white text-center">
-              <div className="mb-8">
-                <img src="/logo.png" alt="" className="h-24 md:h-32 mx-auto" />
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-6 text-white leading-tight">
-                Vaismedžiai, vaiskrūmiai ir bičių produkcija iš mūsų ūkio
+      {/* Announcement Banner */}
+      <section className="relative overflow-hidden">
+        {/* Background with gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#2D5016] via-[#3A6B1E] to-[#2D5016]"></div>
+        {/* Decorative pattern overlay */}
+        <div className="absolute inset-0 opacity-10" style={{backgroundImage: 'radial-gradient(circle at 20% 50%, #FFB800 1px, transparent 1px), radial-gradient(circle at 80% 50%, #FFB800 1px, transparent 1px)', backgroundSize: '40px 40px'}}></div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+          <div className="text-center">
+            {/* Logo */}
+            <div className="mb-6">
+              <img src="/logo.png" alt="Juozo Amšiejaus Ūkis" className="h-24 md:h-32 mx-auto drop-shadow-lg" />
+            </div>
+
+            {/* Announcement headline */}
+            <div className="mb-6">
+              <span className="inline-block bg-[#FFB800] text-[#2D5016] text-sm md:text-base font-bold uppercase tracking-widest px-6 py-2 rounded-full shadow-md mb-4">
+                Atidarome!
+              </span>
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mt-4">
+                Sodinukų prekybos<br />aikštelę!
               </h1>
-              <p className="text-lg md:text-xl text-white/95 leading-relaxed font-serif">
-                Kokybiškai užauginti sodinukai ir natūralus medus
+            </div>
+
+            {/* Discount banner */}
+            <div className="inline-block bg-[#FFB800] text-[#2D5016] px-8 md:px-12 py-4 rounded-lg shadow-xl mb-8 transform -rotate-1">
+              <p className="text-2xl md:text-4xl font-bold font-serif">
+                Visiems sodinukams iki <span className="text-red-700">30%</span> nuolaida!
               </p>
-              <p className="text-xl md:text-2xl text-white font-serif font-bold mt-4">
-                Vilniaus g. 1A, Valkininkai, Varėnos r.
-              </p>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://sodogerybes.lt"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#FFB800] hover:bg-[#E6A600] text-[#2D5016] font-bold px-8 py-3.5 rounded-full transition-colors shadow-lg text-base"
-                >
-                  Pirkti sodogerybes.lt →
-                </a>
-                <Link
-                  to="/kontaktai"
-                  className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-full transition-colors border-2 border-white/30 text-base"
-                >
-                  Susisiekti
-                </Link>
+            </div>
+
+            {/* Date and location */}
+            <div className="mb-8">
+              <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border-2 border-white/30 rounded-2xl px-6 md:px-10 py-4 md:py-5">
+                <svg className="w-7 h-7 text-[#FFB800] flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                <div className="text-left">
+                  <p className="text-white text-xl md:text-2xl font-bold font-serif">Kovo 28 d.</p>
+                  <p className="text-white/90 text-sm md:text-base">Varėnos r., Valkininkų mstl., Vilniaus g. 1A</p>
+                </div>
               </div>
+            </div>
+
+            {/* Seasonal message */}
+            <p className="text-white/90 text-base md:text-lg font-serif italic mb-8 max-w-xl mx-auto">
+              Laukiame Jūsų pavasarinėje sodininkystės sezono pradžioje!
+            </p>
+
+            {/* CTA buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:+37061500597"
+                className="inline-flex items-center justify-center gap-2 bg-[#FFB800] hover:bg-[#E6A600] text-[#2D5016] font-bold px-8 py-3.5 rounded-full transition-colors shadow-lg text-base"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                Skambinti dabar
+              </a>
+              <a
+                href="https://maps.app.goo.gl/ZkyQ6NMSQnsw64Rz8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-full transition-colors border-2 border-white/30 text-base"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                Rasti žemėlapyje
+              </a>
+              <a
+                href="https://sodogerybes.lt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-full transition-colors border-2 border-white/30 text-base"
+              >
+                Pirkti internetu →
+              </a>
             </div>
           </div>
         </div>
 
-        {/* Info Strip */}
-        <div className="bg-white border-b-4 border-[#2D5016]">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="flex items-start gap-4">
-                <div className="bg-[#2D5016] text-white p-3 flex-shrink-0 rounded">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg text-[#2D5016] mb-1">Kokybė ir patirtis</h3>
-                  <p className="text-gray-700">20 metų patirties auginant</p>
-                </div>
+        {/* Bottom golden border */}
+        <div className="h-2 bg-[#FFB800]"></div>
+      </section>
+
+      {/* Info Strip */}
+      <section className="bg-white border-b-4 border-[#2D5016]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex items-start gap-4">
+              <div className="bg-[#2D5016] text-white p-3 flex-shrink-0 rounded">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="bg-[#2D5016] text-white p-3 flex-shrink-0 rounded">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg text-[#2D5016] mb-1">Greitas aptarnavimas</h3>
-                  <p className="text-gray-700">Galimybė atsiimti tą pačią dieną</p>
-                </div>
+              <div>
+                <h3 className="font-bold text-lg text-[#2D5016] mb-1">Kokybė ir patirtis</h3>
+                <p className="text-gray-700">20 metų patirties auginant</p>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="bg-[#2D5016] text-white p-3 flex-shrink-0 rounded">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg text-[#2D5016] mb-1">Eksperto patarimai</h3>
-                  <p className="text-gray-700">Padedame pasirinkti ir prižiūrėti</p>
-                </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-[#2D5016] text-white p-3 flex-shrink-0 rounded">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg text-[#2D5016] mb-1">Greitas aptarnavimas</h3>
+                <p className="text-gray-700">Galimybė atsiimti tą pačią dieną</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-[#2D5016] text-white p-3 flex-shrink-0 rounded">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg text-[#2D5016] mb-1">Eksperto patarimai</h3>
+                <p className="text-gray-700">Padedame pasirinkti ir prižiūrėti</p>
               </div>
             </div>
           </div>
