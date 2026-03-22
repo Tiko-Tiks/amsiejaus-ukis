@@ -90,9 +90,9 @@ function HomePage() {
             </div>
 
             {/* Main headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white leading-[1.1] mb-4">
-              Atidarome sodinukų
-              <span className="block text-[#FFB800] mt-2">prekybos aikštelę!</span>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-[1.1] mb-4">
+              <span className="text-[#FFB800]">Atidarome sodinukų</span>
+              <span className="block text-white mt-2">prekybos aikštelę!</span>
             </h1>
 
             <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-8 font-serif">
