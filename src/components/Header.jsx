@@ -1,5 +1,6 @@
-import { Link, NavLink } from 'react-router-dom'
-import { useState } from 'react'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { useState, useRef, useEffect } from 'react'
+import products from '../data/products.json'
 
 const navItems = [
   { to: '/', label: 'Pradžia', end: true, mobileOnly: true },
@@ -13,6 +14,24 @@ const navItems = [
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [search, setSearch] = useState('')
+  const [searchOpen, setSearchOpen] = useState(false)
+  const searchRef = useRef(null)
+  const navigate = useNavigate()
+
+  const results = search.length >= 2
+    ? products.filter(p => p.name.toLowerCase().includes(search.toLowerCase())).slice(0, 8)
+    : []
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (searchRef.current && !searchRef.current.contains(e.target)) {
+        setSearchOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
 
   const navLinkClass = ({ isActive }) =>
     `px-4 py-2 font-bold transition-all duration-300 uppercase text-[13px] whitespace-nowrap rounded-full ${
@@ -58,6 +77,51 @@ function Header() {
             </div>
           </Link>
 
+          {/* Search */}
+          <div className="hidden md:block relative" ref={searchRef}>
+            <div className="relative">
+              <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input
+                type="text"
+                placeholder="Ieškoti augalų..."
+                value={search}
+                onChange={(e) => { setSearch(e.target.value); setSearchOpen(true) }}
+                onFocus={() => setSearchOpen(true)}
+                className="w-48 lg:w-56 pl-9 pr-3 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:border-[#2D5016] focus:ring-1 focus:ring-[#2D5016] bg-gray-50"
+              />
+              {search && (
+                <button onClick={() => { setSearch(''); setSearchOpen(false) }} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+                </button>
+              )}
+            </div>
+            {searchOpen && results.length > 0 && (
+              <div className="absolute top-full mt-1 left-0 w-72 bg-white border border-gray-200 rounded-xl shadow-xl z-50 overflow-hidden">
+                {results.map(p => (
+                  <button
+                    key={p.id}
+                    onClick={() => { navigate(`/augalas/${p.id}`); setSearch(''); setSearchOpen(false) }}
+                    className="w-full flex items-center gap-3 px-3 py-2 hover:bg-[#F5F5F0] transition-colors text-left"
+                  >
+                    {p.image && <img src={p.image} alt="" className="w-10 h-10 rounded-lg object-cover flex-shrink-0" />}
+                    <div className="min-w-0">
+                      <p className="text-sm font-medium text-[#2D5016] truncate">{p.name}</p>
+                      <p className="text-xs text-gray-500">{p.category}</p>
+                    </div>
+                    {p.inStock && <span className="ml-auto text-[10px] font-bold uppercase bg-[#FFB800] text-[#2D5016] px-2 py-0.5 rounded-full flex-shrink-0">Prekyboje</span>}
+                  </button>
+                ))}
+              </div>
+            )}
+            {searchOpen && search.length >= 2 && results.length === 0 && (
+              <div className="absolute top-full mt-1 left-0 w-72 bg-white border border-gray-200 rounded-xl shadow-xl z-50 p-4 text-center text-sm text-gray-500">
+                Nieko nerasta. Pabandykite kitą paiešką.
+              </div>
+            )}
+          </div>
+
           {/* Desktop Navigation */}
           <nav className="hidden xl:flex items-center gap-1">
             {navItems.filter(item => !item.mobileOnly).map(item => (
@@ -102,6 +166,39 @@ function Header() {
         {/* Mobile Navigation */}
         {menuOpen && (
           <nav className="xl:hidden pb-4 border-t-2 border-gray-200 mt-2">
+            {/* Mobile Search */}
+            <div className="px-4 py-3 border-b border-gray-200 relative" ref={searchRef}>
+              <div className="relative">
+                <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <input
+                  type="text"
+                  placeholder="Ieškoti augalų..."
+                  value={search}
+                  onChange={(e) => { setSearch(e.target.value); setSearchOpen(true) }}
+                  onFocus={() => setSearchOpen(true)}
+                  className="w-full pl-9 pr-3 py-2.5 text-sm border border-gray-300 rounded-full focus:outline-none focus:border-[#2D5016] focus:ring-1 focus:ring-[#2D5016] bg-gray-50"
+                />
+              </div>
+              {searchOpen && results.length > 0 && (
+                <div className="mt-2 bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
+                  {results.map(p => (
+                    <button
+                      key={p.id}
+                      onClick={() => { navigate(`/augalas/${p.id}`); setSearch(''); setSearchOpen(false); setMenuOpen(false) }}
+                      className="w-full flex items-center gap-3 px-3 py-2 hover:bg-[#F5F5F0] transition-colors text-left"
+                    >
+                      {p.image && <img src={p.image} alt="" className="w-10 h-10 rounded-lg object-cover flex-shrink-0" />}
+                      <div className="min-w-0">
+                        <p className="text-sm font-medium text-[#2D5016] truncate">{p.name}</p>
+                        <p className="text-xs text-gray-500">{p.category}</p>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             {navItems.map(item => (
               <NavLink
                 key={item.to}
