@@ -1795,8 +1795,10 @@
     "description": "Vasarinė kriaušių veislė, viena seniausių ir plačiausiai paplitusių lietuviškų kriaušių veislių. Vaisiai smulkūs iki vidutinių, krūnio formos, geltonai žali, saulėtoje pusėje su rausvu atspalviu. Minkštimas baltas, sultingas, saldiarūgščio skonio, aromatingas. Vaisiai noksta rugpjūčio mėnesį. Medis auga stipriai, su plačiai piramidiniu vainiku. Pradeda derėti penktais–šeštais metais. Dera gausiai ir pastoviai. Labai atspari Lietuvos žiemos šalčiams. Sena, patikima veislė, tinkanti šiauriniam klimatui.",
     "description_short": "Sena lietuviška kriaušių veislė. Vaisiai sultingi, aromatingi. Labai atspari šalčiams.",
     "handle": "kriause-liepinuke",
-    "images": [],
-    "image": null,
+    "images": [
+      "/images/products/117.jpg"
+    ],
+    "image": "/images/products/117.jpg",
     "inStock": true
   },
   {
