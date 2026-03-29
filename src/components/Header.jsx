@@ -63,18 +63,13 @@ function Header() {
 
       {/* Main Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 shrink-0">
-            <div className="bg-white p-1.5 rounded-xl ring-2 ring-[#2D5016]/70 shadow-sm">
-              <img src="/logo.png" alt="Juozo Amšiejaus Ūkis" className="h-12 w-auto object-contain" />
-            </div>
-            <div className="hidden sm:block">
-              <p className="text-lg font-bold font-serif text-[#2D5016] leading-tight">
-                Juozo Amšiejaus Ūkis
-              </p>
-              <p className="text-xs text-gray-600 uppercase tracking-wide">Medelynas ir medus</p>
-            </div>
+          <Link to="/" className="flex items-center shrink-0 -my-2">
+            <picture>
+              <source srcSet="/logo.webp" type="image/webp" />
+              <img src="/logo-fallback.png" alt="Juozo Amšiejaus Ūkis" className="h-28 w-auto object-contain" />
+            </picture>
           </Link>
 
           {/* Search */}

@@ -12,7 +12,10 @@ function Footer() {
               <div className="md:col-span-2">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="bg-white p-2 rounded-lg">
-                    <img src="/logo.png" alt="" className="h-8 w-auto" />
+                    <picture>
+                      <source srcSet="/logo.webp" type="image/webp" />
+                      <img src="/logo-fallback.png" alt="" className="h-8 w-auto" />
+                    </picture>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold font-serif text-white">Juozo Amšiejaus Ūkis</h3>

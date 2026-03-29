@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/((?!images|assets|logo\\.png|favicon\\.ico|robots\\.txt|sitemap\\.xml).*)", "destination": "/index.html" }
+    { "source": "/((?!images|assets|logo\\.webp|logo-fallback\\.png|logo\\.png|favicon\\.ico|robots\\.txt|sitemap\\.xml).*)", "destination": "/index.html" }
   ]
 }
