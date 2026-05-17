@@ -3,12 +3,58 @@ import { useState } from 'react'
 import productsData from '../data/products.json'
 import usePageMeta from '../hooks/usePageMeta'
 
+const ORIGIN = 'https://amsiejausmedelynas.lt'
+
+function buildProductSchema(plant) {
+  if (!plant) return null
+  const img = plant.image || (plant.images && plant.images[0])
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: plant.name,
+    category: plant.category,
+    description: plant.description_short || plant.description || `${plant.name} — sodinukas iš Juozo Amšiejaus medelyno.`,
+    ...(img ? { image: `${ORIGIN}${typeof img === 'string' ? img : ''}` } : {}),
+    brand: {
+      '@type': 'Brand',
+      name: 'Juozo Amšiejaus Ūkis',
+    },
+    offers: {
+      '@type': 'Offer',
+      availability: plant.inStock
+        ? 'https://schema.org/InStock'
+        : 'https://schema.org/PreOrder',
+      priceCurrency: 'EUR',
+      url: `${ORIGIN}/augalas/${plant.handle || plant.id}`,
+      seller: {
+        '@type': 'LocalBusiness',
+        name: 'Juozo Amšiejaus Ūkis',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Vilniaus g. 1A',
+          addressLocality: 'Valkininkų miestelis',
+          addressRegion: 'Varėnos r.',
+          addressCountry: 'LT',
+        },
+      },
+    },
+  }
+}
+
 function AugalasPage() {
   const { id } = useParams()
-  const plantId = parseInt(id)
-  const plant = productsData.find(p => p.id === plantId)
+  const plant = productsData.find(p => p.handle === id) || productsData.find(p => p.id === parseInt(id))
   const [selectedImage, setSelectedImage] = useState(0)
-  usePageMeta(plant ? plant.name : 'Augalas nerastas', plant ? `${plant.name} — ${plant.category}. Sodinukas iš Juozo Amšiejaus medelyno.` : undefined)
+
+  const metaDescription = plant
+    ? (plant.description_short || `${plant.name} — ${plant.category} sodinukas iš Juozo Amšiejaus medelyno. Daugiau nei 30 metų patirties Dzūkijoje.`)
+    : undefined
+  const metaImage = plant?.image ? `${ORIGIN}${plant.image}` : undefined
+  usePageMeta(
+    plant ? plant.name : 'Augalas nerastas',
+    metaDescription,
+    { image: metaImage, jsonLd: buildProductSchema(plant) }
+  )
 
   if (!plant) {
     return (

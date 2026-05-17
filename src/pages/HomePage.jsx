@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom'
 import MarketplaceBanner from '../components/MarketplaceBanner'
 import usePageMeta from '../hooks/usePageMeta'
+import products from '../data/products.json'
+
+const handleById = new Map(products.map(p => [p.id, p.handle]))
+const slugFor = (id) => handleById.get(id) || id
 
 /* SVG icons matching the green/gold design system */
 const IconApple = () => (
@@ -288,7 +292,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vasarinės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Konfetnoje',id:87},{n:'Julija',id:108},{n:'Isbranica',id:109},{n:'Baltasis Alyvinis',id:110}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -296,7 +300,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Rudeninės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Auksis',id:79},{n:'Ananasinis',id:75},{n:'Sava',id:95},{n:'Novomac',id:91}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -304,7 +308,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Žieminės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Antaninis',id:76},{n:'Šampion',id:97},{n:'Topaz',id:111},{n:'Koštelė',id:89},{n:'Bochemija',id:112},{n:'Gold Bochemija',id:113},{n:'Jonagold',id:86},{n:'Belaruskaja Sladkaja',id:114}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -322,7 +326,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vasarinės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Sviestinė',id:66},{n:'Izolda',id:115},{n:'Kliapo Mėgstamoji',id:62},{n:'Kliapo Raudonoji',id:116},{n:'Liepinukė',id:117}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -330,7 +334,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Rudeninės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Konferencinė',id:64},{n:'Patten',id:65}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -338,7 +342,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Žieminės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'General Leclerc',id:59},{n:'Xena',id:68}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -362,7 +366,7 @@ function HomePage() {
                   { n: 'Vengerka', id: 8, info: 'mėlyna, vėlyva' },
                   { n: 'Lodva', id: 122, info: 'geltona, ankstyva' },
                 ].map(v => (
-                  <Link key={v.id} to={`/augalas/${v.id}`} className="flex items-center justify-between bg-white px-3 py-1.5 rounded-lg border border-[#2D5016]/10 hover:bg-[#2D5016] hover:text-white group/slyva transition-colors">
+                  <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="flex items-center justify-between bg-white px-3 py-1.5 rounded-lg border border-[#2D5016]/10 hover:bg-[#2D5016] hover:text-white group/slyva transition-colors">
                     <span className="text-[#2D5016] font-medium text-sm group-hover/slyva:text-white transition-colors">{v.n}</span>
                     <span className="text-gray-500 text-xs group-hover/slyva:text-white/70 transition-colors">{v.info}</span>
                   </Link>
@@ -381,7 +385,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Trešnės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Burlat',id:101},{n:'Tamara',id:102},{n:'Karina',id:103}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -389,20 +393,20 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vyšnios</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Žagarvyšnė',id:104},{n:'Pandy',id:23}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Abrikosai</p>
                   <div className="flex flex-wrap gap-1.5">
-                    <Link to="/augalas/105" className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">Šiaurės Triumfas</Link>
+                    <Link to="/augalas/abrikosas-siaures-triumfas" className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">Šiaurės Triumfas</Link>
                   </div>
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Persikai</p>
                   <div className="flex flex-wrap gap-1.5">
-                    <Link to="/augalas/106" className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">Maira</Link>
+                    <Link to="/augalas/persikas-maira" className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">Maira</Link>
                   </div>
                 </div>
               </div>
@@ -424,7 +428,7 @@ function HomePage() {
                       { n: 'Chandler', id: 107, info: 'vėlyva' },
                       { n: 'Reka', id: 56, info: 'ankstyva' },
                     ].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="flex items-center justify-between bg-white px-3 py-1.5 rounded-lg border border-[#2D5016]/10 hover:bg-[#2D5016] hover:text-white group/sil transition-colors">
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="flex items-center justify-between bg-white px-3 py-1.5 rounded-lg border border-[#2D5016]/10 hover:bg-[#2D5016] hover:text-white group/sil transition-colors">
                         <span className="text-[#2D5016] font-medium text-sm group-hover/sil:text-white transition-colors">{v.n}</span>
                         <span className="text-gray-500 text-xs group-hover/sil:text-white/70 transition-colors">{v.info}</span>
                       </Link>
@@ -435,7 +439,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Rojaus obelaitės</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Kelsey',id:98},{n:'Royalty',id:100}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -454,7 +458,7 @@ function HomePage() {
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Sausmedžiai</p>
                     <div className="flex flex-wrap gap-1.5">
                       {[{n:'Karina',id:49},{n:'Duet',id:123}].map(v => (
-                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                        <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
                       ))}
                     </div>
                   </div>
@@ -462,7 +466,7 @@ function HomePage() {
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Serbentai</p>
                     <div className="flex flex-wrap gap-1.5">
                       {[{n:'Tizel',id:124},{n:'Tiben',id:46},{n:'Ben Lemond',id:43},{n:'Ben Nevis',id:44},{n:'Jonkheer van Tets',id:42},{n:'Rozeta',id:50}].map(v => (
-                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                        <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
                       ))}
                     </div>
                   </div>
@@ -470,7 +474,7 @@ function HomePage() {
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Agrastai</p>
                     <div className="flex flex-wrap gap-1.5">
                       {[{n:'Kaprivator rot',id:125},{n:'Invikta',id:133},{n:'Captivator',id:34},{n:'Hinnonmaki raudona',id:35},{n:'Hinnonmaki geltonas',id:41},{n:'Invicta',id:36},{n:'Triumf',id:37}].map(v => (
-                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                        <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
                       ))}
                     </div>
                   </div>
@@ -478,21 +482,21 @@ function HomePage() {
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Avietės</p>
                     <div className="flex flex-wrap gap-1.5">
                       {[{n:'Mapema',id:126},{n:'Polka',id:38},{n:'Poranna rosa',id:39},{n:'Kvanza',id:48}].map(v => (
-                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                        <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
                       ))}
                     </div>
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Gervuogės</p>
                     <div className="flex flex-wrap gap-1.5">
-                      <Link to="/augalas/127" className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">Polar</Link>
+                      <Link to="/augalas/gervuoge-polar" className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">Polar</Link>
                     </div>
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Vynuogės</p>
                     <div className="flex flex-wrap gap-1.5">
                       {[{n:'Juodupė',id:128},{n:'Canadice',id:129},{n:'Somerset Seedless',id:130},{n:'Reliance',id:131},{n:'Venus',id:132}].map(v => (
-                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                        <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
                       ))}
                     </div>
                   </div>
@@ -500,14 +504,14 @@ function HomePage() {
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Braškės</p>
                     <div className="flex flex-wrap gap-1.5">
                       {[{n:'Allegro (ankstyva)',id:143},{n:'Malvina (vėlyva)',id:144}].map(v => (
-                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                        <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
                       ))}
                     </div>
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Aronija</p>
                     <div className="flex flex-wrap gap-1.5">
-                      <Link to="/augalas/142" className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">Aronija</Link>
+                      <Link to="/augalas/aronija" className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">Aronija</Link>
                     </div>
                   </div>
                 </div>
@@ -536,7 +540,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Šermukšniai</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Paprastasis',id:134},{n:'Kolonomis',id:135}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -544,7 +548,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vaisiniai medeliai</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Svarainis',id:141},{n:'Geltonžiedė sedula',id:138},{n:'Pošvelnė gudobelė',id:140}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>
@@ -552,7 +556,7 @@ function HomePage() {
                   <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Dekoratyviniai krūmai ir medžiai</p>
                   <div className="flex flex-wrap gap-1.5">
                     {[{n:'Paprastoji alyva',id:136},{n:'Ginkmedis',id:137},{n:'Paprastasis putinas',id:139}].map(v => (
-                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                      <Link key={v.id} to={`/augalas/${slugFor(v.id)}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
                     ))}
                   </div>
                 </div>

@@ -12,7 +12,7 @@ function PlantCard({ plant }) {
   }
 
   return (
-    <Link to={`/augalas/${plant.id}`} className="group block">
+    <Link to={`/augalas/${plant.handle || plant.id}`} className="group block">
       <div className="bg-white shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden rounded-lg">
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden bg-gray-100 border-b-4 border-[#2D5016]">

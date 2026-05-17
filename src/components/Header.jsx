@@ -97,7 +97,7 @@ function Header() {
                 {results.map(p => (
                   <button
                     key={p.id}
-                    onClick={() => { navigate(`/augalas/${p.id}`); setSearch(''); setSearchOpen(false) }}
+                    onClick={() => { navigate(`/augalas/${p.handle || p.id}`); setSearch(''); setSearchOpen(false) }}
                     className="w-full flex items-center gap-3 px-3 py-2 hover:bg-[#F5F5F0] transition-colors text-left"
                   >
                     {p.image && <img src={p.image} alt="" className="w-10 h-10 rounded-lg object-cover flex-shrink-0" />}
@@ -181,7 +181,7 @@ function Header() {
                   {results.map(p => (
                     <button
                       key={p.id}
-                      onClick={() => { navigate(`/augalas/${p.id}`); setSearch(''); setSearchOpen(false); setMenuOpen(false) }}
+                      onClick={() => { navigate(`/augalas/${p.handle || p.id}`); setSearch(''); setSearchOpen(false); setMenuOpen(false) }}
                       className="w-full flex items-center gap-3 px-3 py-2 hover:bg-[#F5F5F0] transition-colors text-left"
                     >
                       {p.image && <img src={p.image} alt="" className="w-10 h-10 rounded-lg object-cover flex-shrink-0" />}

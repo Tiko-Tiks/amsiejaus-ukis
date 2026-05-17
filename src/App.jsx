@@ -11,6 +11,7 @@ import MedusPage from './pages/MedusPage'
 import KitiAugalaiPage from './pages/KitiAugalaiPage'
 import KontaktaiPage from './pages/KontaktaiPage'
 import AugalasPage from './pages/AugalasPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -34,6 +35,7 @@ function App() {
             <Route path="/kiti-augalai" element={<KitiAugalaiPage />} />
             <Route path="/kontaktai" element={<KontaktaiPage />} />
             <Route path="/augalas/:id" element={<AugalasPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />

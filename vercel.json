@@ -1,4 +1,6 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
     { "source": "/((?!images|assets|logo\\.webp|logo-fallback\\.png|logo\\.png|favicon\\.ico|robots\\.txt|sitemap\\.xml).*)", "destination": "/index.html" }
   ]
