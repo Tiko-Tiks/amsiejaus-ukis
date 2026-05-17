@@ -596,7 +596,9 @@
     "handle": "avietė-poranna-rosa",
     "images": [
       "/images/products/200.jpg",
-      "/images/products/201.jpg"
+      "/images/products/201.jpg",
+      "/images/products/aviete-porrana-rosa-1.jpg",
+      "/images/products/aviete-porrana-rosa-2.jpg"
     ],
     "image": "/images/products/200.jpg",
     "inStock": true
@@ -1946,7 +1948,9 @@
     "description_short": "Bespyglė, šalčiui atspari gervuogių veislė. Uogos labai stambios, saldžios.",
     "handle": "gervuoge-polar",
     "images": [
-      "/images/products/127_unique.jpg"
+      "/images/products/127_unique.jpg",
+      "/images/products/gervuoge-polar-1.webp",
+      "/images/products/gervuoge-polar-2.webp"
     ],
     "image": "/images/products/127_unique.jpg",
     "inStock": true
@@ -2039,6 +2043,180 @@
       "/images/products/invikta.jpg"
     ],
     "image": "/images/products/invikta.jpg",
+    "inStock": true
+  },
+  {
+    "id": 134,
+    "name": "Paprastasis šermukšnis",
+    "category": "Šermukšnis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Paprastasis šermukšnis (Sorbus aucuparia) — vietinė Lietuvos rūšis, atspari, ištverminga, gerai augantis įvairiose dirvose. Vasarą puošia balti žiedynai, rudenį — ryškiai oranžinės uogos, kurios išlieka ant medžio iki žiemos ir traukia paukščius. Uogos tinka kompotams, vynui, džemams. Medis vidutinio augumo, vainikas piramidiškas.",
+    "description_short": "Lietuvoje tradicinis dekoratyvinis ir vaisinis medis. Ryškiai oranžinės uogos, balti žiedai pavasarį.",
+    "handle": "paprastasis-sermuksnis",
+    "images": [
+      "/images/products/sermuksnis-paprastasis-1.webp",
+      "/images/products/sermuksnis-paprastasis-2.jpg",
+      "/images/products/sermuksnis-paprastasis-3.jpg"
+    ],
+    "image": "/images/products/sermuksnis-paprastasis-1.webp",
+    "inStock": true
+  },
+  {
+    "id": 135,
+    "name": "Šermukšnis kolonomis",
+    "category": "Šermukšnis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Stulpinės formos šermukšnis — siaurai augantis, kolonomis primenantis medis. Tinka mažiems sodams, alėjoms, akcentams. Vainikas tankus, vertikalus, beveik nesiplečia į šonus. Žydi baltais žiedynais, rudenį puošiamas oranžinėmis uogomis. Lengvai prižiūrimas, atsparus šalčiui.",
+    "description_short": "Siaurai į viršų auganti stulpinė šermukšnio forma. Puiki mažiems sodams ir akcentams.",
+    "handle": "sermuksnis-kolonomis",
+    "images": [
+      "/images/products/sermuksnis-koloninis-1.webp",
+      "/images/products/sermuksnis-koloninis-2.webp"
+    ],
+    "image": "/images/products/sermuksnis-koloninis-1.webp",
+    "inStock": true
+  },
+  {
+    "id": 136,
+    "name": "Paprastoji alyva",
+    "category": "Alyva",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Paprastoji alyva (Syringa vulgaris) — klasikinis Lietuvos sodų krūmas. Pavasarį žydi gausiais, kvapniais žiedynais — purpuriniais, violetiniais arba baltais. Krūmas stiprus, ištvermingas šalčiui, ilgaamžis. Tinka gyvatvorėms, akcentams arba pavieniam sodinimui.",
+    "description_short": "Klasikinė alyva su gausiais kvapniais pavasariniais žiedynais. Ilgaamžė ir atspari šalčiui.",
+    "handle": "paprastoji-alyva",
+    "images": [
+      "/images/products/alyva-paprastoji.webp"
+    ],
+    "image": "/images/products/alyva-paprastoji.webp",
+    "inStock": true
+  },
+  {
+    "id": 137,
+    "name": "Ginkmedis",
+    "category": "Ginkmedis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Ginkmedis (Ginkgo biloba) — unikalus, gyvas iškastinis medis, vienas seniausių pasaulyje. Auga lėtai, ilgaamžis. Lapai vėduoklės formos, rudenį nusidažo ryškiai geltonai. Atsparus oro taršai, ligoms, kenkėjams. Tinka miesto sąlygoms ir didesniems sodams kaip dekoratyvinis akcentas.",
+    "description_short": "Senovinis, ilgaamžis medis su unikaliais vėduoklės formos lapais. Rudenį — ryškiai geltoni lapai.",
+    "handle": "ginkmedis",
+    "images": [
+      "/images/products/ginkmedis-1.webp",
+      "/images/products/ginkmedis-2.webp"
+    ],
+    "image": "/images/products/ginkmedis-1.webp",
+    "inStock": true
+  },
+  {
+    "id": 138,
+    "name": "Geltonžiedė sedula",
+    "category": "Sedula",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Geltonžiedė sedula (Cornus mas) — ankstyvai pavasarį žydintis krūmas arba mažas medelis. Geltoni žiedai pasirodo dar prieš išsiskleidžiant lapams, kovo–balandžio mėn. Vasarą duoda raudonas, valgomas, vitaminų prisotintas uogas — tinka kompotams ir vynui. Atspari, ilgaamžė, mažai reikalauja priežiūros.",
+    "description_short": "Anksti pavasarį pražysta geltonais žiedais. Vasarą duoda raudonas valgomas uogas.",
+    "handle": "geltonziede-sedula",
+    "images": [
+      "/images/products/sedula-geltonziede-1.jpg",
+      "/images/products/sedula-geltonziede-2.jpg"
+    ],
+    "image": "/images/products/sedula-geltonziede-1.jpg",
+    "inStock": true
+  },
+  {
+    "id": 139,
+    "name": "Paprastasis putinas",
+    "category": "Putinas",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Paprastasis putinas (Viburnum opulus) — tradicinis Lietuvos sodų krūmas, žydintis baltais, lėkštės formos žiedynais. Rudenį puošia ryškiai raudonos uogos, kurios išlieka ant krūmo iki žiemos. Uogos tinkamos arbatai, vynui. Lapai rudenį paraudonuoja. Atsparus, mėgsta drėgnesnes vietas.",
+    "description_short": "Tradicinis lietuviškas krūmas su raudonomis uogomis ir baltais žiedais.",
+    "handle": "paprastasis-putinas",
+    "images": [
+      "/images/products/putinas-paprastasis-1.jpg",
+      "/images/products/putinas-paprastasis-2.jpg"
+    ],
+    "image": "/images/products/putinas-paprastasis-1.jpg",
+    "inStock": true
+  },
+  {
+    "id": 140,
+    "name": "Pošvelnė gudobelė",
+    "category": "Gudobelė",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Pošvelnė gudobelė (Crataegus submollis) — vidutinio augumo medelis ar krūmas su dideliais, dekoratyviniais lapais ir gausiais baltais žiedynais. Vaisiai stambūs, raudoni, valgomi, tinka arbatai ir kompotams. Atspari šalčiui ir ligoms. Tinka gyvatvorėms arba kaip pavienis akcentas.",
+    "description_short": "Stambialapė gudobelė su valgomais raudonais vaisiais. Atspari ir lengvai prižiūrima.",
+    "handle": "posvelne-gudobele",
+    "images": [
+      "/images/products/posvelne-gudobele-1.jpg",
+      "/images/products/posvelne-gudobele-2.jpg",
+      "/images/products/posvelne-gudobele-3.jpg"
+    ],
+    "image": "/images/products/posvelne-gudobele-1.jpg",
+    "inStock": true
+  },
+  {
+    "id": 141,
+    "name": "Svarainis",
+    "category": "Svarainis",
+    "categoryGroup": "kiti-augalai",
+    "categorySub": "dekoratyvus",
+    "description": "Svarainis (Cydonia oblonga) — vaisinis medelis arba krūmas su aromatingais geltonais vaisiais. Vaisiai dideli, kvapnūs, kieti, tinka želė, džemui, vynui, kompotui. Pavasarį žydi gražiais rožiniais arba baltais žiedais. Atsparus šalčiui, nereiklus dirvai.",
+    "description_short": "Aromatingi geltoni vaisiai želė ir džemams. Gražus žydintis medelis pavasarį.",
+    "handle": "svarainis",
+    "images": [
+      "/images/products/svarainis.jpg"
+    ],
+    "image": "/images/products/svarainis.jpg",
+    "inStock": true
+  },
+  {
+    "id": 142,
+    "name": "Aronija",
+    "category": "Aronija",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "kiti",
+    "description": "Aronija (juoduogė aronija, Aronia melanocarpa) — vidutinio augumo krūmas su gausiomis tamsiomis, beveik juodomis uogomis. Uogose gausu antioksidantų, vitaminų. Tinka sultims, vynui, džemams, arbatai. Krūmas atsparus šalčiui ir ligoms, dera kasmet, lengvai prižiūrimas.",
+    "description_short": "Tamsių, sveikatai naudingų uogų krūmas. Gausus derlius, atspari ligoms.",
+    "handle": "aronija",
+    "images": [
+      "/images/products/aronija.webp"
+    ],
+    "image": "/images/products/aronija.webp",
+    "inStock": true
+  },
+  {
+    "id": 143,
+    "name": "Braškė Allegro",
+    "category": "Braškė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "kiti",
+    "description": "Braškė „Allegro\" — ankstyva veislė. Uogos stambios, ryškiai raudonos, blizgios, saldaus skonio ir stipraus aromato. Krūmas stiprus, derlingas, atsparus ligoms. Tinka šviežiam vartojimui ir perdirbimui.",
+    "description_short": "Ankstyva braškių veislė. Stambios, saldžios, aromatingos uogos.",
+    "handle": "braske-allegro",
+    "images": [
+      "/images/products/braske-allegro.jpg"
+    ],
+    "image": "/images/products/braske-allegro.jpg",
+    "inStock": true
+  },
+  {
+    "id": 144,
+    "name": "Braškė Malvina",
+    "category": "Braškė",
+    "categoryGroup": "vaiskrumiai",
+    "categorySub": "kiti",
+    "description": "Braškė „Malvina\" — vėlyva veislė, viena vėliausiai sunokstančių. Uogos labai stambios, tamsiai raudonos, tvirtos, ypatingai saldžios, intensyvaus skonio. Krūmas stiprus, atsparus ligoms ir oro sąlygoms. Tinka šviežiam vartojimui ir užšaldymui.",
+    "description_short": "Vėlyva braškių veislė. Labai stambios, tamsiai raudonos, ypač saldžios uogos.",
+    "handle": "braske-malvina",
+    "images": [
+      "/images/products/braske-malvina-1.jpg",
+      "/images/products/braske-malvina-2.jpg"
+    ],
+    "image": "/images/products/braske-malvina-1.jpg",
     "inStock": true
   }
 ]

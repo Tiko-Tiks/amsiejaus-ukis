@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Local working folder for source photos
+Veislės/
+.claude/

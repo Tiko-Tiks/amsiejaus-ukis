@@ -34,8 +34,8 @@ function MarketplaceBanner({ compact = false }) {
         Prekybos aikštelė
       </h2>
       <p className="text-white/90 mb-8 max-w-xl mx-auto leading-relaxed">
-        Aplankykite mūsų naują prekybos aikštelę, kur galite įsigyti vaismedžių,
-        vaiskrūmių, medaus ir kitų ūkio produktų.
+        Aplankykite mūsų prekybos aikštelę Valkininkuose, kur galite įsigyti vaismedžių,
+        vaiskrūmių, medaus ir kitų ūkio produktų. Dirbame kasdien 9:00–20:00.
       </p>
       <a
         href="https://sodogerybes.lt"

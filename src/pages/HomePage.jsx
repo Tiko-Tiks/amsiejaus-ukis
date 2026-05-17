@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
 import MarketplaceBanner from '../components/MarketplaceBanner'
 import usePageMeta from '../hooks/usePageMeta'
 
@@ -72,64 +71,6 @@ const categories = [
   { to: '/kiti-augalai', title: 'Kiti augalai', desc: 'Riešutmedžiai, dekoratyvūs augalai, sakuros ir hortenzijos', Icon: IconTree },
 ]
 
-function Countdown() {
-  const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
-  const [isPast, setIsPast] = useState(false)
-
-  useEffect(() => {
-    const target = new Date('2026-03-28T08:00:00+03:00')
-    const tick = () => {
-      const now = new Date()
-      const diff = target - now
-      if (diff <= 0) {
-        setIsPast(true)
-        return
-      }
-      setTimeLeft({
-        days: Math.floor(diff / 86400000),
-        hours: Math.floor((diff % 86400000) / 3600000),
-        minutes: Math.floor((diff % 3600000) / 60000),
-        seconds: Math.floor((diff % 60000) / 1000),
-      })
-    }
-    tick()
-    const id = setInterval(tick, 1000)
-    return () => clearInterval(id)
-  }, [])
-
-  if (isPast) {
-    return (
-      <div className="bg-white/10 backdrop-blur-sm border-2 border-[#FFB800] rounded-2xl px-6 py-4 inline-block">
-        <p className="text-[#FFB800] text-xl md:text-2xl font-bold font-serif">
-          Prekyvietė atidaryta! Laukiame Jūsų!
-        </p>
-      </div>
-    )
-  }
-
-  const units = [
-    { value: timeLeft.days, label: 'dienų' },
-    { value: timeLeft.hours, label: 'val.' },
-    { value: timeLeft.minutes, label: 'min.' },
-    { value: timeLeft.seconds, label: 'sek.' },
-  ]
-
-  return (
-    <div className="flex justify-center gap-3 md:gap-5">
-      {units.map((u, i) => (
-        <div key={i} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 md:px-6 md:py-4 min-w-[70px] md:min-w-[90px]">
-          <div className="text-2xl md:text-4xl font-bold text-white font-serif leading-none">
-            {String(u.value).padStart(2, '0')}
-          </div>
-          <div className="text-[#FFB800] text-xs md:text-sm font-bold uppercase tracking-wider mt-1">
-            {u.label}
-          </div>
-        </div>
-      ))}
-    </div>
-  )
-}
-
 function HomePage() {
   usePageMeta(null, 'Juozo Amšiejaus medelynas Valkininkuose — daugiau nei 100 veislių vaismedžių ir vaiskrūmių sodinukai. Natūralus medus ir bičių produktai. 30+ metų patirtis.')
   return (
@@ -143,56 +84,30 @@ function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <div className="text-center">
 
-            {/* Top badge */}
-            <div className="mb-6 animate-bounce">
+            {/* Top badge — live "open now" indicator */}
+            <div className="mb-6">
               <span className="inline-flex items-center gap-2 bg-[#FFB800] text-[#2D5016] text-sm md:text-base font-bold uppercase tracking-widest px-6 py-2.5 rounded-full shadow-lg">
-                <span className="w-2 h-2 bg-[#2D5016] rounded-full animate-pulse"></span>
-                Pavasario sezonas 2026
-                <span className="w-2 h-2 bg-[#2D5016] rounded-full animate-pulse"></span>
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#2D5016] opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#2D5016]"></span>
+                </span>
+                Prekyvietė atidaryta
               </span>
             </div>
 
             {/* Main headline */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-[1.1] mb-4">
-              <span className="text-[#FFB800]">Atidarome sodinukų</span>
-              <span className="block text-white mt-2">prekybos aikštelę!</span>
+              <span className="text-[#FFB800]">Sodinukų prekybos</span>
+              <span className="block text-white mt-2">aikštelė laukia Jūsų!</span>
             </h1>
 
-            <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-8 font-serif">
-              Kviečiame į pavasarinį atidarymą — daugiau nei 100 veislių vaismedžių ir vaiskrūmių
+            <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-serif">
+              Veikia pilnu pajėgumu — daugiau nei 100 veislių vaismedžių ir vaiskrūmių sodinukų bei natūralus medus
             </p>
 
-            {/* Discount ribbon */}
-            <div className="relative inline-block mb-10">
-              <div className="bg-gradient-to-r from-[#E6A600] via-[#FFB800] to-[#E6A600] text-[#2D5016] px-10 md:px-16 py-4 md:py-5 shadow-2xl transform -rotate-1 skew-x-[-1deg]"
-                   style={{clipPath: 'polygon(3% 0%, 97% 0%, 100% 50%, 97% 100%, 3% 100%, 0% 50%)'}}>
-                <p className="text-2xl md:text-4xl font-bold font-serif tracking-wide">
-                  Iki <span className="text-red-700 text-3xl md:text-5xl">30%</span> nuolaida!
-                </p>
-              </div>
-            </div>
-
-            {/* Countdown */}
-            <div className="mb-8">
-              <p className="text-white/60 text-sm uppercase tracking-widest mb-4 font-bold">Iki atidarymo liko</p>
-              <Countdown />
-            </div>
-
-            {/* Date & Location card */}
+            {/* Location & Hours card */}
             <div className="mb-10">
               <div className="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-8 bg-white/10 backdrop-blur-sm border-2 border-[#FFB800]/50 rounded-2xl px-8 md:px-12 py-5 md:py-6">
-                <div className="flex items-center gap-3">
-                  <div className="bg-[#FFB800] rounded-full p-2.5">
-                    <svg className="w-6 h-6 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <div className="text-left">
-                    <p className="text-[#FFB800] text-xs uppercase tracking-widest font-bold">Data</p>
-                    <p className="text-white text-xl md:text-2xl font-bold font-serif">Kovo 28 d., šeštadienis</p>
-                  </div>
-                </div>
-                <div className="hidden sm:block w-px h-12 bg-white/20"></div>
                 <div className="flex items-center gap-3">
                   <div className="bg-[#FFB800] rounded-full p-2.5">
                     <svg className="w-6 h-6 text-[#2D5016]" fill="currentColor" viewBox="0 0 24 24">
@@ -205,39 +120,43 @@ function HomePage() {
                     <p className="text-white/70 text-sm">Varėnos r.</p>
                   </div>
                 </div>
+                <div className="hidden sm:block w-px h-12 bg-white/20"></div>
+                <div className="flex items-center gap-3">
+                  <div className="bg-[#FFB800] rounded-full p-2.5">
+                    <svg className="w-6 h-6 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div className="text-left">
+                    <p className="text-[#FFB800] text-xs uppercase tracking-widest font-bold">Darbo laikas</p>
+                    <p className="text-white text-xl md:text-2xl font-bold font-serif">Kasdien 9:00–20:00</p>
+                  </div>
+                </div>
               </div>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-              <a
-                href="tel:+37061500597"
-                className="inline-flex items-center justify-center gap-2 bg-[#FFB800] hover:bg-[#E6A600] text-[#2D5016] font-bold px-10 py-4 rounded-full transition-all shadow-lg hover:shadow-xl text-lg hover:scale-105"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Rezervuoti sodinukus
-              </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://maps.app.goo.gl/ZkyQ6NMSQnsw64Rz8"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-10 py-4 rounded-full transition-all border-2 border-white/30 text-lg hover:scale-105"
+                className="inline-flex items-center justify-center gap-2 bg-[#FFB800] hover:bg-[#E6A600] text-[#2D5016] font-bold px-10 py-4 rounded-full transition-all shadow-lg hover:shadow-xl text-lg hover:scale-105"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                 </svg>
                 Kaip mus rasti
               </a>
-            </div>
-
-            {/* Working hours */}
-            <div className="inline-flex items-center gap-2 bg-[#8B6F47]/40 backdrop-blur-sm text-white/90 px-6 py-3 rounded-full text-sm">
-              <svg className="w-4 h-4 text-[#FFB800]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              Darbo laikas: 9:00-20:00 val.
+              <a
+                href="tel:+37062441787"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-10 py-4 rounded-full transition-all border-2 border-white/30 text-lg hover:scale-105"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                +370 624 41787
+              </a>
             </div>
           </div>
         </div>
@@ -259,8 +178,8 @@ function HomePage() {
               <div className="text-gray-600 text-sm mt-1">Metų patirties</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold font-serif text-[#FFB800]">30%</div>
-              <div className="text-gray-600 text-sm mt-1">Nuolaida sodinukams</div>
+              <div className="text-3xl md:text-4xl font-bold font-serif text-[#FFB800]">9–20</div>
+              <div className="text-gray-600 text-sm mt-1">Dirbame kasdien</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold font-serif text-[#2D5016]">100%</div>
@@ -276,7 +195,7 @@ function HomePage() {
           <div className="flex items-center gap-3 mb-8 justify-center">
             <div className="h-1 w-12 bg-[#FFB800]"></div>
             <h2 className="text-2xl md:text-3xl font-bold font-serif text-[#2D5016]">
-              Kaip užsakyti sodinukus?
+              Kaip įsigyti sodinukų?
             </h2>
             <div className="h-1 w-12 bg-[#FFB800]"></div>
           </div>
@@ -285,33 +204,57 @@ function HomePage() {
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#2D5016] text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
               <div className="w-14 h-14 bg-[#2D5016]/10 rounded-full flex items-center justify-center mx-auto mb-4 mt-2">
                 <svg className="w-7 h-7 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
               </div>
-              <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Paskambinkite mums</h3>
-              <p className="text-gray-600 text-sm">Susisiekite telefonu ir pasirinkite norimus sodinukus iš mūsų asortimento</p>
-              <a href="tel:+37062441787" className="inline-block mt-3 text-[#2D5016] font-bold hover:text-[#FFB800] transition-colors">+370 624 41787</a>
+              <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Atvykite į aikštelę</h3>
+              <p className="text-gray-600 text-sm">Aplankykite mūsų prekybos aikštelę Valkininkuose — kasdien 9:00–20:00</p>
+              <a href="https://maps.app.goo.gl/ZkyQ6NMSQnsw64Rz8" target="_blank" rel="noopener noreferrer" className="inline-block mt-3 text-[#2D5016] font-bold hover:text-[#FFB800] transition-colors">Vilniaus g. 1A</a>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#FFB800] text-[#2D5016] rounded-full flex items-center justify-center font-bold text-lg">2</div>
               <div className="w-14 h-14 bg-[#FFB800]/15 rounded-full flex items-center justify-center mx-auto mb-4 mt-2">
                 <svg className="w-7 h-7 text-[#FFB800]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15a2.25 2.25 0 012.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
-              <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Rezervuokite</h3>
-              <p className="text-gray-600 text-sm">Mes rezervuosime jūsų pasirinktus sodinukus ir paruošime atsiėmimui</p>
+              <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Išsirinkite sodinukus</h3>
+              <p className="text-gray-600 text-sm">Padėsime išsirinkti tinkamiausias veisles ir patarsime dėl priežiūros</p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 bg-[#2D5016] text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
               <div className="w-14 h-14 bg-[#2D5016]/10 rounded-full flex items-center justify-center mx-auto mb-4 mt-2">
                 <svg className="w-7 h-7 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
-              <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Atsiimkite prekyvietėje</h3>
-              <p className="text-gray-600 text-sm">Atvykite į mūsų prekyvietę Valkininkuose ir atsiimkite savo sodinukus</p>
+              <h3 className="font-bold font-serif text-lg text-[#2D5016] mb-2">Arba užsakykite telefonu</h3>
+              <p className="text-gray-600 text-sm">Neturite laiko atvykti? Užsakykite telefonu — paruošime atsiėmimui</p>
+              <a href="tel:+37062441787" className="inline-block mt-3 text-[#2D5016] font-bold hover:text-[#FFB800] transition-colors">+370 624 41787</a>
+            </div>
+          </div>
+
+          {/* Pickup-only notice */}
+          <div className="mt-8 max-w-3xl mx-auto">
+            <div className="bg-[#FFF8E1] border-l-4 border-[#FFB800] rounded-r-lg p-5 md:p-6 flex items-start gap-4">
+              <div className="flex-shrink-0 mt-0.5">
+                <div className="w-10 h-10 bg-[#FFB800] rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-[#2D5016]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <p className="text-[#2D5016] font-bold text-base md:text-lg mb-1">
+                  Sodinukus atsiimti galima tik mūsų aikštelėje
+                </p>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                  Sodinukų <strong>nesiunčiame</strong> paštu ar kurjeriu. Užsakytus sodinukus atsiimkite adresu:
+                  {' '}<a href="https://maps.app.goo.gl/ZkyQ6NMSQnsw64Rz8" target="_blank" rel="noopener noreferrer" className="font-bold text-[#2D5016] underline hover:text-[#8B6F47]">Vilniaus g. 1A, Valkininkų miestelis, Varėnos r.</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -329,7 +272,7 @@ function HomePage() {
               <div className="h-1 w-12 bg-[#FFB800]"></div>
             </div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Šie sodinukai jau laukia Jūsų mūsų prekyvietėje. Kiti asortimento augalai — užsakomi telefonu.
+              Šie sodinukai šiuo metu prekiaujami mūsų aikštelėje Valkininkuose. Kitas asortimentas — užsakomas telefonu.
             </p>
           </div>
 
@@ -553,6 +496,20 @@ function HomePage() {
                       ))}
                     </div>
                   </div>
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Braškės</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {[{n:'Allegro (ankstyva)',id:143},{n:'Malvina (vėlyva)',id:144}].map(v => (
+                        <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">{v.n}</Link>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-wider text-[#FFB800] mb-1.5">Aronija</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      <Link to="/augalas/142" className="bg-white/15 text-white text-sm px-3 py-1 rounded-full border border-white/20 font-medium hover:bg-[#FFB800] hover:text-[#2D5016] transition-colors">Aronija</Link>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="bg-[#FFB800]/20 border border-[#FFB800]/40 rounded-lg p-4 mt-4">
@@ -565,6 +522,40 @@ function HomePage() {
                   </svg>
                   +370 624 41787
                 </a>
+              </div>
+            </div>
+
+            {/* Dekoratyviniai ir kiti */}
+            <div className="bg-[#F5F5F0] rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow lg:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-9 h-9 bg-[#8B6F47]/10 rounded-lg flex items-center justify-center flex-shrink-0"><IconTree /></div>
+                <h3 className="font-bold font-serif text-xl text-[#2D5016]">Dekoratyviniai ir kiti</h3>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Šermukšniai</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {[{n:'Paprastasis',id:134},{n:'Kolonomis',id:135}].map(v => (
+                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Vaisiniai medeliai</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {[{n:'Svarainis',id:141},{n:'Geltonžiedė sedula',id:138},{n:'Pošvelnė gudobelė',id:140}].map(v => (
+                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                    ))}
+                  </div>
+                </div>
+                <div className="sm:col-span-2">
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#8B6F47] mb-1.5">Dekoratyviniai krūmai ir medžiai</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {[{n:'Paprastoji alyva',id:136},{n:'Ginkmedis',id:137},{n:'Paprastasis putinas',id:139}].map(v => (
+                      <Link key={v.id} to={`/augalas/${v.id}`} className="bg-white text-[#2D5016] text-sm px-3 py-1 rounded-full border border-[#2D5016]/20 font-medium hover:bg-[#2D5016] hover:text-white transition-colors">{v.n}</Link>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
